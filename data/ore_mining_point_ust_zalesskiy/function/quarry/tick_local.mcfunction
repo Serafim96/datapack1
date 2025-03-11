@@ -1,0 +1,1 @@
+setblock -4010 12 4656 minecraft:cobblestone

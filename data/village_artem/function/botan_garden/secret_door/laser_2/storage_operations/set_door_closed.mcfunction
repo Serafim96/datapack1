@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem SecretWarehouseLaser2Opened set value 0

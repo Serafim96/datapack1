@@ -1,0 +1,1 @@
+function custom_dimension:stone_foundations/unnamed_creature_tunnels/welcome_title/tick_global

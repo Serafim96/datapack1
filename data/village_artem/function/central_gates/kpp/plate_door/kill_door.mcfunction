@@ -1,0 +1,1 @@
+kill @e[tag=village_artem_plate_door_kpp]

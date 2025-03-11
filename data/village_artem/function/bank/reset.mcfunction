@@ -1,0 +1,2 @@
+function village_artem:bank/decorations
+function village_artem:bank/vendors/reset_personal

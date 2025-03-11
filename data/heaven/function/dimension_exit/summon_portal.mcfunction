@@ -1,0 +1,16 @@
+execute in custom_dimension:heaven run kill @e[tag=floating_islands_portal_h]
+
+execute in custom_dimension:heaven run summon item_display -1 27.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display -1 28.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display -1 29.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display -1 30.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+
+execute in custom_dimension:heaven run summon item_display 0 27.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 0 28.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 0 29.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 0 30.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+
+execute in custom_dimension:heaven run summon item_display 1 27.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 1 28.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 1 29.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}
+execute in custom_dimension:heaven run summon item_display 1 30.5 -297 {Tags:["floating_islands_portal_h"],item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}

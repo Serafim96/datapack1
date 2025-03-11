@@ -1,0 +1,10 @@
+function angmar_tomb:header_processing
+function angmar_tomb:main_door_processing
+function angmar_tomb:fix_lava_cauldron
+
+## Бафф процессинг
+function angmar_tomb:underwater_buff/while_underwater_add_score
+function angmar_tomb:underwater_buff/fix_signs
+function angmar_tomb:lava_artifact/tick
+function angmar_tomb:spider_buff/tick
+function angmar_tomb:time_buff/tick

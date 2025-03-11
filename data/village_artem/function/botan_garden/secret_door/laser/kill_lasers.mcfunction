@@ -1,0 +1,1 @@
+kill @e[tag=secret_warehouse_laser]

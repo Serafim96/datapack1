@@ -1,0 +1,1 @@
+fill -5187 62 8538 -5168 62 8538 minecraft:piston[facing=up]

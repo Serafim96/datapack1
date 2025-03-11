@@ -1,0 +1,1 @@
+kill @e[type=item,x=523,dx=5,y=49,dy=1,z=-1041,dz=5]

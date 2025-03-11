@@ -1,0 +1,1 @@
+data modify storage minecraft:angmar_tomb EnableDoorDrop set value 1

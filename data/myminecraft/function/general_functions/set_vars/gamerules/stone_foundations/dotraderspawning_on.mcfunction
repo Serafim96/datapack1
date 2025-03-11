@@ -1,0 +1,1 @@
+data modify storage my_gamerules:stone_foundations doTraderSpawning set value 1

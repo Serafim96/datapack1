@@ -1,0 +1,1 @@
+data modify storage church_hell DarkTunnelEntranceProcessing set value 1

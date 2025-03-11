@@ -1,0 +1,1 @@
+$execute store result score @s $(objective_name)$(mode)$(coord_name) run data get entity @s Pos[$(pos_num)]

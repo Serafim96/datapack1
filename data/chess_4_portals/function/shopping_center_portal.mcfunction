@@ -1,0 +1,1 @@
+execute if entity @e[type=player,x=5775,y=76,dy=2,z=4569] run tp @p -15.99 -57 85 0 ~

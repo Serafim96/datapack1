@@ -1,0 +1,1 @@
+kill @e[name="The Notorious B.I.G."]

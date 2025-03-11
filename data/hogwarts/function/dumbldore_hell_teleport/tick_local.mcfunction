@@ -1,0 +1,2 @@
+execute as @e[type=!marker,x=-566,y=29,z=2493,dx=0,dy=2,dz=0] unless entity @s[tag=ov_hell_dumbldore_teleport_door] at @s in minecraft:the_nether run tp @s 14 28 4 ~90 ~
+function hogwarts:dumbldore_hell_teleport/particle

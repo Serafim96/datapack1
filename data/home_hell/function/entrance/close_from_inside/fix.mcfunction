@@ -1,0 +1,3 @@
+execute in minecraft:the_nether run function home_hell:entrance/close_from_inside/prepare_for_close1
+schedule function home_hell:entrance/close_from_inside/start_close 2
+schedule function home_hell:entrance/close_from_inside/fix_items 40

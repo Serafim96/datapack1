@@ -1,0 +1,1 @@
+function reuse:location_marker_system/scoreboard_operations/set_location {objective_name:JoinWorld,mode:Creative,dimension:0,x:0,y:64,z:0,yaw:0,pitch:0}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "air_baloon"
+          ]
+        },
+        "minecraft:item_model": "custom/item/book"
+      }
+    },
+    "title": "Путешественник",
+    "description": "Улетел в Путешествие",
+    "background": "minecraft:textures/block/light_blue_concrete.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:book"
+          ],
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "tour_operator_ticket"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

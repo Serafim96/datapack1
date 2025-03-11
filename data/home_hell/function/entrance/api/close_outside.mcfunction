@@ -1,0 +1,1 @@
+execute if data storage home_hell {EntranceProcessing:0,EntranceState:1} run function home_hell:entrance/close_from_outside/start_close

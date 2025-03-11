@@ -1,0 +1,1 @@
+execute in the_nether run setblock 640 20 -1015 minecraft:redstone_wall_torch[facing=north]

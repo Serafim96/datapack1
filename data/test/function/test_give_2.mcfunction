@@ -1,0 +1,1 @@
+$give @s stone $(count)

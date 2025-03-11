@@ -1,0 +1,1 @@
+function gold_babylon:lifts/secret_admin_lift/tick_global

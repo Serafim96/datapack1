@@ -1,0 +1,1 @@
+function custom_weapon:black_pistol/load

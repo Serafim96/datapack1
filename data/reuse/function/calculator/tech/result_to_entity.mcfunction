@@ -1,0 +1,1 @@
+$execute store result entity $(target_entity_selector) $(path) $(type) $(scale) run scoreboard players get Calculator calc_result

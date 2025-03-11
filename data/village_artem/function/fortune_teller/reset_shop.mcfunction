@@ -1,0 +1,2 @@
+function village_artem:fortune_teller/summon_vendors
+function village_artem:fortune_teller/reset_decorations

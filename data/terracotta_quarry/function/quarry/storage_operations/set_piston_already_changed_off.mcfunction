@@ -1,0 +1,1 @@
+data modify storage minecraft:terracotta_quarry QuarryPistonAlreadyChangedOn set value 0

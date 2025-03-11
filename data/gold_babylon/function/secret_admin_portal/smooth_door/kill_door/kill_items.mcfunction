@@ -1,0 +1,1 @@
+kill @e[type=item,x=391,dx=0,y=-62,dy=3,z=-11448,dz=6,nbt={Item:{id:"minecraft:shulker_shell"}}]

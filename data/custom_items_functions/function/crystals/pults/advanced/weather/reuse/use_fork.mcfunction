@@ -1,0 +1,1 @@
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/holds/$(arm) run function custom_items_functions:crystals/pults/advanced/weather/reuse/action_fork {arm:$(arm)}

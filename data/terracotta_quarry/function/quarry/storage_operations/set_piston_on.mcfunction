@@ -1,0 +1,3 @@
+data modify storage minecraft:terracotta_quarry QuarryPistonOn set value 1
+
+function terracotta_quarry:quarry/storage_operations/set_piston_already_changed_on

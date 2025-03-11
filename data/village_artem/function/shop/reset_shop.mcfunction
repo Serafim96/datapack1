@@ -1,0 +1,2 @@
+function village_artem:shop/summon_vendors
+function village_artem:shop/reset_decorations

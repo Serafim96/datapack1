@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_data={Tags:["consumableizer"]},custom_model_data={strings:["consumableizer"]},item_model="custom/instrument/warped_fungus_on_a_stick",custom_name='{"italic":false,"text":"Осъедобниватель"}',lore=['"Делает всё съедобным..."']] 1

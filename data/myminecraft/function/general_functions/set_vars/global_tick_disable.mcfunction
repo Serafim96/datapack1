@@ -1,0 +1,1 @@
+data modify storage minecraft:global GlobalTickEnable set value 0

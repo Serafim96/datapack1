@@ -1,0 +1,1 @@
+execute if data storage village_artem {SawmillMainDoorOpened:1,SawmillMainDoorProcessing:0} run function village_artem:sawmill/decorations/main_door/close

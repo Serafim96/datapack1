@@ -1,0 +1,1 @@
+data modify storage my_gamerules:the_end commandBlockOutput set value 0

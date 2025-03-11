@@ -1,0 +1,1 @@
+execute if data storage ore_mining_point_ust_zalesskiy {OMPUstZalesskiyStorageLiftProcessing:0} if data storage ore_mining_point_ust_zalesskiy {OMPUstZalesskiyStorageLiftState:1} in overworld run function ore_mining_point_ust_zalesskiy:lifts/storage_lift/up/main

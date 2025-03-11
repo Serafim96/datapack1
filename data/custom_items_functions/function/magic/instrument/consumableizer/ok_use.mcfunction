@@ -1,0 +1,2 @@
+item modify entity @s weapon.offhand custom_items_functions:magic/instrument/consumableizer/make_consumable
+function custom_items_functions:magic/instrument/consumableizer/message/ok_use

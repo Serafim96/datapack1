@@ -1,0 +1,1 @@
+data modify storage chess_lift ChessLift1Opened set value 1

@@ -1,0 +1,1 @@
+data modify storage tick_var:hell_castle FireTrailEnable set value 0

@@ -1,0 +1,2 @@
+execute as @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] at @s run title @s actionbar {"text":"Хранителя убил не человек, бафф не получен","color":"#971CA0"}
+data modify storage angmar_tomb:spider_buff Unnormal_Interrupt set value 1

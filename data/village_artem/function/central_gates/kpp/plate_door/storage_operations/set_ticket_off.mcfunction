@@ -1,0 +1,1 @@
+data modify storage village_artem MainTicketOn set value 0

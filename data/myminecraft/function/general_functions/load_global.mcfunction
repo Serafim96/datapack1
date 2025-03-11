@@ -1,0 +1,1 @@
+function myminecraft:general_functions/set_vars/global_tick_enable

@@ -1,0 +1,3 @@
+function gold_babylon:lifts/tick_global
+function gold_babylon:secret_admin_portal/tick_global
+function gold_babylon:secret_admin_portal/smooth_door/tick_global

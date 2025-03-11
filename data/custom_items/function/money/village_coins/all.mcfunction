@@ -1,0 +1,3 @@
+function custom_items:money/village_coins/copper
+function custom_items:money/village_coins/silver
+function custom_items:money/village_coins/gold

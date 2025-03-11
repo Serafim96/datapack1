@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_bank_card"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Не Солидный",
+    "description": "Перестал быть клиентом банка",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_shulker_box"
+          ],
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "village_shulker_refund"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "village_artem:bank/not_client"
+  }
+}

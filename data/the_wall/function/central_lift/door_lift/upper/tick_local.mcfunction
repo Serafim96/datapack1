@@ -1,0 +1,1 @@
+execute if data storage the_wall {CentralLiftUpperDoorOpened:0} run fill 24 119 -3953 26 119 -3951 barrier

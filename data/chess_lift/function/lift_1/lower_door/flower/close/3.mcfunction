@@ -1,0 +1,1 @@
+fill -15 3 112 -17 3 112 redstone_block

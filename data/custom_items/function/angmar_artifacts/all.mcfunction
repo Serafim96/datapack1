@@ -1,0 +1,5 @@
+function custom_items:angmar_artifacts/helmet
+function custom_items:angmar_artifacts/chestplate
+function custom_items:angmar_artifacts/leggings
+function custom_items:angmar_artifacts/boots
+function custom_items:angmar_artifacts/sword

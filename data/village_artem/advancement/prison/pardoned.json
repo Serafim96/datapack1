@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_police_free_stick"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Свободный",
+    "description": "Вышел из тюрьмы",
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "village_artem:prison/prisoner",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute unless entity @a[tag=player_stays_in_afterlife_world] as @e[tag=player_afterlife_marker] at @s run function custom_dimension:afterlife_world/kill_and_remove_forceload

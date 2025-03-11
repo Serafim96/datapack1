@@ -1,0 +1,1 @@
+execute if data storage village_artem {MainGateOpened:1} if data storage village_artem {MainGateProcessing:0} run function village_artem:central_gates/close/close_main

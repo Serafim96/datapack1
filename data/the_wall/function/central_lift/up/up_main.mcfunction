@@ -1,0 +1,61 @@
+function the_wall:central_lift/storage_operations/set_lift_processing_on
+function the_wall:central_lift/door_lift/lower/close/close_main
+
+schedule function the_wall:central_lift/up/up1 4t replace
+schedule function the_wall:central_lift/up/up2 8t replace
+schedule function the_wall:central_lift/up/up3 12t replace
+schedule function the_wall:central_lift/up/up4 16t replace
+schedule function the_wall:central_lift/up/up5 20t replace
+schedule function the_wall:central_lift/up/up6 24t replace
+schedule function the_wall:central_lift/up/up7 28t replace
+schedule function the_wall:central_lift/up/up8 32t replace
+schedule function the_wall:central_lift/up/up9 36t replace
+schedule function the_wall:central_lift/up/up10 40t replace
+schedule function the_wall:central_lift/up/up11 44t replace
+schedule function the_wall:central_lift/up/up12 48t replace
+schedule function the_wall:central_lift/up/up13 52t replace
+schedule function the_wall:central_lift/up/up14 56t replace
+schedule function the_wall:central_lift/up/up15 60t replace
+schedule function the_wall:central_lift/up/up16 64t replace
+schedule function the_wall:central_lift/up/up17 68t replace
+schedule function the_wall:central_lift/up/up18 72t replace
+schedule function the_wall:central_lift/up/up19 76t replace
+schedule function the_wall:central_lift/up/up20 80t replace
+schedule function the_wall:central_lift/up/up21 84t replace
+schedule function the_wall:central_lift/up/up22 88t replace
+schedule function the_wall:central_lift/up/up23 92t replace
+schedule function the_wall:central_lift/up/up24 96t replace
+schedule function the_wall:central_lift/up/up25 100t replace
+schedule function the_wall:central_lift/up/up26 104t replace
+schedule function the_wall:central_lift/up/up27 108t replace
+schedule function the_wall:central_lift/up/up28 112t replace
+schedule function the_wall:central_lift/up/up29 116t replace
+schedule function the_wall:central_lift/up/up30 120t replace
+schedule function the_wall:central_lift/up/up31 124t replace
+schedule function the_wall:central_lift/up/up32 128t replace
+schedule function the_wall:central_lift/up/up33 132t replace
+schedule function the_wall:central_lift/up/up34 136t replace
+schedule function the_wall:central_lift/up/up35 140t replace
+schedule function the_wall:central_lift/up/up36 144t replace
+schedule function the_wall:central_lift/up/up37 148t replace
+schedule function the_wall:central_lift/up/up38 152t replace
+schedule function the_wall:central_lift/up/up39 156t replace
+schedule function the_wall:central_lift/up/up40 160t replace
+schedule function the_wall:central_lift/up/up41 164t replace
+schedule function the_wall:central_lift/up/up42 168t replace
+schedule function the_wall:central_lift/up/up43 172t replace
+schedule function the_wall:central_lift/up/up44 176t replace
+schedule function the_wall:central_lift/up/up45 180t replace
+schedule function the_wall:central_lift/up/up46 184t replace
+schedule function the_wall:central_lift/up/up47 188t replace
+schedule function the_wall:central_lift/up/up48 192t replace
+schedule function the_wall:central_lift/up/up49 196t replace
+schedule function the_wall:central_lift/up/up50 200t replace
+schedule function the_wall:central_lift/up/up51 204t replace
+schedule function the_wall:central_lift/up/up52 208t replace
+schedule function the_wall:central_lift/up/up53 212t replace
+
+schedule function the_wall:central_lift/door_lift/upper/open/open_main 182t replace
+
+schedule function the_wall:central_lift/storage_operations/set_lift_processing_off 213t replace
+schedule function the_wall:central_lift/storage_operations/set_lift_state_up 214t replace

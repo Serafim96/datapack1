@@ -1,0 +1,80 @@
+{
+  "temperature": 0,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0.99,
+  "effects": {
+    "sky_color": 2585,
+    "fog_color": 2585,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": { "sound_id": "minecraft:custom_sounds.ambient.elytra_flying_07db.loop" },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_dust",
+        "block_state": { "Name": "minecraft:snow" }
+      },
+      "probability": 0.03
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 6
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": "minecraft:cave",
+  "features": []
+}

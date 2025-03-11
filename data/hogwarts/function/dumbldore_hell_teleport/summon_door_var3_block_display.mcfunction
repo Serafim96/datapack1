@@ -1,0 +1,5 @@
+execute in overworld run fill -566 29 2493 -566 31 2493 light[level=13]
+kill @e[tag=ov_hell_dumbldore_teleport_door]
+summon block_display -566 29 2493 {Tags:["ov_hell_dumbldore_teleport_door"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:packed_ice"}}
+summon block_display -566 30 2493 {Tags:["ov_hell_dumbldore_teleport_door"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:packed_ice"}}
+summon block_display -566 31 2493 {Tags:["ov_hell_dumbldore_teleport_door"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:packed_ice"}}

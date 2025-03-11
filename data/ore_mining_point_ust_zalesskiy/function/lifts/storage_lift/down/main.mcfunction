@@ -1,0 +1,25 @@
+execute in overworld run function ore_mining_point_ust_zalesskiy:lifts/storage_lift/chunk_forceload/on
+execute in overworld run function ore_mining_point_ust_zalesskiy:lifts/storage_lift/storage_operations/set_processing_on
+execute in overworld run function ore_mining_point_ust_zalesskiy:lifts/storage_lift/set_buttons/set_red
+execute in overworld run function ore_mining_point_ust_zalesskiy:lifts/storage_lift/doors/upper/close/main
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/1 22t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/2 29t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/3 36t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/4 43t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/5 50t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/6 57t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/7 64t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/8 71t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/9 78t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/10 85t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/11 92t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/12 99t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/13 106t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/14 113t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/15 120t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/down/16 127t replace
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/doors/lower/open/main 128t
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/set_buttons/set_default 143t
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/chunk_forceload/off 144t
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/storage_operations/set_processing_off 144t
+schedule function ore_mining_point_ust_zalesskiy:lifts/storage_lift/storage_operations/set_state_down 144t

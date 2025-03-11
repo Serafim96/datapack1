@@ -1,0 +1,1 @@
+data modify storage village_artem VillageArtemBotanGardenLiftState set value 2

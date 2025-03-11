@@ -1,0 +1,1 @@
+execute if data storage village_artem {FarGateOpened:0} if data storage village_artem {FarGateProcessing:0} run function village_artem:far_gates/open/open_main

@@ -1,0 +1,1 @@
+$execute store result score $(target_entity) $(objective) run scoreboard players get Calculator calc_result

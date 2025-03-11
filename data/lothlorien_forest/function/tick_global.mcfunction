@@ -1,0 +1,1 @@
+function lothlorien_forest:lorien_tree/tick_global

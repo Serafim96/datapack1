@@ -1,0 +1,1 @@
+function custom_dimension:afterlife_world/reuse/update_location {death_point_name:Resurrection}

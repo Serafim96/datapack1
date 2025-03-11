@@ -1,0 +1,1 @@
+data modify storage pochta_russia:ust_yuryung_khaya CurrentMinFilledRecieving set value -1

@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=village_prison] VillageArtemTitlePrisoned 0

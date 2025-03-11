@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld doFireTick set value 0

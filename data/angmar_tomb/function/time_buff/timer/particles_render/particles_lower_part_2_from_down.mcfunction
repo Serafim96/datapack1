@@ -1,0 +1,1 @@
+execute in the_nether run particle dust{color:[1.000,0.000,0.000],scale:3} 553 41.5 -1013 0.1 0.2 0.63 0 2 force

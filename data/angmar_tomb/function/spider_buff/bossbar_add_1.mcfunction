@@ -1,0 +1,1 @@
+execute if data storage angmar_tomb:spider_buff {Warden_call_processing:1} store result bossbar minecraft:agmar_tomb_spider_buff value run scoreboard players add AngmarTombWardenCallUser angmar_tomb_spider_buff_warden_call_progress 1

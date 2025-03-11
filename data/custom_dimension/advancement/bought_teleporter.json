@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": "Покупатель",
+        "description": "Купил телепортер",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "farfaraway": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:clock"
+                    ],
+                    "count": 1,
+                    "nbt": "{Tags:[\"join_world_teleporter\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_dimension:join_world/shop/bought_teleporter"
+    }
+}

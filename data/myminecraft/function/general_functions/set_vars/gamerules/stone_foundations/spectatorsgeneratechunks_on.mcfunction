@@ -1,0 +1,1 @@
+data modify storage my_gamerules:stone_foundations spectatorsGenerateChunks set value 1

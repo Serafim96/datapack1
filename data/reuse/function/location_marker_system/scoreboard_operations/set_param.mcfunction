@@ -1,0 +1,1 @@
+$scoreboard players set @s $(objective_name)$(mode)$(param) $(value)

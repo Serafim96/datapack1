@@ -1,0 +1,18 @@
+{
+  "type": "custom_dimension:vulcano_camera_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:cave_air",
+          "height": 128
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

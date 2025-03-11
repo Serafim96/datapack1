@@ -1,0 +1,3 @@
+function gold_babylon:lifts/secret_admin_lift/doors/upper/tick_global
+execute if block 396 65 -11446 #minecraft:buttons[face=wall,facing=east,powered=true] if data storage gold_babylon {AdminSecretLiftProcessing:0,AdminSecretLiftState:2} run function gold_babylon:lifts/secret_admin_lift/down/main
+execute if block 396 65 -11447 #minecraft:buttons[face=wall,facing=east,powered=true] if data storage gold_babylon {AdminSecretLiftProcessing:0,AdminSecretLiftState:1} run function gold_babylon:lifts/secret_admin_lift/up/main

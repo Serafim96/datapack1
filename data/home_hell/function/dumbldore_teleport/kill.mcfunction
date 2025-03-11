@@ -1,0 +1,1 @@
+kill @e[tag=hell_dumbldore_teleport_door]

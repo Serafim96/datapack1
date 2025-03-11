@@ -1,0 +1,1 @@
+title @s actionbar {"text":"Успешно отправлено","color":"#00C832"}

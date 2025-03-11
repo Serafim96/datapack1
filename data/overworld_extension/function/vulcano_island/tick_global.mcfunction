@@ -1,0 +1,6 @@
+function overworld_extension:vulcano_island/beach/tick_global
+function overworld_extension:vulcano_island/crater/tick_global
+function overworld_extension:vulcano_island/foot_of_the_vulcano/tick_global
+function overworld_extension:vulcano_island/jungle/tick_global
+function overworld_extension:vulcano_island/bamboo_jungle/tick_global
+function overworld_extension:vulcano_island/vulcano/tick_global

@@ -1,0 +1,6 @@
+kill @e[tag=yarmarka_entrance_decoration]
+
+
+# summon text_display -5107.01 77.15 9331 {default_background:0b,Rotation:[90F,0F],Tags:["village_artem_decoration","yarmarka_decoration","yarmarka_entrance_decoration"],brightness:{sky:14,block:14},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3.5f,3.5f,3.5f]},text:'["ПКиО",{"color":"green","text":"\\n\\""},{"bold":true,"text":"ЯРМАРКА"},"\\""]',background:16711680}
+
+summon text_display -5107.01 77.15 9331 {default_background:0b,Rotation:[90F,0F],Tags:["village_artem_decoration","yarmarka_decoration","yarmarka_entrance_decoration"],brightness:{sky:14,block:14},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3.5f,3.5f,3.5f]},text:'["ПКиО",{"color":"green","text":"\\n\\""},{"color":"red","text":"Я"},{"color":"green","text":"Р"},{"color":"blue","text":"М"},{"color":"#fb9902","text":"А"},{"color":"#30D5C8","text":"Р"},{"color":"yellow","text":"К"},{"color":"#32CD32","text":"А"},{"color":"green","text":"\\""}]',background:16711680}

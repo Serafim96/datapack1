@@ -1,0 +1,1 @@
+say @s reset completed

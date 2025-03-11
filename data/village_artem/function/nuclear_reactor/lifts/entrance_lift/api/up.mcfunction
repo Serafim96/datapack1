@@ -1,0 +1,1 @@
+execute if data storage village_artem {VillageArtemNuclearReactorEntranceLiftProcessing:0} if data storage village_artem {VillageArtemNuclearReactorEntranceLiftState:1} in overworld run function village_artem:nuclear_reactor/lifts/entrance_lift/up/main

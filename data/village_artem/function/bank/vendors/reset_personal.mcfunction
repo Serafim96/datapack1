@@ -1,0 +1,2 @@
+function village_artem:bank/vendors/summon
+function village_artem:bank/vendors/reset_decorations

@@ -1,0 +1,47 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Заряженный кристальный пульт",
+      "color": "#FFF86D",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Желтый кристалл",
+        "color": "#FFF86D",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": "Использовать r.click",
+        "color": "#FFF86D",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "simple_crystal_pult_yellow"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Crystals:{color:\"yellow\",active:0b}}"
+  }
+]

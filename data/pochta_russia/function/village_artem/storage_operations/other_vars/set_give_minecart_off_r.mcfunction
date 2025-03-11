@@ -1,0 +1,1 @@
+data modify storage pochta_russia:village_artem GiveMinecartOnR set value 0

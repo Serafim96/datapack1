@@ -1,0 +1,1 @@
+data modify storage angmar_tomb:lava_artifact_door_state EnableMultipleArtifacts set value 0

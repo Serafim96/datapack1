@@ -1,0 +1,3 @@
+function pochta_russia:ust_yuryung_khaya/decorations/recievings/signs/update_1
+function pochta_russia:ust_yuryung_khaya/decorations/recievings/signs/update_2
+function pochta_russia:ust_yuryung_khaya/decorations/recievings/signs/update_3

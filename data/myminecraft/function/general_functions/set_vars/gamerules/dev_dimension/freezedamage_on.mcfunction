@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension freezeDamage set value 1

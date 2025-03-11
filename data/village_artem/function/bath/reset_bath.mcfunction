@@ -1,0 +1,2 @@
+function village_artem:bath/decorations/summon
+function village_artem:bath/summon_vendor

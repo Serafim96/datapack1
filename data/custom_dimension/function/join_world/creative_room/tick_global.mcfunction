@@ -1,0 +1,3 @@
+execute in custom_dimension:join as @e[tag=join_world_creative_room_vendor] run data modify entity @s Pos set value [0.5d,3d,-40.5d]
+
+execute in custom_dimension:join run data merge entity @e[tag=join_world_creative_room_balance_display,limit=1] {billboard:"fixed",Tags:["join_world_decorations","join_world_creative_room_decorations","join_world_creative_room_balance_display"],text:'[{"text":"Ваш Счёт:\\n ","color":"#42AAFF"},{"selector":"@p"},{"text":"->"},{"score":{"name":"@p","objective":"JoinWorldMoneyBalance"}}]'}

@@ -1,0 +1,1 @@
+execute in custom_dimension:join unless entity @a[tag=player_stays_in_join_world,distance=0..] as @e[tag=player_join_marker] at @s run function custom_dimension:join_world/kill_and_remove_forceload

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_bank_card"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Солидный",
+    "description": "Стал клиентом банка",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:clock"
+          ],
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "village_bank_card_temp"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "village_artem:bank/become_client"
+  }
+}

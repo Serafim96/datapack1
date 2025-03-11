@@ -1,0 +1,1 @@
+tag @s add village_artem_jump_boost

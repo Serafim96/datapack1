@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem CentralGateSecurityRedstoneOn set value 0

@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"Сначала заберите В отделении \"$(dep_name_txt)\" лишние посылки","color":"red"}

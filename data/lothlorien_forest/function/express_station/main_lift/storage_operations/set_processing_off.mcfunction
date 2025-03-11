@@ -1,0 +1,1 @@
+data modify storage lothlorien_forest LothlorienForestStationMainLiftProcessing set value 0

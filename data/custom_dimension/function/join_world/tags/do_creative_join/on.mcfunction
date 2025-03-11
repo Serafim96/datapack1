@@ -1,0 +1,1 @@
+tag @s add do_creative_join

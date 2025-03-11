@@ -1,0 +1,1 @@
+scoreboard players set @s SecretGolfClubLaboratoryHeaderAlreadyShown 0

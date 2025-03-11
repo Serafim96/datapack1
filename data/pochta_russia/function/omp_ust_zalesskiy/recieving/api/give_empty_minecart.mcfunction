@@ -1,0 +1,2 @@
+execute if entity @e[type=chest_minecart,x=-3942,dx=2,y=37,z=4637,dz=3] run function pochta_russia:omp_ust_zalesskiy/recieving/messages/minecart_already_exists
+execute unless entity @e[type=chest_minecart,x=-3942,dx=2,y=37,z=4637,dz=3] run function pochta_russia:omp_ust_zalesskiy/recieving/teleport_point/summon_and_go

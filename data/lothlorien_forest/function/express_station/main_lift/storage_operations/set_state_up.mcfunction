@@ -1,0 +1,1 @@
+data modify storage lothlorien_forest LothlorienForestStationMainLiftState set value 2

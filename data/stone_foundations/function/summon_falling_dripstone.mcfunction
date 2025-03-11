@@ -1,0 +1,2 @@
+summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:pointed_dripstone",Properties:{thickness:"tip",vertical_direction:"down"}},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:40,FallDistance:1000f,FallHurtAmount:2f}
+kill @s

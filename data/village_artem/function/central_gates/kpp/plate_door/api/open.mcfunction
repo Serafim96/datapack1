@@ -1,0 +1,1 @@
+execute if data storage village_artem {PlateDoorOpened:0} if data storage village_artem {PlateDoorProcessing:0} run function village_artem:central_gates/kpp/plate_door/open/open_main

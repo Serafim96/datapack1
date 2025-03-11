@@ -1,0 +1,1 @@
+$execute if data storage pochta_russia:$(dep_name) {Senders:{$(sender_id):"Отправитель: $(sender_id)"}} run data modify block $(block_coord) front_text set value {color:"$(text_color)",has_glowing_text:1b,messages:['{"text":"Отправитель:"}','{"text":"$(sender_name1)"}','{"text":"$(sender_name2)"}','{"text":"$(sender_name3)"}']}

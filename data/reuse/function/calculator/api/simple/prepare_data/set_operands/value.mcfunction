@@ -1,0 +1,1 @@
+$data modify storage $(storage) $(operand_position) set value $(value)

@@ -1,0 +1,1 @@
+scoreboard objectives add VillageArtemCherryGardenHeaderAlreadyShown dummy

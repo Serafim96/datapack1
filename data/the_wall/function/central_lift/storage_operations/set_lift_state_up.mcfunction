@@ -1,0 +1,1 @@
+data modify storage the_wall CentralLiftState set value 2

@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld naturalRegeneration set value 1

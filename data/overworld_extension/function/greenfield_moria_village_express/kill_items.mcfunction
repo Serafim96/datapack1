@@ -1,0 +1,1 @@
+execute as @e[type=item] at @s if biome ~ ~ ~ overworld_extension:greenfield_moria_village_express run kill @s

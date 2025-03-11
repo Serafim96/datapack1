@@ -1,0 +1,2 @@
+function village_artem:botan_garden/shop/summon_vendors
+function village_artem:botan_garden/shop/reset_decorations

@@ -1,0 +1,1 @@
+execute if data storage dev_dimension {DevDimReactorLiftProcessing:0} if data storage dev_dimension {DevDimReactorLiftState:1} in dev_dimension:dev_dimension run function dev_dimension:lifts/nuclear_reactor_lift/up/main

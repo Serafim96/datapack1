@@ -1,0 +1,1 @@
+function village_artem:tavern/summon_vendors

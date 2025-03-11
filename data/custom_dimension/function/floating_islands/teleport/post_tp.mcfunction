@@ -1,0 +1,2 @@
+execute as @s[gamemode=!spectator,gamemode=!creative,predicate=!myminecraft:has_levitation] if block ~ ~-1 ~ #custom_tags:nonsolid run setblock ~ ~-1 ~ glass
+tag @s remove overworld_to_floating_islands_tp

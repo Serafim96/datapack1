@@ -1,0 +1,1 @@
+data modify storage pochta_russia:ust_yuryung_khaya KillMinecartOnR set value 0

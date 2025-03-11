@@ -1,0 +1,2 @@
+function chess_minigame:generate_coordinates_1
+schedule function chess_minigame:teleport_notorious 1t

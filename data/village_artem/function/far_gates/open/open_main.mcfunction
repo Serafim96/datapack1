@@ -1,0 +1,7 @@
+function village_artem:far_gates/storage_operations/set_gate_processing_on
+
+function village_artem:far_gates/open/open1
+schedule function village_artem:far_gates/open/open2 4t replace
+schedule function village_artem:far_gates/open/open3 8t replace
+schedule function village_artem:far_gates/storage_operations/set_gate_processing_off 21t replace
+schedule function village_artem:far_gates/storage_operations/set_gate_opened 21t replace

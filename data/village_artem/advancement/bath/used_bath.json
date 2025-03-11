@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "bath_broom"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Попарился",
+    "description": "Эх, хорошо пошла...",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "village_artem:main",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "overworld_extension:village_artem_bath"
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "location": {
+              "biomes": "overworld_extension:village_artem_bath"
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:clock"
+                ],
+                "components": {
+                  "minecraft:custom_data": {
+                    "Tags": [
+                      "bath_broom"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

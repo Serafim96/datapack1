@@ -1,0 +1,1 @@
+setblock -62 16 94 minecraft:stone

@@ -1,0 +1,4 @@
+function terracotta_quarry:quarry/tick_period
+function terracotta_quarry:quarry/storage_operations/set_piston_on
+
+function terracotta_quarry:quarry/set_buttons/set_green

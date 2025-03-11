@@ -1,0 +1,1 @@
+execute in overworld run forceload remove 4326 4067

@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld doPatrolSpawning set value 1

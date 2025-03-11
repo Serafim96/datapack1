@@ -1,0 +1,1 @@
+$data remove storage $(storage_name) $(dep_name).warehouse[$(current_recievings)]

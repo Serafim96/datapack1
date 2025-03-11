@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{PortalSelect:\"B\"}"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "portal_gun_b"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
+  }
+]

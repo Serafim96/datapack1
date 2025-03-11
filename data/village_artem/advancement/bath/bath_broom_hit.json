@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "overworld_extension:village_artem_bath"
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "location": {
+              "biomes": "overworld_extension:village_artem_bath"
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:clock"
+                ],
+                "components": {
+                  "minecraft:custom_data": {
+                    "Tags": [
+                      "bath_broom"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "village_artem:bath/bath_broom/hit"
+  }
+}

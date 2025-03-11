@@ -1,0 +1,2 @@
+function village_artem:nuclear_reactor/cleaning_chamber/germo_doors/close_1
+function village_artem:nuclear_reactor/cleaning_chamber/germo_doors/close_2

@@ -1,0 +1,5 @@
+function overworld_extension:lothlorien/surroundings/tick_global
+function overworld_extension:lothlorien/thicket/tick_global
+function overworld_extension:lothlorien/melorn_tree/tick_global
+function overworld_extension:lothlorien/border_of_forest_kingdom/tick_global
+

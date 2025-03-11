@@ -1,0 +1,4 @@
+scoreboard objectives add GreenfieldCityHeaderAlreadyShown dummy
+
+schedule clear overworld_extension:greenfield_city/summon_villager_recursive
+function overworld_extension:greenfield_city/summon_villager_recursive

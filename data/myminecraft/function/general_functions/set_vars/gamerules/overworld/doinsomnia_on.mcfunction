@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld doInsomnia set value 1

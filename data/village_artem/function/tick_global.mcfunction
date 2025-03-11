@@ -1,0 +1,16 @@
+function village_artem:decorations/tick_global
+function village_artem:tour_operator/tick_global
+function village_artem:cherry_garden/tick_global
+function village_artem:ceo_security/tick_global
+function village_artem:shop/tick_global
+function village_artem:bath/tick_global
+function village_artem:bank/tick_global
+function village_artem:prison/tick_global
+function village_artem:flowers_shop/tick_global
+function village_artem:botan_garden/tick_global
+function village_artem:household_shop/tick_global
+function village_artem:fortune_teller/tick_global
+function village_artem:tavern/tick_global
+function village_artem:sawmill/tick_global
+function village_artem:windmill/tick_global
+function village_artem:nuclear_reactor/tick_global

@@ -1,0 +1,4 @@
+scoreboard objectives add BlackPistolBulletLifetime dummy
+scoreboard objectives add GlobalEntityMotionX dummy
+scoreboard objectives add GlobalEntityMotionY dummy
+scoreboard objectives add GlobalEntityMotionZ dummy

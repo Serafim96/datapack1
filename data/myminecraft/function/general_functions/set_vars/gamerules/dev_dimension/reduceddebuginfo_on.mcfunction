@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension reducedDebugInfo set value 1

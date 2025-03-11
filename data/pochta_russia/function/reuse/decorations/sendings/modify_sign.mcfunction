@@ -1,0 +1,1 @@
+$execute if data entity @e[tag=$(item_frame_tag),nbt={Item:{id:"minecraft:writable_book"}},sort=nearest,limit=1] {Item:{tag:{pages:["Получатель: 1"]}}} run data merge block 3263 205 4856 {front_text:{color:"light_gray",has_glowing_text:1b,messages:['{"text":"Выбрано:","color":"green"}','{"text":"Горнодобывающий"}','{"text":"пункт Усть-"}','{"text":"Залесский"}']}}

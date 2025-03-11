@@ -1,0 +1,8 @@
+function high_badlands_house:lift/variables_set/set_lift_processing_on
+
+function high_badlands_house:lift/open_close_door/close_upper_door_main
+schedule function high_badlands_house:lift/down/down_main 20t
+schedule function high_badlands_house:lift/open_close_door/open_lower_door_main 684t
+schedule function high_badlands_house:lift/variables_set/set_lift_processing_off 695t
+schedule function high_badlands_house:lift/variables_set/set_lift_location_down 695t
+schedule function high_badlands_house:lift/navigator/lower_playsound_final 696t

@@ -1,0 +1,1 @@
+execute in the_nether run setblock 653 35 -1011 lever[face=ceiling,powered=false]

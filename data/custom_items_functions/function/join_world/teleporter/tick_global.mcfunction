@@ -1,0 +1,1 @@
+execute as @a[scores={GlobalWarpedFungusOnAStickUsed=1..},tag=!player_stays_in_join_world] at @s unless dimension custom_dimension:join if predicate custom_items_functions:join_world/teleporter/any_hand run function custom_dimension:join_world/player_join_new

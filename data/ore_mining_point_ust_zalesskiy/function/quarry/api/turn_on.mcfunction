@@ -1,0 +1,4 @@
+function ore_mining_point_ust_zalesskiy:quarry/tick_period
+function ore_mining_point_ust_zalesskiy:quarry/storage_operations/set_piston_on
+
+function ore_mining_point_ust_zalesskiy:quarry/set_buttons/set_green

@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem CentralGateSecurityProcessingOn set value 1

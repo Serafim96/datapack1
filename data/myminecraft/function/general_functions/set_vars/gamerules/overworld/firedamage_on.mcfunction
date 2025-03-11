@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld fireDamage set value 1

@@ -1,0 +1,2 @@
+function overworld_extension:secret_golf_club_laboratory/headquarters/load_global
+function overworld_extension:secret_golf_club_laboratory/scientific_laboratory/load_global

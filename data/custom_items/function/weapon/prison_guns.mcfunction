@@ -1,0 +1,1 @@
+function thepa:give/all

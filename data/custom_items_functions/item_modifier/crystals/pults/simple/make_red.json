@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Заряженный кристальный пульт",
+      "color": "#FF6D72",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Красный кристалл",
+        "color": "#FF6D72",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": "Использовать r.click",
+        "color": "#FF6D72",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 14
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Crystals:{color:\"red\",active:0b}}"
+  }
+]

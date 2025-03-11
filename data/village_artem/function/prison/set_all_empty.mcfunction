@@ -1,0 +1,12 @@
+data modify storage minecraft:village_artem PrisonCamera1Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera2Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera3Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera4Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera5Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera6Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera7Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera8Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera9Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera10Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera11Empty set value 1
+data modify storage minecraft:village_artem PrisonCamera12Empty set value 1

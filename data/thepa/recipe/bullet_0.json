@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:iron_nugget",
+        "minecraft:gunpowder",
+        "minecraft:gold_nugget"
+    ],
+    "result": {
+        "id": "minecraft:clock",
+        "count": 6,
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "prison_bullet"
+                ]
+            },
+            "minecraft:custom_data": {
+                "gz_data": {
+                    "bullet_type": 0
+                },
+                "HideFlags": 32
+            },
+            "minecraft:item_name": "{\"translate\": \"thepa.item.name.bullet_0\",\"color\": \"white\",\"italic\": false}"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+scoreboard objectives add UsedConsumableizer minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add ConsumableizerShiftPress minecraft.custom:minecraft.sneak_time

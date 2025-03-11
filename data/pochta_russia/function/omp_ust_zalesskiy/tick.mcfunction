@@ -1,0 +1,4 @@
+function pochta_russia:omp_ust_zalesskiy/kill_on_entrance
+function pochta_russia:omp_ust_zalesskiy/recieving/tick
+function pochta_russia:omp_ust_zalesskiy/sending/tick
+function pochta_russia:omp_ust_zalesskiy/decorations/tick

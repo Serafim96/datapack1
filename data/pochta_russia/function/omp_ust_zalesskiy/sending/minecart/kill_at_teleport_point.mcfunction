@@ -1,0 +1,1 @@
+kill @e[type=chest_minecart,x=-3942,y=37,z=4637]

@@ -1,0 +1,12 @@
+fill -16 6 108 -19 11 108 minecraft:air
+fill -13 6 104 -13 11 107 minecraft:air
+fill -17 6 101 -14 11 101 minecraft:air
+fill -20 6 105 -20 11 102 minecraft:air
+fill -16 6 109 -19 11 109 minecraft:sticky_piston[facing=north]
+fill -12 6 104 -12 11 107 minecraft:sticky_piston[facing=west]
+fill -17 6 100 -14 11 100 minecraft:sticky_piston[facing=south]
+fill -21 6 105 -21 11 102 minecraft:sticky_piston[facing=east]
+fill -19 6 110 -16 11 110 redstone_block
+fill -11 6 104 -11 11 107 redstone_block
+fill -17 6 99 -14 11 99 redstone_block
+fill -22 6 105 -22 11 102 redstone_block

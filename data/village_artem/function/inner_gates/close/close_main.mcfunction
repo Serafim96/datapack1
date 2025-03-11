@@ -1,0 +1,8 @@
+function village_artem:inner_gates/storage_operations/set_gate_processing_on
+
+function village_artem:inner_gates/close/close1
+schedule function village_artem:inner_gates/close/close2 4t replace
+schedule function village_artem:inner_gates/close/close3 8t replace
+
+schedule function village_artem:inner_gates/storage_operations/set_gate_processing_off 21t replace
+schedule function village_artem:inner_gates/storage_operations/set_gate_closed 21t replace

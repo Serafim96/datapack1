@@ -1,0 +1,2 @@
+execute if predicate custom_items_functions:crystals/pults/advanced/holds_mainhand_empty run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/reload {pult_hand:mainhand,crystal_hand:offhand}
+execute if predicate custom_items_functions:crystals/pults/advanced/holds_offhand_empty run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/reload {pult_hand:offhand,crystal_hand:mainhand}

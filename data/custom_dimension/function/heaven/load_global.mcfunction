@@ -1,0 +1,2 @@
+function custom_dimension:heaven/tick_global_period
+function custom_dimension:heaven/welcome_title/load_global

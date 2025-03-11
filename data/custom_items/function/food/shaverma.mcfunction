@@ -1,0 +1,1 @@
+give @s cooked_beef[custom_name='{"color":"#E69C53","text":"Шаурма из Ларька"}',item_model="custom/food/cooked_beef",custom_model_data={strings:[shaverma]}] 1

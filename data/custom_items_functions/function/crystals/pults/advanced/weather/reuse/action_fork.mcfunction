@@ -1,0 +1,3 @@
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/clear_sky run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/do_action {weather:"clear",delay:"",text:"Ясно",arm:$(arm)}
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/rain run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/do_action {weather:"rain",delay:" 300s",text:"Дождь",arm:$(arm)}
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/thunder run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/do_action {weather:"thunder",delay:" 300s",text:"Гроза",arm:$(arm)}

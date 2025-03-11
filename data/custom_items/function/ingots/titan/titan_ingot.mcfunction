@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"text":"Титановый слиток"}',custom_data={Tags:["titan_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[titan_ingot]}] 1

@@ -1,0 +1,1 @@
+execute as @a[distance=..6] at @s run title @s actionbar {"text":"В Деревне переполнен склад","color":"#FF0000"}

@@ -1,0 +1,47 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Заряженный кристальный пульт",
+      "color": "#E96DFF",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Фиолетовый кристалл",
+        "color": "#E96DFF",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": "Устройство занято...",
+        "color": "#E96DFF",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "simple_crystal_pult_violet_active"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Crystals:{color:\"violet\",active:1b}}"
+  }
+]

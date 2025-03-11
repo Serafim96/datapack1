@@ -1,0 +1,18 @@
+{
+  "values": [
+    "minecraft:mushroom_fields",
+    "#overworld_extension:greenfield_city_zone",
+    "#overworld_extension:farland_castle_zone",
+    "#overworld_extension:village_artem_zone",
+    "#overworld_extension:ust_yuryung_khaya_zone",
+    "#overworld_extension:hogwartz_zone",
+    "#overworld_extension:express_zone",
+    "#overworld_extension:dark_tunnels_zone",
+    "#overworld_extension:chess_minigame_zone",
+    "#overworld_extension:lothlorien_zone",
+    "#overworld_extension:makuta_city_zone",
+    "#overworld_extension:pripyat_zone",
+    "#overworld_extension:secret_golf_club_laboratory_zone",
+    "#overworld_extension:vulcano_island_zone"
+  ]
+}

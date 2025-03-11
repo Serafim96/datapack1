@@ -1,0 +1,1 @@
+tag @s add no_tp_afterlife

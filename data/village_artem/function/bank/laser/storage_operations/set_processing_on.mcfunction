@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem BankLaserProcessing set value 1

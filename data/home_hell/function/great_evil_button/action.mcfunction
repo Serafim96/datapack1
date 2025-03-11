@@ -1,0 +1,2 @@
+function home_hell:great_evil_button/effects
+function home_hell:great_evil_button/summon

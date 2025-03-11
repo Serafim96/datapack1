@@ -1,0 +1,10 @@
+{
+  "asset_name": "lava_resistant_suit",
+  "description": {
+    "color": "#7C9CBF",
+    "translate": "Обсидиановая обшивка корпуса"
+  },
+  "incompatible_armor_material": "diamond",
+  "ingredient": "minecraft:prismarine_crystals",
+  "item_model_index": 0.8
+}

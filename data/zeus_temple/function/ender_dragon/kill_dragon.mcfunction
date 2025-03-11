@@ -1,0 +1,1 @@
+kill @e[tag=zeus_dragon]

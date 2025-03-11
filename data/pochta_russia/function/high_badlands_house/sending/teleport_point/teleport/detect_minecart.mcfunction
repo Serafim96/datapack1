@@ -1,0 +1,1 @@
+execute as @e[type=chest_minecart,x=3260,dx=0,y=206,dy=0,z=4853,dz=0] at @s run function pochta_russia:high_badlands_house/sending/teleport_point/teleport/teleport_minecart

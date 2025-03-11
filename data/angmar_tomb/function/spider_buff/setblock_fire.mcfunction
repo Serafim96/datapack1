@@ -1,0 +1,1 @@
+execute in the_nether run setblock 639 35 -1013 soul_fire

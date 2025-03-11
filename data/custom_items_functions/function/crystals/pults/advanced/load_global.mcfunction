@@ -1,0 +1,1 @@
+function custom_items_functions:crystals/pults/advanced/weather/load_global

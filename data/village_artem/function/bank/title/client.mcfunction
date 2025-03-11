@@ -1,0 +1,1 @@
+title @s actionbar {"text":"Вы стали клиентом банка","color":"gold"}

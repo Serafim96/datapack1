@@ -1,0 +1,1 @@
+execute in custom_dimension:join as @e[tag=join_world_shop_vendor] run data modify entity @s Pos set value [25.5d,15d,-31.5d]

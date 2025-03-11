@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension announceAdvancements set value 0

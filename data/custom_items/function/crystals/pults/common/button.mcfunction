@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"italic":false,"text":"Кнопка"}',custom_data={Tags:["button"]},item_model="custom/item/clock",custom_model_data={strings:[button]}] 1

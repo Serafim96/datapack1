@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld mobGriefing set value 0

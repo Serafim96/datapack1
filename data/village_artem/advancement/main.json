@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_house"
+          ]
+        },
+        "minecraft:item_model": "custom/item/book"
+      }
+    },
+    "title": "Деревня",
+    "description": "Посетил Деревню",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "overworld_extension:village_artem"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

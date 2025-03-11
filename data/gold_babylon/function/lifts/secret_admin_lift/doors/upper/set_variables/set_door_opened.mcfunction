@@ -1,0 +1,1 @@
+data modify storage minecraft:gold_babylon SecretAdminLiftUpperDoorOpened set value 1

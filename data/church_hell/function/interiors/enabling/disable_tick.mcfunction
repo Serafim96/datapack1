@@ -1,0 +1,1 @@
+data modify storage minecraft:church_hell EnableTickFunction set value 0

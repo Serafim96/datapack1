@@ -1,0 +1,4 @@
+function overworld_extension:lothlorien/surroundings/load_global
+function overworld_extension:lothlorien/thicket/load_global
+function overworld_extension:lothlorien/melorn_tree/load_global
+function overworld_extension:lothlorien/border_of_forest_kingdom/load_global

@@ -1,0 +1,1 @@
+execute if data storage minecraft:badlands_high_house {LiftLocation:1} if data storage minecraft:badlands_high_house {LiftProcessing:0} run function high_badlands_house:lift/start/go_up

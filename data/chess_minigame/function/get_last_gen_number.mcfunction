@@ -1,0 +1,1 @@
+execute store result storage chess_minigame LastGenNum int 1 run scoreboard players get @e[type=player,x=-126,dx=219,y=-59,dy=15,z=-5,dz=219,limit=1] NUM

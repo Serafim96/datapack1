@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Crystals": {
+                    "mode": "thunder"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "custom_items_functions:crystals/pults/advanced/weather/holds/mainhand"
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+data modify storage chess_lift ChessLiftTotalMode set value 1

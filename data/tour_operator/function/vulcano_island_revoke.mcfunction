@@ -1,0 +1,1 @@
+execute as @a[advancements={tour_operator:bought_vulcano_island_ticket=true}] run advancement revoke @s only tour_operator:bought_vulcano_island_ticket

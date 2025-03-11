@@ -1,0 +1,1 @@
+data modify storage village_artem FarGateOpened set value 0

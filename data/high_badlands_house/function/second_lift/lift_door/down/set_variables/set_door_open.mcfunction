@@ -1,0 +1,1 @@
+data modify storage minecraft:badlands_high_house SecondLiftDownDoorOpened set value 1

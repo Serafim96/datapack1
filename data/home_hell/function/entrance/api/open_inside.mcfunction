@@ -1,0 +1,1 @@
+execute if data storage home_hell {EntranceProcessing:0,EntranceState:0} run function home_hell:entrance/open_from_inside/start_open

@@ -1,0 +1,2 @@
+function tartarus:dimension_exit/teleport
+function tartarus:dimension_exit/fx_effects

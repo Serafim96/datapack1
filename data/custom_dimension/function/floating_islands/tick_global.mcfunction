@@ -1,0 +1,2 @@
+function custom_dimension:floating_islands/teleport/tp
+function custom_dimension:floating_islands/welcome_title/tick_global

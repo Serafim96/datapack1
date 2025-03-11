@@ -1,0 +1,3 @@
+damage @s 0.01 minecraft:player_attack
+# function custom_items_functions:armor/hydro_suit/carved_pumpkin/minus_1_damage
+function custom_items_functions:armor/lava_resistant_suit/title_using

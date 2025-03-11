@@ -1,0 +1,3 @@
+
+
+schedule function overworld_extension:gold_babylon_express/kill_items 5t append

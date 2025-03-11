@@ -1,0 +1,1 @@
+$execute store result storage $(storage) $(nbt_path) $(nbt_type) $(scale) run scoreboard players get Calculator calc_result

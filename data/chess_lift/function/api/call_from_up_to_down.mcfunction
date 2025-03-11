@@ -1,0 +1,3 @@
+execute if data storage chess_lift {ChessLift1Processing:0,ChessLift2Processing:0,ChessLift2State:2,ChessLiftTotalMode:0} run function chess_lift:set_red_buttons
+execute if data storage chess_lift {ChessLift1Processing:0,ChessLift2Processing:0,ChessLift2State:2,ChessLiftTotalMode:0} run function chess_lift:storage_operations/total_mode/on
+execute if data storage chess_lift {ChessLift1Processing:0,ChessLift2Processing:0,ChessLift2State:2} run schedule function chess_lift:tech_api/open 8s

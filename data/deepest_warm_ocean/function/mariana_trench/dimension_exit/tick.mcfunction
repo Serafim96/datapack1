@@ -1,0 +1,2 @@
+function deepest_warm_ocean:mariana_trench/dimension_exit/teleport
+function deepest_warm_ocean:mariana_trench/dimension_exit/fx_effects

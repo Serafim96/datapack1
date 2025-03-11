@@ -1,0 +1,7 @@
+kill @e[tag=village_artem_household_shop_decorations]
+
+summon item_display -5134 65.6 8647 {view_range:4.0f,billboard:"vertical",Tags:["village_artem_household_shop_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:milk_bucket",count:1}}
+summon item_display -5134 66.6 8646 {view_range:4.0f,billboard:"vertical",Tags:["village_artem_household_shop_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:cooked_mutton",count:1}}
+summon item_display -5134 66.6 8645 {view_range:4.0f,billboard:"vertical",Tags:["village_artem_household_shop_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},item:{id:"minecraft:rabbit_stew",count:1}}
+
+summon text_display -5128 69 8646 {view_range:4.0f,billboard:"vertical",default_background:1b,Rotation:[-90F,0F],Tags:["village_artem_household_shop_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[6f,6f,6f]},text:'{"text":"Скотовод","color":"#FF7F7F"}'}

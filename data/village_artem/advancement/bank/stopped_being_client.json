@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_bank_card"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Простолюдин",
+    "description": "Перестал быть клиентом банка",
+    "background": "minecraft:textures/block/gold_block.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "village_artem:bank/become_client",
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_shulker_box"
+          ],
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "village_shulker_refund"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "village_artem:bank/not_client"
+  }
+}

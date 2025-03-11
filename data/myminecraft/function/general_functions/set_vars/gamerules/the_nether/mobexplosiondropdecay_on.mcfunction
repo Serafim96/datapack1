@@ -1,0 +1,1 @@
+data modify storage my_gamerules:the_nether mobExplosionDropDecay set value 1

@@ -1,0 +1,5 @@
+kill @e[tag=cherry_garden_welcome_display_text]
+
+fill -5169 69 8894 -5169 70 8899 light[level=10]
+summon text_display -5168.99 69.8 8896.99 {view_range:4.0f,shadow:1b,Rotation:[-90F,0F],Tags:["cherry_garden_welcome_display_text"],brightness:{sky:10,block:10},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"text":"Вишневый Сад","color":"#E53935"}',background:16711680}
+summon text_display -5168.99 69.3 8896.99 {view_range:4.0f,shadow:1b,Rotation:[-90F,0F],Tags:["cherry_garden_welcome_display_text"],brightness:{sky:10,block:10},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.55f,1.55f,1.55f]},text:'{"text":"Магазин дяди Вани","color":"#E53935"}',background:16711680}

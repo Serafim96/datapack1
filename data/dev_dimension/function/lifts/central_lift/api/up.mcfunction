@@ -1,0 +1,1 @@
+execute if data storage dev_dimension {AdminCentralLiftProcessing:0} if data storage dev_dimension {AdminCentralLiftState:1} in dev_dimension:dev_dimension run function dev_dimension:lifts/central_lift/up/main

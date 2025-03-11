@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_name='{"text":"Телепортатор"}',lore=['{"text":"В приветственное пространство"}'],custom_data={Tags:["join_world_teleporter"]},item_model="custom/instrument/warped_fungus_on_a_stick",custom_model_data={strings:[join_world_teleporter]}] 1

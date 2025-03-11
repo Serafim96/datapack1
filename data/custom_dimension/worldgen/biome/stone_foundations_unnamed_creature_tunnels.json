@@ -1,0 +1,56 @@
+{
+  "temperature": 4,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 2427145,
+    "water_color": 2494223,
+    "water_fog_color": 984325,
+    "grass_color": 7090688,
+    "foliage_color": 7090688,
+    "grass_color_modifier": "none",
+    "ambient_sound": { "sound_id": "minecraft:custom_sounds.ambient.cave.rumble_deep_loop_minus13db" },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": { "sound_id": "minecraft:custom_sounds.silence" },
+          "min_delay": 2000,
+          "max_delay": 6000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "additions_sound": {
+      "sound": { "sound_id": "custom_sounds.ambient.unnamed_creature_tunnels" },
+      "tick_chance": 0.0006
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.07
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": "minecraft:cave",
+  "features": []
+}

@@ -1,0 +1,24 @@
+#деревня артема
+schedule clear overworld_extension:village_artem/summon_villager_recursive
+
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=villager,tag=!village_artem_special_villager] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0.01..250,tag=!village_artem_special_villager] run summon villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=sheep] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=pig] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=chicken] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=cow] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=horse] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=donkey] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=iron_golem] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=villager,distance=0..250,tag=!village_artem_special_villager] run summon villager ~0.02 ~ ~ {PersistenceRequired:0b}
+
+
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=villager,tag=!village_artem_special_villager] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=sheep] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=pig] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=chicken] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=cow] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=horse] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=donkey] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=iron_golem] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[type=iron_golem,distance=0.01..250] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
+
+
+execute run schedule function overworld_extension:village_artem/summon_villager_recursive 8s append

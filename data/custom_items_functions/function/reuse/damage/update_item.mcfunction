@@ -1,0 +1,1 @@
+$item modify entity @s $(container) custom_items_functions:set_custom_damage

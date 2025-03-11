@@ -1,0 +1,1 @@
+function custom_dimension:vulcano_camera/welcome_title/load_global

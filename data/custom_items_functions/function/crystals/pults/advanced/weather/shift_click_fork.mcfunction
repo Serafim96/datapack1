@@ -1,0 +1,3 @@
+# Смена режима
+execute if predicate custom_items_functions:crystals/pults/advanced/holds_mainhand_filled run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/change_mode {arm:mainhand}
+execute if predicate custom_items_functions:crystals/pults/advanced/holds_offhand_filled run return run function custom_items_functions:crystals/pults/advanced/weather/reuse/change_mode {arm:offhand}

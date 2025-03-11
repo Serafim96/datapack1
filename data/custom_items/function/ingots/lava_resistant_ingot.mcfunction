@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"bold":true,"color":"#CC480A","text":"Высокотемпературный сплав"}',custom_data={Tags:["lava_resistant_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[lava_resistant_ingot]}] 1

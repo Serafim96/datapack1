@@ -1,0 +1,8 @@
+#Включаем индикатор что кнопка нажата
+function pochta_russia:omp_ust_zalesskiy/storage_operations/other_vars/set_give_minecart_on_r
+
+function pochta_russia:omp_ust_zalesskiy/recieving/teleport_point/fill_minecart/fill_main
+
+
+#Выключаем индикатор что кнопка нажата
+schedule function pochta_russia:omp_ust_zalesskiy/storage_operations/other_vars/set_give_minecart_off_r 40t append

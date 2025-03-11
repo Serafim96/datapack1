@@ -1,0 +1,1 @@
+data modify storage pochta_russia:ust_yuryung_khaya GiveAdressOn set value 1

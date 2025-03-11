@@ -1,0 +1,3 @@
+#function custom_dimension:heaven/add_1_to_time
+
+function custom_dimension:heaven/welcome_title/tick_global

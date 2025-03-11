@@ -1,0 +1,2 @@
+$function reuse:calculator/tech/simple/plus {left:$(left),right:-$(right)}
+$function reuse:calculator/tech/result_to_storage {storage:"$(storage)",nbt_path:"$(nbt_path)",nbt_type:"$(nbt_type)",scale:$(scale)}

@@ -1,0 +1,2 @@
+function custom_dimension:join_world/tags/is_admin/off
+function custom_dimension:join_world/creative_join/off

@@ -1,0 +1,1 @@
+execute if data storage the_wall {CentralLiftProcessing:0} if data storage the_wall {CentralLiftState:1} run function the_wall:central_lift/up/up_main

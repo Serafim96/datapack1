@@ -1,0 +1,1 @@
+setblock 272 103 -1362 minecraft:quartz_block

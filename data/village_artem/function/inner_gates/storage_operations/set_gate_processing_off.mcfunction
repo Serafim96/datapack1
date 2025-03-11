@@ -1,0 +1,1 @@
+data modify storage village_artem InnerGateProcessing set value 0

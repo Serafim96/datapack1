@@ -1,0 +1,4 @@
+execute in custom_dimension:join run kill @e[tag=join_world_creative_room_vendor]
+
+execute in custom_dimension:join run summon villager 0 3 -41 {Silent:1b,Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:1b,CanPickUpLoot:0b,active_effects:[{id:"minecraft:health_boost",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:absorption",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:instant_health",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:regeneration",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:255,duration:-1,show_particles:0b}],Tags:["join_world_special_villager","join_world_creative_room_vendor"],CustomName:'{"text":"Дизайнер","color":"#42AAFF"}',VillagerData:{level:99,profession:"minecraft:nitwit",type:"minecraft:plains"}}
+

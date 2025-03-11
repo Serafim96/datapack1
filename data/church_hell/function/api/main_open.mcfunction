@@ -1,0 +1,1 @@
+execute if data storage minecraft:church_hell {DarkTunnelEntranceProcessing:0} if data storage minecraft:church_hell {DarkTunnelEntranceOpened:0} run function church_hell:open_entrance

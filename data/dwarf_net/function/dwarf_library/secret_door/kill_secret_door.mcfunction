@@ -1,0 +1,1 @@
+kill @e[tag=gnome_library_teleport_door]

@@ -1,0 +1,1 @@
+#execute as @e[type=minecraft:allay] at @s if biome ~ ~ ~ custom_dimension:stone_foundations_highest_falling_dripstone run function stone_foundations:summon_falling_dripstone

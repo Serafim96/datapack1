@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:damage": 100
+        },
+        "predicates": {
+          "minecraft:custom_data": {
+            "Tags": ["advanced_crystal_pult"]
+          }
+        }
+      }
+    }
+  }
+}

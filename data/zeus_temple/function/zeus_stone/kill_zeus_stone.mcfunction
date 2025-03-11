@@ -1,0 +1,1 @@
+execute in overworld positioned -681 250 2626 run kill @e[tag=zeus_stone,distance=..20]

@@ -1,0 +1,1 @@
+execute unless data storage pochta_russia:omp_ust_zalesskiy Recieving.3[0] run function pochta_russia:omp_ust_zalesskiy/storage_operations/recieving/base/create_receiving_3

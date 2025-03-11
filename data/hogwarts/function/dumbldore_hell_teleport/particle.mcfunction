@@ -1,0 +1,1 @@
+particle minecraft:reverse_portal -564.99 30.5 2493 0.0001 0.7 0.2 0 1

@@ -1,0 +1,1 @@
+data modify storage my_gamerules:stone_foundations reducedDebugInfo set value 1

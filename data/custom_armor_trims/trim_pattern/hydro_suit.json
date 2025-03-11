@@ -1,0 +1,7 @@
+{
+  "asset_id": "custom_armor_trims:hydro_suit",
+  "description": {
+    "translate": "Высокопрочный сплав"
+  },
+  "template_item": "minecraft:book"
+}

@@ -1,0 +1,26 @@
+[
+    {
+      "function": "minecraft:set_custom_model_data",
+      "strings": {
+        "values": [
+          "advanced_crystal_pult_empty"
+        ],
+        "mode": "replace_section",
+        "offset": 0,
+        "size": 1
+      }
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "Crystals": {
+          "color": "empty",
+          "mode": "empty"
+        }
+      }
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "custom_items_functions:crystals/pults/set_100_damage"
+    }
+  ]

@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension globalSoundEvents set value 0

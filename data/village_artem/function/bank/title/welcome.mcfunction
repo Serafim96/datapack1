@@ -1,0 +1,1 @@
+title @s actionbar {"text":"Проходите","color":"gold"}

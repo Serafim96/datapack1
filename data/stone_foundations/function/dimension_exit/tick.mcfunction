@@ -1,0 +1,4 @@
+function stone_foundations:dimension_exit/teleport
+function stone_foundations:dimension_exit/fx_effects
+#function stone_foundations:dimension_exit/sound_effects/scoreboard/add_entrance_obj
+#function stone_foundations:dimension_exit/sound_effects/entrance/tick

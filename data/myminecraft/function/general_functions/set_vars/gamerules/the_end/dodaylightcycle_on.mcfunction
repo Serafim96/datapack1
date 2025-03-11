@@ -1,0 +1,1 @@
+data modify storage my_gamerules:the_end doDaylightCycle set value 1

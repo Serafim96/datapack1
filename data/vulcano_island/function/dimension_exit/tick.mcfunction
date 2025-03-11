@@ -1,0 +1,2 @@
+function vulcano_island:dimension_exit/teleport
+function vulcano_island:dimension_exit/fx_effects

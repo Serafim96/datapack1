@@ -1,0 +1,2 @@
+function gold_babylon:secret_admin_portal/smooth_door/summon_opened/right
+function gold_babylon:secret_admin_portal/smooth_door/summon_opened/left

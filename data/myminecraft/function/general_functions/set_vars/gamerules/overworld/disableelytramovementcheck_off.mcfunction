@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld disableElytraMovementCheck set value 0

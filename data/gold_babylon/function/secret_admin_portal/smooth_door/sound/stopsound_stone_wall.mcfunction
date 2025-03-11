@@ -1,0 +1,1 @@
+stopsound @a[x=368,dx=33,y=-62,dy=3,z=-11446,dz=2] block minecraft:custom_sounds.stone.stone_wall_move

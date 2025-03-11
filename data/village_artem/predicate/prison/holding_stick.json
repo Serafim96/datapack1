@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+        "items": "minecraft:clock",
+        "predicates": {
+            "minecraft:custom_data": {
+                "Tags": [
+                    "village_police_stick"
+                ]
+            }
+        }
+    }
+}

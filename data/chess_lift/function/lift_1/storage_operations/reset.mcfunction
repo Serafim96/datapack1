@@ -1,0 +1,2 @@
+function chess_lift:lift_1/storage_operations/state/close
+function chess_lift:lift_1/storage_operations/processing/off

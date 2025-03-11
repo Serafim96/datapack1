@@ -1,0 +1,1 @@
+function village_artem:botan_garden/shop/tick_global

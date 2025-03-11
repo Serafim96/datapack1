@@ -1,0 +1,25 @@
+[
+    {
+      "function": "minecraft:set_custom_model_data",
+      "strings": {
+        "values": [
+          "weather_crystal_pult_thunder"
+        ],
+        "mode": "replace_section",
+        "offset": 0,
+        "size": 1
+      }
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "Crystals": {
+          "mode": "thunder"
+        }
+      }
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "custom_items_functions:crystals/pults/advanced/weather/make_color_weather"
+    }
+  ]

@@ -1,0 +1,1 @@
+function pochta_russia:terracotta_quarry/tick_global

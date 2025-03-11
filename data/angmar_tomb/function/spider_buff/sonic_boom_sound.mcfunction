@@ -1,0 +1,1 @@
+execute in the_nether run playsound minecraft:entity.warden.sonic_boom master @a 639 38.5 -1013 1 0 1

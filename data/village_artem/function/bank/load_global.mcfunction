@@ -1,0 +1,1 @@
+#function village_artem:bank/scoreboard/add_objective

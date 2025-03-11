@@ -1,0 +1,1 @@
+execute unless data storage pochta_russia:village_artem Recieving.1[0] run function pochta_russia:village_artem/storage_operations/recieving/base/create_receiving_1

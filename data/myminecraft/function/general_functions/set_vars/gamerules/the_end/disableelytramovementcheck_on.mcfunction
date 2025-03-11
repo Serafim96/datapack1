@@ -1,0 +1,1 @@
+data modify storage my_gamerules:the_end disableElytraMovementCheck set value 1

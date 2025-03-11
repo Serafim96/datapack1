@@ -1,0 +1,2 @@
+schedule clear ore_mining_point_ust_zalesskiy:quarry/tick_period
+

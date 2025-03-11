@@ -1,0 +1,1 @@
+tag @a remove village_reset

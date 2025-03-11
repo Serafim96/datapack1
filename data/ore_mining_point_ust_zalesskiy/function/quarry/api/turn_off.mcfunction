@@ -1,0 +1,5 @@
+function ore_mining_point_ust_zalesskiy:quarry/sched_clear
+function ore_mining_point_ust_zalesskiy:quarry/storage_operations/set_piston_off
+setblock -4010 12 4658 stone
+
+function ore_mining_point_ust_zalesskiy:quarry/set_buttons/set_red

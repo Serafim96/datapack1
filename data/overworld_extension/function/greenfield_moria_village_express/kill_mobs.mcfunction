@@ -1,0 +1,1 @@
+schedule function overworld_extension:greenfield_moria_village_express/kill_items 5t append

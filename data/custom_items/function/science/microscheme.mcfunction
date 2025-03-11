@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"italic":false,"text":"Микросхема"}',custom_data={Tags:["science","microscheme"]},item_model="custom/item/clock",custom_model_data={strings:[microscheme]}] 1

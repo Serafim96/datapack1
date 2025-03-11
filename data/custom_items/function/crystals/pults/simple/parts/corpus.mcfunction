@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"italic":false,"text":"Корпус кристального пульта"}',custom_data={Tags:["crystal_pult_corpus"]},item_model="custom/item/clock",custom_model_data={strings:[simple_pult_corpus]}] 1

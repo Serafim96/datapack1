@@ -1,0 +1,7 @@
+{
+  "asset_id": "custom_armor_trims:triforce",
+  "description": {
+    "translate": "Усиленный кузнечный шаблон"
+  },
+  "template_item": "minecraft:book"
+}

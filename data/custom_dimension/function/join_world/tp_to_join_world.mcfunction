@@ -1,0 +1,1 @@
+execute in custom_dimension:join run tp @s 0 10 0 0 0

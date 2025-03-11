@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"italic":false,"text":"Продвинутый отсек для кристалла"}',custom_data={Tags:["advanced_pult_crystal_box"]},item_model="custom/item/clock",custom_model_data={strings:[advanced_pult_crystal_box]}] 1

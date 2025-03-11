@@ -1,0 +1,8 @@
+execute in custom_dimension:floating_islands run function custom_dimension:floating_islands/tick_global
+execute in custom_dimension:mariana_trench run function custom_dimension:mariana_trench/tick_global
+execute in custom_dimension:stone_foundations run function custom_dimension:stone_foundations/tick_global
+execute in custom_dimension:vulcano_camera run function custom_dimension:vulcano_camera/tick_global
+execute in custom_dimension:tartarus run function custom_dimension:tartarus/tick_global
+execute in custom_dimension:heaven run function custom_dimension:heaven/tick_global
+execute in custom_dimension:join run function custom_dimension:join_world/tick_global
+execute in custom_dimension:afterlife run function custom_dimension:afterlife_world/tick_global

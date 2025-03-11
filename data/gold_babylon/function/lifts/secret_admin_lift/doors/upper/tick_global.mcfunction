@@ -1,0 +1,1 @@
+execute if data storage gold_babylon {SecretAdminLiftUpperDoorOpened:0} run fill 399 63 -11446 401 63 -11444 barrier

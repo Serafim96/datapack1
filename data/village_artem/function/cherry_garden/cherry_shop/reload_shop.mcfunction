@@ -1,0 +1,2 @@
+function village_artem:cherry_garden/cherry_shop/decorations
+function village_artem:cherry_garden/cherry_shop/summon_vendor

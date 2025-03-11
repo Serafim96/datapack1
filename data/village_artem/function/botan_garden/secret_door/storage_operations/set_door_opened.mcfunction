@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem BotanGardenDoorOpened set value 1

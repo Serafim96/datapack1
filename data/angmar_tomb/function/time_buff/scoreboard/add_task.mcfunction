@@ -1,0 +1,2 @@
+scoreboard objectives add AngmarTombTimeBuffProgress dummy
+scoreboard objectives add AngmarTombTimeBuffTimer dummy

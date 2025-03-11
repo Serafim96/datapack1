@@ -1,0 +1,18 @@
+{
+  "type": "custom_dimension:heaven_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 368
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

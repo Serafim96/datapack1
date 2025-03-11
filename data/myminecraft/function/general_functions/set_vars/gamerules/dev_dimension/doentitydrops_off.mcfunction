@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension doEntityDrops set value 0

@@ -1,0 +1,6 @@
+kill @e[tag=ore_mining_poing_ust_zalesskiy_text_display]
+
+#Горно-Добывающий Пункт Усть-Залесский
+fill -4029 37 4642 -4029 50 4627 light[level=5]
+summon text_display -4028.99 37 4635.25 {view_range:4.0f,Glowing:0b,Rotation:[-90F,0F],Tags:["ore_mining_poing_ust_zalesskiy_text_display"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[11f,11f,1f]},text:'[{"text":"Г","color":"#F7311B"},{"text":"о","color":"#E6C72C"},{"text":"р","color":"#2137FF"},{"text":"н","color":"#1CD622"},{"text":"о","color":"#A3A3A3"},{"text":"-\\n","color":"#E09D00"},{"text":"Д","color":"#2137FF"},{"text":"о","color":"#1CD622"},{"text":"б","color":"#E09D00"},{"text":"ы","color":"#A3A3A3"},{"text":"в","color":"#E6C72C"},{"text":"а","color":"#F7311B"},{"text":"ю","color":"#2137FF"},{"text":"щ","color":"#1CD622"},{"text":"и","color":"#E09D00"},{"text":"й\\n","color":"#A3A3A3"},{"text":"П","color":"#F7311B"},{"text":"у","color":"#E6C72C"},{"text":"н","color":"#2137FF"},{"text":"к","color":"#1CD622"},{"text":"т\\n","color":"#E09D00"},{"text":"У","color":"#D5E0B8"},{"text":"с","color":"#BCE0BD"},{"text":"т","color":"#D4D4D4"},{"text":"ь","color":"#C2C2C2"},{"text":"-\\n","color":"#7A7A7A"},{"text":"Залесский","color":"#186915"}]',background:16711680}
+

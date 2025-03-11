@@ -1,0 +1,1 @@
+$data modify storage $(storage_name) $(store_path)$(player_id) set from entity $(source_entity) $(data_path)

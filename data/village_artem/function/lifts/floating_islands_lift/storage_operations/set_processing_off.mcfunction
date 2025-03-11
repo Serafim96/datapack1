@@ -1,0 +1,1 @@
+data modify storage village_artem floating_islands_lift_processing set value 0

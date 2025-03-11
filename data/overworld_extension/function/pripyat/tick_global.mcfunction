@@ -1,0 +1,2 @@
+function overworld_extension:pripyat/chernobyl_npp/tick_global
+function overworld_extension:pripyat/city/tick_global

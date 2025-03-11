@@ -1,0 +1,1 @@
+tp @a[tag=village_reset] -5078 64 8684

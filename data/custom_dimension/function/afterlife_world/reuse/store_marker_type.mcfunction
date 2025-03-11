@@ -1,0 +1,1 @@
+$data modify storage afterlife/death_place tp.marker_type set value $(marker_type)

@@ -1,0 +1,4 @@
+function pochta_russia:village_artem/recieving/minecart/summon
+function pochta_russia:village_artem/recieving/teleport_point/setblock_redstone
+function pochta_russia:village_artem/recieving/messages/minecart_sucsess_give
+schedule function pochta_russia:village_artem/recieving/teleport_point/setblock_stone 10t append

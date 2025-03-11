@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem SecretWarehouseLaser2Processing set value 1

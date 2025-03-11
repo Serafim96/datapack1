@@ -1,0 +1,1 @@
+execute if data storage chess_lift {ChessLift1Processing:0,ChessLift1Opened:0} run function chess_lift:lift_1/tech_api/open

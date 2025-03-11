@@ -1,0 +1,41 @@
+execute if block 899 70 -1377 air run setblock 899 70 -1377 light[level=0]
+execute if block 899 70 -1376 air run setblock 899 70 -1376 light[level=0]
+execute if block 899 70 -1375 air run setblock 899 70 -1375 light[level=0]
+execute if block 899 70 -1374 air run setblock 899 70 -1374 light[level=0]
+execute if block 899 70 -1373 air run setblock 899 70 -1373 light[level=0]
+execute if block 899 70 -1372 air run setblock 899 70 -1372 light[level=0]
+execute if block 899 70 -1371 air run setblock 899 70 -1371 light[level=0]
+execute if block 899 70 -1370 air run setblock 899 70 -1370 light[level=0]
+execute if block 899 70 -1369 air run setblock 899 70 -1369 light[level=0]
+execute if block 899 70 -1368 air run setblock 899 70 -1368 light[level=0]
+execute if block 899 70 -1367 air run setblock 899 70 -1367 light[level=0]
+execute if block 899 70 -1366 air run setblock 899 70 -1366 light[level=0]
+execute if block 899 70 -1365 air run setblock 899 70 -1365 light[level=0]
+execute if block 899 70 -1364 air run setblock 899 70 -1364 light[level=0]
+execute if block 899 70 -1363 air run setblock 899 70 -1363 light[level=0]
+execute if block 899 70 -1362 air run setblock 899 70 -1362 light[level=0]
+execute if block 899 70 -1361 air run setblock 899 70 -1361 light[level=0]
+execute if block 899 70 -1360 air run setblock 899 70 -1360 light[level=0]
+execute if block 899 70 -1359 air run setblock 899 70 -1359 light[level=0]
+execute if block 899 70 -1358 air run setblock 899 70 -1358 light[level=0]
+execute if block 899 70 -1357 air run setblock 899 70 -1357 light[level=0]
+execute if block 899 70 -1356 air run setblock 899 70 -1356 light[level=0]
+execute if block 899 70 -1355 air run setblock 899 70 -1355 light[level=0]
+execute if block 899 70 -1354 air run setblock 899 70 -1354 light[level=0]
+execute if block 899 70 -1353 air run setblock 899 70 -1353 light[level=0]
+execute if block 899 70 -1352 air run setblock 899 70 -1352 light[level=0]
+execute if block 899 70 -1351 air run setblock 899 70 -1351 light[level=0]
+execute if block 899 70 -1350 air run setblock 899 70 -1350 light[level=0]
+execute if block 899 70 -1349 air run setblock 899 70 -1349 light[level=0]
+execute if block 899 70 -1348 air run setblock 899 70 -1348 light[level=0]
+execute if block 899 70 -1347 air run setblock 899 70 -1347 light[level=0]
+
+execute if block 899 71 -1378 air run setblock 899 71 -1378 light[level=0]
+execute if block 899 71 -1346 air run setblock 899 71 -1346 light[level=0]
+
+particle minecraft:crimson_spore 896.99 82 -1362 2 7.5 7.5 0 50 normal
+particle minecraft:lava 899.99 82 -1362 0.1 7.5 7.5 0.1 4 normal
+
+execute as @e[type=player,x=900,dx=0,y=70,dy=24,z=-1378,dz=32] at @s in minecraft:overworld run tp @s -664 256 2611 ~90 ~
+kill @e[type=!player,type=!item,type=!trident,type=!arrow,type=!painting,type=!item_frame,type=!glow_item_frame,x=887,dx=12,y=70,dy=10,z=-1379,dz=24]
+

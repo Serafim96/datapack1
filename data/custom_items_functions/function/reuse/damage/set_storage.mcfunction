@@ -1,0 +1,1 @@
+$data modify storage minecraft:custom_items_functions/temp custom_damage set value $(value)s

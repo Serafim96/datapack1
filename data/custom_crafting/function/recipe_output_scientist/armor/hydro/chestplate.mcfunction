@@ -1,0 +1,17 @@
+
+
+execute as @s[tag=wasd.north] run summon item ~ ~-0.7 ~-0.7 {Motion:[0.0,0.1,-0.15],Item:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:custom_name":'{"bold":true,"color":"#005EB8","text":"Высокопрочный нагрудник"}',"minecraft:custom_data":{Tags:["hydro_suit","hydro_suit_chestplate"]},"minecraft:attribute_modifiers":[{id:"1",type:"armor_toughness",amount:20,operation:"add_value",slot:"chest"},{id:"2",type:"armor",amount:60,operation:"add_value",slot:"chest"},{id:"3",type:"movement_speed",amount:-0.02,operation:"add_value",slot:"chest"}],"minecraft:trim":{material:"custom_armor_trims:hydro_suit",pattern:"custom_armor_trims:hydro_suit"},"minecraft:item_model":"custom/armor/netherite/chestplate","minecraft:custom_model_data":{strings:["hydro_suit_chestplate"]}}}}
+execute as @s[tag=wasd.south] run summon item ~ ~-0.7 ~0.7 {Motion:[0.0,0.1,0.15],Item:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:custom_name":'{"bold":true,"color":"#005EB8","text":"Высокопрочный нагрудник"}',"minecraft:custom_data":{Tags:["hydro_suit","hydro_suit_chestplate"]},"minecraft:attribute_modifiers":[{id:"1",type:"armor_toughness",amount:20,operation:"add_value",slot:"chest"},{id:"2",type:"armor",amount:60,operation:"add_value",slot:"chest"},{id:"3",type:"movement_speed",amount:-0.02,operation:"add_value",slot:"chest"}],"minecraft:trim":{material:"custom_armor_trims:hydro_suit",pattern:"custom_armor_trims:hydro_suit"},"minecraft:item_model":"custom/armor/netherite/chestplate","minecraft:custom_model_data":{strings:["hydro_suit_chestplate"]}}}}
+execute as @s[tag=wasd.east] run summon item ~0.7 ~-0.7 ~ {Motion:[0.15,0.1,0.0],Item:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:custom_name":'{"bold":true,"color":"#005EB8","text":"Высокопрочный нагрудник"}',"minecraft:custom_data":{Tags:["hydro_suit","hydro_suit_chestplate"]},"minecraft:attribute_modifiers":[{id:"1",type:"armor_toughness",amount:20,operation:"add_value",slot:"chest"},{id:"2",type:"armor",amount:60,operation:"add_value",slot:"chest"},{id:"3",type:"movement_speed",amount:-0.02,operation:"add_value",slot:"chest"}],"minecraft:trim":{material:"custom_armor_trims:hydro_suit",pattern:"custom_armor_trims:hydro_suit"},"minecraft:item_model":"custom/armor/netherite/chestplate","minecraft:custom_model_data":{strings:["hydro_suit_chestplate"]}}}}
+execute as @s[tag=wasd.west] run summon item ~-0.7 ~-0.7 ~ {Motion:[-0.15,0.1,0.0],Item:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:custom_name":'{"bold":true,"color":"#005EB8","text":"Высокопрочный нагрудник"}',"minecraft:custom_data":{Tags:["hydro_suit","hydro_suit_chestplate"]},"minecraft:attribute_modifiers":[{id:"1",type:"armor_toughness",amount:20,operation:"add_value",slot:"chest"},{id:"2",type:"armor",amount:60,operation:"add_value",slot:"chest"},{id:"3",type:"movement_speed",amount:-0.02,operation:"add_value",slot:"chest"}],"minecraft:trim":{material:"custom_armor_trims:hydro_suit",pattern:"custom_armor_trims:hydro_suit"},"minecraft:item_model":"custom/armor/netherite/chestplate","minecraft:custom_model_data":{strings:["hydro_suit_chestplate"]}}}}
+
+
+
+
+
+
+playsound block.anvil.use player @a[distance=..10] ~ ~ ~ 1 1
+particle smoke ~ ~ ~ 0 0 0 0.1 100 force
+execute positioned ~ ~-0.1 ~ run function custom_crafting:crafter/scientist/remove_items
+execute store result score @s wasd.temp run data get block ~ ~-0.1 ~ Items
+execute if score @s wasd.temp matches 1.. run function custom_crafting:recipes/main_scientist

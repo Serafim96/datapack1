@@ -1,0 +1,1 @@
+data modify entity @e[tag=pochta_sender,type=minecraft:glow_item_frame,x=-5095,y=65,z=8747,dx=0,dy=0,dz=0,limit=1] Item set value {id:""}

@@ -1,0 +1,1 @@
+fill -17 6 105 -16 6 104 minecraft:air

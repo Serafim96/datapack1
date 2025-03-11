@@ -1,0 +1,1 @@
+execute if data storage the_wall {CentralGateOpened:1} if data storage the_wall {CentralGateProcessing:0} run function the_wall:central_gates/close/close_main

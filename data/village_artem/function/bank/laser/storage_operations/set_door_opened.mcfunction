@@ -1,0 +1,1 @@
+data modify storage minecraft:village_artem BankLaserOpened set value 1

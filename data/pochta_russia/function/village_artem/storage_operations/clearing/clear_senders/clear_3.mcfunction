@@ -1,0 +1,1 @@
+data modify storage pochta_russia:village_artem Senders.3 set value ""

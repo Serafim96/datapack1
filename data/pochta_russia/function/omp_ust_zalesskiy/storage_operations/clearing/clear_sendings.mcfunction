@@ -1,0 +1,1 @@
+data modify storage pochta_russia:omp_ust_zalesskiy Sending set value {1:[],2:[],3:[]}

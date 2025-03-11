@@ -1,0 +1,1 @@
+data modify storage village_artem MainGateProcessing set value 1

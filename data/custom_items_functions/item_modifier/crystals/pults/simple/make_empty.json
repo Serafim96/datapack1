@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": 100,
+    "add": false
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Кристальный пульт",
+      "color": "gray",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Отсутствует управляющий кристалл",
+        "color": "gray",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": "Имплантировать кристалл shift + r.click",
+        "color": "gray",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "simple_crystal_pult_empty"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{Crystals:{color:\"empty\",active:0b}}"
+  }
+]

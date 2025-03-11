@@ -1,0 +1,1 @@
+title @s actionbar {"color":"red","text":"Предмет в левой руке уже съедобный..."}

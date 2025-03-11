@@ -1,0 +1,5 @@
+function custom_dimension:join_world/core_logic
+function custom_dimension:join_world/creative_room/tick_global
+function custom_dimension:join_world/welcome_title/tick_global
+function custom_dimension:join_world/money_balance/tick_global
+function custom_dimension:join_world/shop/tick_global

@@ -1,0 +1,1 @@
+$execute in $(dimension) run summon marker $(x) $(y) $(z) {Tags:["player_afterlife_marker_$(marker_type)","player_afterlife_marker"]}

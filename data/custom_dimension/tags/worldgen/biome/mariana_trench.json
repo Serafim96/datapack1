@@ -1,0 +1,8 @@
+{
+  "values": [
+    "custom_dimension:mariana_trench/mariana_trench_deep",
+    "custom_dimension:mariana_trench/mariana_trench_high",
+    "custom_dimension:mariana_trench/mariana_trench_highest",
+    "custom_dimension:mariana_trench/mariana_trench_middle"
+  ]
+}

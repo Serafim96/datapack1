@@ -1,0 +1,15 @@
+summon zombie ~ ~ ~
+summon zombie_horse ~ ~ ~
+summon minecraft:zombie_villager ~ ~ ~
+summon minecraft:illusioner ~ ~ ~
+summon minecraft:skeleton_horse ~ ~ ~
+summon minecraft:hoglin ~ ~ ~
+summon minecraft:zombified_piglin ~ ~ ~
+summon minecraft:zombified_piglin ~ ~ ~
+summon minecraft:zombified_piglin ~ ~ ~
+summon minecraft:husk ~ ~ ~
+summon minecraft:skeleton ~ ~ ~
+summon minecraft:drowned ~ ~ ~
+summon minecraft:hoglin ~ ~ ~
+summon minecraft:vex ~ ~ ~
+summon minecraft:phantom ~ ~5 ~

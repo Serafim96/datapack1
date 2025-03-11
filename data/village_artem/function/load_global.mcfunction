@@ -1,0 +1,5 @@
+function village_artem:bank/load_global
+function village_artem:prison/load_global
+function village_artem:windmill/load_global
+function village_artem:nuclear_reactor/load_global
+function village_artem:botan_garden/load_global

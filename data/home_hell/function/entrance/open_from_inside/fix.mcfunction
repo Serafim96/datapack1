@@ -1,0 +1,3 @@
+execute in minecraft:the_nether run function home_hell:entrance/open_from_inside/prepare_for_open
+schedule function home_hell:entrance/open_from_inside/start_open 2
+schedule function home_hell:entrance/open_from_inside/fix_items 40

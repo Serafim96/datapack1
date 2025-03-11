@@ -1,0 +1,11 @@
+function village_artem:central_gates/storage_operations/set_gate_processing_on
+
+function village_artem:central_gates/close/close1
+schedule function village_artem:central_gates/close/close2 4t replace
+schedule function village_artem:central_gates/close/close3 8t replace
+schedule function village_artem:central_gates/close/close4 12t replace
+schedule function village_artem:central_gates/close/close5 16t replace
+schedule function village_artem:central_gates/close/close6 20t replace
+
+schedule function village_artem:central_gates/storage_operations/set_gate_processing_off 21t replace
+schedule function village_artem:central_gates/storage_operations/set_gate_closed 21t replace

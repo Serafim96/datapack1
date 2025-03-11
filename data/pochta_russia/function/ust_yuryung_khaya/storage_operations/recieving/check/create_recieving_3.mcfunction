@@ -1,0 +1,1 @@
+execute unless data storage pochta_russia:ust_yuryung_khaya Recieving.3[0] run function pochta_russia:ust_yuryung_khaya/storage_operations/recieving/base/create_receiving_3

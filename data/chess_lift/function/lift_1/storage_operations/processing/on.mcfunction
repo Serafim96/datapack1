@@ -1,0 +1,1 @@
+data modify storage chess_lift ChessLift1Processing set value 1

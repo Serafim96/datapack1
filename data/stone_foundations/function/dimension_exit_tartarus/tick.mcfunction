@@ -1,0 +1,2 @@
+function stone_foundations:dimension_exit_tartarus/teleport
+function stone_foundations:dimension_exit_tartarus/fx_effects

@@ -1,0 +1,2 @@
+function the_wall:tour_operator/tick_global
+function the_wall:submarine_transfer/tick_global

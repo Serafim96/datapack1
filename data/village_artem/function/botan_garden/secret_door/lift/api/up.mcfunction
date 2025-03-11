@@ -1,0 +1,1 @@
+execute if data storage village_artem {VillageArtemBotanGardenLiftProcessing:0} if data storage village_artem {VillageArtemBotanGardenLiftState:1} in overworld run function village_artem:botan_garden/secret_door/lift/up/main

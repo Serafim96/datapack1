@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"bold":true,"color":"#E96DFF","text":"Фиолетовый Кристалл"}',custom_data={Tags:["violet_crystal"]},item_model="clock",custom_model_data={strings:[violet_crystal]}] 1

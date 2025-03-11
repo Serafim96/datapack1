@@ -1,0 +1,1 @@
+execute in overworld run data modify storage badlands_high_house SecondLiftLocation set value 1

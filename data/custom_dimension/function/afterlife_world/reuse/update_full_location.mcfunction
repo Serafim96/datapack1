@@ -1,0 +1,2 @@
+$function custom_dimension:afterlife_world/reuse/update_coordinates {objective_name:$(objective_name),mode:$(mode)}
+$function reuse:location_marker_system/scoreboard_operations/update_rotation {objective_name:$(objective_name),mode:$(mode)}

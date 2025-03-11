@@ -1,0 +1,4 @@
+title @s times 17 27 17
+title @s title {"text":"Каменные основания","color":"gray"}
+title @s subtitle [{"text":"Р","color":"#8E7DA9"},{"text":"у","color":"#7187A4"},{"text":"д","color":"#6d7C8E"},{"text":"н","color":"#BEBE98"},{"text":"и","color":"#96B6A9"},{"text":"к ","color":"#455870"},{"text":"п","color":"#FFFFFF"},{"text":"р","color":"#C5C2C2"},{"text":"о","color":"#E5E5E5"},{"text":"ч","color":"#C5C2C2"},{"text":"н","color":"#8C8C8C"},{"text":"ы","color":"#FFFFFF"},{"text":"х ","color":"#E5E5E5"},{"text":"м","color":"#839599"},{"text":"е","color":"#7C969C"},{"text":"т","color":"#8A9597"},{"text":"а","color":"#8B9FA3"},{"text":"л","color":"#7E8486"},{"text":"л","color":"#65696A"},{"text":"о","color":"#839599"},{"text":"в","color":"#7C969C"}]
+function custom_dimension:stone_foundations/welcome_title/scoreboard_operations/set_header_already_shown_on

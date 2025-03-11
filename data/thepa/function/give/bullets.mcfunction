@@ -1,0 +1,1 @@
+give @s clock[item_name='{"color":"white","italic":false,"translate":"thepa.item.name.bullet_0"}',custom_data={Tags:["prison_bullet"],gz_data:{bullet_type:0b},HideFlags:32},item_model="custom/item/clock",custom_model_data={strings:["prison_gun_bullet"]}] 64

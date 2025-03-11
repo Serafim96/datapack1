@@ -1,0 +1,1 @@
+execute in the_nether as @a[x=547,dx=19,y=48,dy=7,z=-1047,dz=17,gamemode=!spectator] at @s run title @s actionbar {"text":"Вы получили Ангмарские артефакты","color":"#FF0303"}

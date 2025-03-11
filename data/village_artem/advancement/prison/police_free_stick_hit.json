@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:clock"
+                ],
+                "components": {
+                  "minecraft:custom_data": {
+                    "Tags": [
+                      "village_police_free_stick"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "village_artem:prison/prison_stick/free_hit"
+  }
+}

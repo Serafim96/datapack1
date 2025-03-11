@@ -1,0 +1,5 @@
+execute in overworld run fill 399 63 -11445 401 63 -11445 barrier
+execute in overworld run summon armor_stand 401 62.5 -11444.75 {Marker:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["secret_admin_lift_upper_door","secret_admin_lift_upper_door_2"],Pose:{Head:[90f,0f,0f]},ArmorItems:[{},{},{},{id:'minecraft:iron_bars',count:1}]}
+execute in overworld run summon armor_stand 400 62.5 -11444.75 {Marker:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["secret_admin_lift_upper_door","secret_admin_lift_upper_door_2"],Pose:{Head:[90f,0f,0f]},ArmorItems:[{},{},{},{id:'minecraft:iron_bars',count:1}]}
+execute in overworld run summon armor_stand 399 62.5 -11444.75 {Marker:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:["secret_admin_lift_upper_door","secret_admin_lift_upper_door_2"],Pose:{Head:[90f,0f,0f]},ArmorItems:[{},{},{},{id:'minecraft:iron_bars',count:1}]}
+execute in overworld run playsound minecraft:block.piston.extend block @a 400 63 -11445 0.2 0 0

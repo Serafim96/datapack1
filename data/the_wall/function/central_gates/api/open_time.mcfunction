@@ -1,0 +1,2 @@
+execute if data storage the_wall {CentralGateProcessing:0} run schedule function the_wall:central_gates/api/close 80t replace
+execute if data storage the_wall {CentralGateProcessing:0} if data storage the_wall {CentralGateOpened:0} run function the_wall:central_gates/api/open

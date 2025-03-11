@@ -1,0 +1,1 @@
+execute if score @s VillageArtemTitlePrisoned matches 0 run title @s actionbar {"text":"Вы оказались за пределами камеры, но вас не освободили","color":"#787878"}

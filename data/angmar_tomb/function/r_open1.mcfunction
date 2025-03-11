@@ -1,0 +1,1 @@
+execute in minecraft:the_nether run setblock 578 34 -1091 air destroy

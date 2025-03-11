@@ -1,0 +1,1 @@
+data modify storage minecraft:gold_babylon SmoothDoorClosing set value 0

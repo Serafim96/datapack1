@@ -1,0 +1,4 @@
+function ore_mining_point_ust_zalesskiy:farm_security/open/open_1
+schedule function ore_mining_point_ust_zalesskiy:farm_security/open/open_2 3t append
+schedule function ore_mining_point_ust_zalesskiy:farm_security/open/open_3 6t append
+schedule function ore_mining_point_ust_zalesskiy:farm_security/set_variables/set_door_open 6t append

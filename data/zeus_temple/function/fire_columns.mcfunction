@@ -1,0 +1,14 @@
+setblock -635 252 2618 fire
+setblock -634 252 2622 fire
+setblock -634 252 2628 fire
+setblock -635 252 2632 fire
+setblock -648 252 2632 fire
+setblock -659 252 2632 fire
+setblock -670 252 2632 fire
+setblock -681 252 2636 fire
+setblock -691 252 2641 fire
+setblock -691 252 2609 fire
+setblock -681 252 2614 fire
+setblock -670 252 2618 fire
+setblock -659 252 2618 fire
+setblock -648 252 2618 fire

@@ -1,0 +1,1 @@
+function custom_dimension:floating_islands/welcome_title/load_global

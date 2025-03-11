@@ -1,0 +1,2 @@
+kill @e[tag=village_artem_entrance_cat]
+summon cat -5174 64 8554 {Invulnerable:1b,PersistenceRequired:1b,NoAI:0b,CanPickUpLoot:0b,Sitting:1b,variant:"minecraft:all_black",CollarColor:15b,Rotation:[-180F,-20F],Tags:["village_artem_entrance_cat"],active_effects:[{id:"minecraft:instant_health",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:regeneration",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:255,duration:-1,show_particles:0b}]}

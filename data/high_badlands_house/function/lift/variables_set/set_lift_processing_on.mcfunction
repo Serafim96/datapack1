@@ -1,0 +1,2 @@
+data modify storage badlands_high_house LiftProcessing set value 1
+function high_badlands_house:lift/set_buttons/set_buttons_red

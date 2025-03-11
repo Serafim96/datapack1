@@ -1,0 +1,1 @@
+execute if data storage minecraft:badlands_high_house {SecondLiftDownDoorOpened:1} run function high_badlands_house:second_lift/lift_door/down/close/close_main

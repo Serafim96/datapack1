@@ -1,0 +1,1 @@
+execute if data storage chess_lift {ChessCeilingProcessing:0,ChessCeilingLight:1} run function chess_lift:lift_1/ceiling/blackout/main

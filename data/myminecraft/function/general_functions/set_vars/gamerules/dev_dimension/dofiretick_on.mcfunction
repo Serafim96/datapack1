@@ -1,0 +1,1 @@
+data modify storage my_gamerules:dev_dimension doFireTick set value 1

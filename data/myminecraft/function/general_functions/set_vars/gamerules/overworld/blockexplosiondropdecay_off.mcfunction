@@ -1,0 +1,1 @@
+data modify storage my_gamerules:overworld blockExplosionDropDecay set value 0

@@ -1,0 +1,1 @@
+data modify storage my_gamerules:the_nether doFireTick set value 0

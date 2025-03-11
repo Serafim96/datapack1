@@ -1,0 +1,2 @@
+function gold_babylon:secret_admin_portal/smooth_door/kill_door/kill_door
+function gold_babylon:secret_admin_portal/smooth_door/kill_door/kill_items

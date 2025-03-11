@@ -1,0 +1,1 @@
+data modify storage pochta_russia:ust_yuryung_khaya Sending set value {1:[],2:[],3:[]}

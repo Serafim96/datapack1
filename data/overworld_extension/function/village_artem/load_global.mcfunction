@@ -1,0 +1,4 @@
+schedule clear overworld_extension:village_artem/summon_villager_recursive
+function overworld_extension:village_artem/summon_villager_recursive
+scoreboard objectives add VillageArtemHeaderWelcomeAlreadyShown dummy
+scoreboard objectives add VillageArtemHeaderByeAlreadyShown dummy

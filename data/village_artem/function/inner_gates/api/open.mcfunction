@@ -1,0 +1,1 @@
+execute if data storage village_artem {InnerGateOpened:0} if data storage village_artem {InnerGateProcessing:0} run function village_artem:inner_gates/open/open_main

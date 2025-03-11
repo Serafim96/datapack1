@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:custom_items_functions/temp"
+      },
+      "ops": [
+        {
+          "source": "custom_damage_real",
+          "target": "custom_damage_real",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

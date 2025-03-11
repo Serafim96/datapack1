@@ -1,0 +1,1 @@
+execute as @e[tag=pochta_russia_terracotta_quarry_employee] run data modify entity @s Pos set value [-8118.5d,198d,-5044.5d]

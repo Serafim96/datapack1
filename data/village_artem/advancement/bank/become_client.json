@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "village_bank_card"
+          ]
+        },
+        "minecraft:item_model": "custom/item/clock"
+      }
+    },
+    "title": "Клиент банка",
+    "description": "Стал клиентом банка",
+    "background": "minecraft:textures/block/gold_block.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "village_artem:main",
+  "criteria": {
+    "farfaraway": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:clock"
+          ],
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "village_bank_card_temp"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

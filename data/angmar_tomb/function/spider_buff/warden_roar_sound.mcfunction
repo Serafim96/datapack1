@@ -1,0 +1,1 @@
+execute in the_nether if data storage angmar_tomb:spider_buff {Is_processing:1} run playsound minecraft:entity.warden.roar master @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] 639 38.5 -1013 1 0 1

@@ -1,0 +1,1 @@
+give @s clock[custom_name='{"italic":false,"text":"Антенна"}',custom_data={Tags:["antenna"]},item_model="custom/item/clock",custom_model_data={strings:[antenna]}] 1

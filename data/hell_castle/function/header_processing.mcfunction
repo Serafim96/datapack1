@@ -1,0 +1,5 @@
+function hell_castle:show_church_header
+function hell_castle:show_break_header
+function hell_castle:show_minigame_header
+function hell_castle:set_1_scoreboard
+function hell_castle:set_2_scoreboard

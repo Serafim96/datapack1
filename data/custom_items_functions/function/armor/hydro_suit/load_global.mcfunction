@@ -1,0 +1,7 @@
+# function custom_items_functions:armor/hydro_suit/carved_pumpkin/load
+
+function custom_items_functions:armor/hydro_suit/tick_period_highest
+function custom_items_functions:armor/hydro_suit/tick_period_high
+function custom_items_functions:armor/hydro_suit/tick_period_middle
+function custom_items_functions:armor/hydro_suit/tick_period_deep
+

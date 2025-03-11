@@ -1,0 +1,6 @@
+
+function angmar_tomb:time_buff/timer/particles_render/particles_upper_part_4_from_up
+
+function angmar_tomb:time_buff/timer/particles_render/particles_lower_part_1_from_down
+function angmar_tomb:time_buff/timer/particles_render/particles_lower_part_2_from_down
+function angmar_tomb:time_buff/timer/particles_render/particles_lower_part_3_from_down

@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "custom_items_functions:crystals/pults/advanced/holds_mainhand"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "custom_items_functions:crystals/pults/advanced/holds_offhand"
+      }
+    ]
+  }

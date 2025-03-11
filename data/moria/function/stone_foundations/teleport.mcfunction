@@ -1,0 +1,1 @@
+execute as @e[x=-3030,dx=0,y=-56,dy=1,z=4348,dz=0,gamemode=!spectator] at @s in custom_dimension:stone_foundations run tp @s 311 -101 -366 ~90 ~

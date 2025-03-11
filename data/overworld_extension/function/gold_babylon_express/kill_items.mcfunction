@@ -1,0 +1,1 @@
+execute as @e[type=item] at @s if biome ~ ~ ~ #overworld_extension:gold_babylon_express_zone run kill @s

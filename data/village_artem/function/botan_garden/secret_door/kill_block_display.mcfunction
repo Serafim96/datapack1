@@ -1,0 +1,1 @@
+kill @e[tag=botan_garden_seccret_door]

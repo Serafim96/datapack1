@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"@","color":"#CD78FF","bold":true,"obfuscated":true},{"text":"Электро-рельс присоединён","color":"#CD78FF","obfuscated":false},{"text":"@","color":"#CD78FF","obfuscated":true}]

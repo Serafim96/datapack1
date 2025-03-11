@@ -1,0 +1,1 @@
+function custom_dimension:tartarus/welcome_title/load_global

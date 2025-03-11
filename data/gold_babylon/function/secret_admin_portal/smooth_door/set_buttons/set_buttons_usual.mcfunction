@@ -1,0 +1,1 @@
+setblock 389 -61 -11443 minecraft:quartz_pillar

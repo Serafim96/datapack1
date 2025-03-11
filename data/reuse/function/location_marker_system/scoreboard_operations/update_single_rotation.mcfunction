@@ -1,0 +1,1 @@
+$execute store result score @s $(objective_name)$(mode)$(yaw_pitch) run data get entity @s Rotation[$(pos_num)]

@@ -1,0 +1,2 @@
+execute if data storage minecraft:gold_babylon {SecretAdminPortalDoorState:0} run schedule function gold_babylon:secret_admin_portal/smooth_door/kill_door/kill_all 2t replace
+execute if data storage minecraft:gold_babylon {SecretAdminPortalDoorState:0} run function gold_babylon:secret_admin_portal/smooth_door/kill_door/setblocks_quartz

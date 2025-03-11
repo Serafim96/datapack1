@@ -1,0 +1,4 @@
+
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/clear_sky run return run item modify entity @s weapon.$(arm) custom_items_functions:crystals/pults/advanced/weather/make_rain
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/rain run return run item modify entity @s weapon.$(arm) custom_items_functions:crystals/pults/advanced/weather/make_thunder
+$execute if predicate custom_items_functions:crystals/pults/advanced/weather/mode/$(arm)/thunder run return run item modify entity @s weapon.$(arm) custom_items_functions:crystals/pults/advanced/weather/make_clear_sky

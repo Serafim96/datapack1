@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "eat",
+        "sound": "minecraft:entity.turtle.egg_crack",
+        "has_consume_particles": true,
+        "on_consume_effects": []
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 3,
+        "can_always_eat": true
+      },
+      "minecraft:lore": [
+        "\"Кажись, съедобно\""
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "levels": {},
+        "show_in_tooltip": true
+      }
+    }
+  }
+]

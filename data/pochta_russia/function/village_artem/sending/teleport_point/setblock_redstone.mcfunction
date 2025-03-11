@@ -1,0 +1,1 @@
+setblock -5092 64 8748 redstone_block

@@ -1,0 +1,1 @@
+setblock 1152 67 3660 deepslate_tiles

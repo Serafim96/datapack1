@@ -1,0 +1,1 @@
+tag @s remove village_artem_jump_boost

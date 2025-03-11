@@ -1,0 +1,1 @@
+execute in the_nether run function home_hell:main_home_processing

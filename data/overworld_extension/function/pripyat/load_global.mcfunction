@@ -1,0 +1,2 @@
+function overworld_extension:pripyat/chernobyl_npp/load_global
+function overworld_extension:pripyat/city/load_global

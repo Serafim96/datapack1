@@ -1,0 +1,1 @@
+function village_artem:sawmill/decorations/reset_decorations

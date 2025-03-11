@@ -1,0 +1,1 @@
+execute as @e[type=player,x=1419,y=73,dy=6,z=297,dz=3] at @s run tp @s -16.01 -57 124 ~270 ~

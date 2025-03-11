@@ -1,0 +1,10 @@
+{
+  "asset_name": "titan",
+  "description": {
+    "color": "#7C9CBF",
+    "translate": "Титановое улучшение"
+  },
+  "incompatible_armor_material": "diamond",
+  "ingredient": "minecraft:prismarine_crystals",
+  "item_model_index": 0.8
+}

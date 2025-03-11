@@ -1,0 +1,1 @@
+execute if data storage minecraft:gold_babylon {SecretAdminPortalDoorProcessing:0} if data storage minecraft:gold_babylon {SecretAdminPortalDoorState:0} run function gold_babylon:secret_admin_portal/smooth_door/open_close/close

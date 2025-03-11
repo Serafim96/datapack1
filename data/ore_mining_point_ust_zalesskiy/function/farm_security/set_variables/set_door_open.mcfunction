@@ -1,0 +1,1 @@
+data modify storage minecraft:ore_mining_point_ust_zalesskiy FarmSecurityDoorState set value 1

@@ -1,0 +1,2 @@
+scoreboard players reset @s angmar_tomb_underwater_buff_progress
+scoreboard players reset AngmarTombTestUser angmar_tomb_underwater_buff_progress

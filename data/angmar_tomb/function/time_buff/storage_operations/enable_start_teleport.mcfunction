@@ -1,0 +1,1 @@
+data modify storage angmar_tomb:time_buff StartTeleportOn set value 1

@@ -1,0 +1,3 @@
+schedule clear overworld_extension:makuta_city/summon_villager_recursive
+function overworld_extension:makuta_city/summon_villager_recursive
+scoreboard objectives add MakutaCityHeaderAlreadyShown dummy

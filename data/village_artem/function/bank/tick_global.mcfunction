@@ -1,0 +1,1 @@
+function village_artem:bank/vendors/tick_global

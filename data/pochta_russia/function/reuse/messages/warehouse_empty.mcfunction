@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"В отделении \"$(dep_name_txt)\" закончились посылки","color":"red"}

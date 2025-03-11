@@ -1,0 +1,52 @@
+[
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gz:temp"
+      },
+      "ops": [
+        {
+          "source": "bullets",
+          "target": "gz_data.bullets",
+          "op": "replace"
+        },
+        {
+          "source": "capacity",
+          "target": "gz_data.capacity",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:carrot_on_a_stick"
+      },
+      "modifier": {
+        "function": "minecraft:set_item",
+        "item": "minecraft:warped_fungus_on_a_stick"
+      }
+    },
+    {
+      "function": "minecraft:set_damage",
+      "damage": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "gz_damage",
+        "scale": 0.01
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        [
+          {"translate":"thepa.item.desc.bullets","color":"white", "italic":false},
+          {"score":{"name":"@s","objective":"gz_bullets"}},{"text":"/"},{"score":{"name":"@s","objective":"gz_capacity"}}
+        ]
+      ],
+      "entity": "this",
+      "mode": "replace_all"
+    }
+  ]
+  

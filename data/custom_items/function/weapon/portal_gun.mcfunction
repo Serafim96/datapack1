@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_name='{"italic":false,"text":"Портальное ружьё"}',custom_data={PortalGuns:"portal_gun",PortalSelect:"A"},item_model="custom/instrument/warped_fungus_on_a_stick",custom_model_data={strings:["portal_gun"]}] 1

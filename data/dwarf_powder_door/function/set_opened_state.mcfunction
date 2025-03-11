@@ -1,0 +1,1 @@
+setblock -199 24 2770 gold_block

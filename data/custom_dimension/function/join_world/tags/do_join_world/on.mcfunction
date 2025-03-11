@@ -1,0 +1,1 @@
+tag @s remove no_join_world

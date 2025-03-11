@@ -1,0 +1,3 @@
+#function chess_minigame:prepare_nbt
+function chess_minigame:summon_notorious_default
+execute run schedule function chess_minigame:change_notorious_pos 1t

@@ -1,0 +1,4 @@
+scoreboard objectives add FarlandCastleHeaderAlreadyShown dummy
+
+schedule clear overworld_extension:farland_castle/summon_villager_recursive
+function overworld_extension:farland_castle/summon_villager_recursive

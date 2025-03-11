@@ -1,0 +1,2 @@
+execute store result bossbar notorious value run data get entity @e[name="The Notorious B.I.G.",limit=1] Health
+execute unless entity @e[name="The Notorious B.I.G.",limit=1] run bossbar remove notorious

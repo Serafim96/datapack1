@@ -1,0 +1,1 @@
+advancement revoke @s only custom_dimension:bought_teleporter

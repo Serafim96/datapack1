@@ -1,0 +1,2 @@
+# Обновление задачи прыжков, когда достиг 100 -> добавить 1 балл, сбросить прыжки до 0
+execute as @a[scores={JoinWorldCreativeRoomJumpCounter=100..}] run function custom_dimension:join_world/money_balance/scoreboard_operations/jump_counter/add_balance_and_reset

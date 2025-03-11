@@ -1,0 +1,1 @@
+data modify storage village_artem VillageArtemPrisonCallLiftUpperButtonOn set value 1

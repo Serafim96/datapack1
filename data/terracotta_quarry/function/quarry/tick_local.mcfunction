@@ -1,0 +1,1 @@
+setblock -8062 203 -5132 minecraft:terracotta

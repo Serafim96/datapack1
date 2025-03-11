@@ -1,0 +1,1 @@
+data modify storage church_hell EnableNightVision set value 0

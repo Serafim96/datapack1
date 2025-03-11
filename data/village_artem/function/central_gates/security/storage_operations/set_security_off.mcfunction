@@ -1,0 +1,4 @@
+data modify storage minecraft:village_artem CentralGateSecurityOn set value 0
+
+schedule clear village_artem:central_gates/security/storage_operations/set_redstone_off
+schedule clear village_artem:central_gates/security/storage_operations/set_redstone_on

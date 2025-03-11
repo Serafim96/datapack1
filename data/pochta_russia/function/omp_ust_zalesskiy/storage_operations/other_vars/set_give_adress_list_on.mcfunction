@@ -1,0 +1,1 @@
+data modify storage pochta_russia:omp_ust_zalesskiy GiveAdressOn set value 1

@@ -1,0 +1,1 @@
+execute as @e[tag=village_artem_entrance_cat] run data modify entity @s Pos set value [-5173.5d,64d,8554.5d]

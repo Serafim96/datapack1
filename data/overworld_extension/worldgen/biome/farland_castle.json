@@ -1,0 +1,43 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 2406143,
+    "fog_color": 14088959,
+    "water_color": 4566514,
+    "water_fog_color": 267827,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "creature": [
+      {
+        "type": "minecraft:cow",
+        "weight": 10,
+        "minCount": 5,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": "minecraft:cave",
+  "features": []
+}

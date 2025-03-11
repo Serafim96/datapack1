@@ -1,0 +1,1 @@
+data modify storage village_artem FarGateProcessing set value 1

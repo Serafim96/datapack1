@@ -1,0 +1,3 @@
+function pochta_russia:omp_ust_zalesskiy/decorations/recievings/signs/update_1
+function pochta_russia:omp_ust_zalesskiy/decorations/recievings/signs/update_2
+function pochta_russia:omp_ust_zalesskiy/decorations/recievings/signs/update_3

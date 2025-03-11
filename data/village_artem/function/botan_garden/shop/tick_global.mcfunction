@@ -1,0 +1,1 @@
+execute as @e[tag=village_artem_botan_garden_shop_vendor] run data modify entity @s Pos set value [-4958.5d,87d,8737.5d]

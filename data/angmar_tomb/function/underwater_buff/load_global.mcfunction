@@ -1,0 +1,1 @@
+function angmar_tomb:underwater_buff/prepare_scoreboard

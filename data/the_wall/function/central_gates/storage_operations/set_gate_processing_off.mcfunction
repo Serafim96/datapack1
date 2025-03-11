@@ -1,0 +1,1 @@
+data modify storage the_wall CentralGateProcessing set value 0

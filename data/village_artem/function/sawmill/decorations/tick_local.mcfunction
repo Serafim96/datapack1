@@ -1,0 +1,1 @@
+function village_artem:sawmill/decorations/main_door/tick_local

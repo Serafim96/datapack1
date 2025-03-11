@@ -1,0 +1,1 @@
+title @s actionbar {"text":"Пропуск принят","color":"#4CBB17","bold":true}

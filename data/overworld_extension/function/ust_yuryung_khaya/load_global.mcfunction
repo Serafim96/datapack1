@@ -1,0 +1,3 @@
+schedule clear overworld_extension:ust_yuryung_khaya/summon_villager_recursive
+function overworld_extension:ust_yuryung_khaya/summon_villager_recursive
+scoreboard objectives add UstYuryungKhayaHeaderAlreadyShown dummy

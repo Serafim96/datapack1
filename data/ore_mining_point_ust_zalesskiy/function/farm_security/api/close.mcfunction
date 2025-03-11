@@ -1,0 +1,1 @@
+execute if data storage minecraft:ore_mining_point_ust_zalesskiy {FarmSecurityDoorState:1} run function ore_mining_point_ust_zalesskiy:farm_security/close/close_main

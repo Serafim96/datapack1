@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "items": [
+        "minecraft:netherite_pickaxe"
+      ],
+      "predicates": {
+        "minecraft:custom_data": {
+          "Tags": [
+            "iridium_pickaxe"
+          ]
+        }
+      }
+    }
+  }

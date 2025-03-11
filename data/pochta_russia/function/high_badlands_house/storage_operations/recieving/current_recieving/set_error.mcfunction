@@ -1,0 +1,1 @@
+data modify storage pochta_russia:high_badlands_house CurrentMinNumRecieving set value -1

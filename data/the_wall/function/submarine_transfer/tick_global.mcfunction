@@ -1,0 +1,2 @@
+execute as @e[tag=the_wall_boatman] run data modify entity @s Pos set value [89.5d,63d,-4110.5d]
+execute as @e[tag=the_wall_boatman_submarine] run data modify entity @s Pos set value [421.5d,63d,-4326.5d] 

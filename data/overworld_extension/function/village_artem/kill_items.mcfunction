@@ -1,0 +1,1 @@
+execute as @e[type=item] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run kill @s

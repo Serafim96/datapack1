@@ -1,0 +1,394 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:deepslate",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cobbled_deepslate",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "custom_dimension:mariana_trench"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"aqua_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "aqua_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Аквамариновый Кристалл",
+                "color": "#6DFFCC",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"blue_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "blue_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Синий Кристалл",
+                "color": "#6D89FF",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"green_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "green_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Зелёный Кристалл",
+                "color": "#83FF6D",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"light_blue_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "light_blue_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Голубой Кристалл",
+                "color": "#6DF1FF",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"orange_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "orange_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Оранжевый Кристалл",
+                "color": "#FFAF6D",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"pink_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "pink_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Розовый Кристалл",
+                "color": "#FF6DB9",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"red_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "red_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Красный Кристалл",
+                "color": "#FF6D72",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"violet_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "violet_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Фиолетовый Кристалл",
+                "color": "#E96DFF",
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[\"yellow_crystal\"]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "yellow_crystal"
+                ],
+                "mode": "replace_section",
+                "offset": 0,
+                "size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Желтый Кристалл",
+                "color": "#FFF86D",
+                "bold": true
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "custom_dimension:mariana_trench/mariana_trench_deep",
+                "dimension": "custom_dimension:mariana_trench"
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "custom_dimension:mariana_trench/mariana_trench_middle",
+                "dimension": "custom_dimension:mariana_trench"
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "custom_dimension:mariana_trench/mariana_trench_high",
+                "dimension": "custom_dimension:mariana_trench"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "minecraft:custom_data": {
+                "Tags": [
+                  "titan_pickaxe"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

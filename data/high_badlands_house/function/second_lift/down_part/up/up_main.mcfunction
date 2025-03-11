@@ -1,0 +1,34 @@
+function high_badlands_house:second_lift/lift_door/down/api/close
+function high_badlands_house:second_lift/set_buttons/set_buttons_red
+schedule function high_badlands_house:second_lift/down_part/up/up1 3t replace
+schedule function high_badlands_house:second_lift/down_part/up/up2 6t replace
+schedule function high_badlands_house:second_lift/down_part/up/up3 9t replace
+schedule function high_badlands_house:second_lift/down_part/up/up4 12t replace
+schedule function high_badlands_house:second_lift/down_part/up/up5 15t replace
+schedule function high_badlands_house:second_lift/down_part/up/up6 18t replace
+schedule function high_badlands_house:second_lift/down_part/up/up7 21t replace
+schedule function high_badlands_house:second_lift/down_part/up/up8 24t replace
+schedule function high_badlands_house:second_lift/down_part/up/up9 27t replace
+schedule function high_badlands_house:second_lift/down_part/up/up10 30t replace
+schedule function high_badlands_house:second_lift/down_part/up/up11 33t replace
+schedule function high_badlands_house:second_lift/down_part/up/up12 36t replace
+schedule function high_badlands_house:second_lift/down_part/up/up13 39t replace
+schedule function high_badlands_house:second_lift/down_part/up/up14 42t replace
+schedule function high_badlands_house:second_lift/down_part/up/up15 45t replace
+schedule function high_badlands_house:second_lift/down_part/up/up16 48t replace
+schedule function high_badlands_house:second_lift/down_part/up/up17 51t replace
+schedule function high_badlands_house:second_lift/down_part/up/up18 54t replace
+schedule function high_badlands_house:second_lift/down_part/up/up19 57t replace
+schedule function high_badlands_house:second_lift/down_part/up/up20 60t replace
+schedule function high_badlands_house:second_lift/down_part/up/up21 63t replace
+schedule function high_badlands_house:second_lift/down_part/up/up22 66t replace
+schedule function high_badlands_house:second_lift/down_part/up/up23 69t replace
+schedule function high_badlands_house:second_lift/down_part/up/up24 72t replace
+schedule function high_badlands_house:second_lift/down_part/up/up25 75t replace
+schedule function high_badlands_house:second_lift/down_part/up/up26 78t replace
+schedule function high_badlands_house:second_lift/down_part/up/up27 81t replace
+schedule function high_badlands_house:second_lift/down_part/up/up28 84t replace
+schedule function high_badlands_house:second_lift/down_part/up/up29 87t replace
+schedule function high_badlands_house:second_lift/down_part/up/up30 90t replace
+schedule function high_badlands_house:second_lift/down_part/up/up31 93t replace
+schedule function high_badlands_house:second_lift/down_part/up/up32 96t replace

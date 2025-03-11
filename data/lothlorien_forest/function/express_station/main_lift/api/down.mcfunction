@@ -1,0 +1,1 @@
+execute if data storage lothlorien_forest {LothlorienForestStationMainLiftProcessing:0} if data storage lothlorien_forest {LothlorienForestStationMainLiftState:2} in overworld run function lothlorien_forest:express_station/main_lift/down/main
