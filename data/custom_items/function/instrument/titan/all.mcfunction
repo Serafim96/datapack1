@@ -1,4 +1,4 @@
-function custom_items:instruments/titan/axe
-function custom_items:instruments/titan/hoe
-function custom_items:instruments/titan/pickaxe
-function custom_items:instruments/titan/shovel
+function custom_items:instrument/titan/axe
+function custom_items:instrument/titan/hoe
+function custom_items:instrument/titan/pickaxe
+function custom_items:instrument/titan/shovel

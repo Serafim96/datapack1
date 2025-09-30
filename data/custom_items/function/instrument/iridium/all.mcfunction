@@ -1,4 +1,4 @@
-function custom_items:instruments/iridium/axe
-function custom_items:instruments/iridium/hoe
-function custom_items:instruments/iridium/pickaxe
-function custom_items:instruments/iridium/shovel
+function custom_items:instrument/iridium/axe
+function custom_items:instrument/iridium/hoe
+function custom_items:instrument/iridium/pickaxe
+function custom_items:instrument/iridium/shovel

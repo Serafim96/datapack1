@@ -1,0 +1,1 @@
+data modify storage the_mirror_pathfinder_castle artifact_door_processing set value 0

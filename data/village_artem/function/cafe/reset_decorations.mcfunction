@@ -1,3 +1,3 @@
 kill @e[tag=village_artem_cafe_decorations]
 
-summon text_display -5078 67.9 8683.99 {view_range:4.0f,billboard:"fixed",default_background:0b,Rotation:[180F,0F],Tags:["village_artem_cafe_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]},text:'{"text":"КАФЕ","color":"#B3914C"}',background:16711680}
+summon text_display -5078 67.9 8683.99 {view_range:4.0f,billboard:"fixed",default_background:0b,Rotation:[180F,0F],Tags:["village_artem_cafe_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,4f,1f]},text:{"text":"КАФЕ","color":"#B3914C"},background:16711680}

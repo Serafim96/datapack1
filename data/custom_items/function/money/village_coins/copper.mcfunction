@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"color":"#684B3B","text":"Деревенская медная монета"}',custom_data={Tags:["village_artem_copper_coin"]},item_model="custom/item/clock",custom_model_data={strings:[village_copper_coin]}] 64
+give @s clock[custom_name={"color":"#684B3B","text":"Деревенская медная монета"},custom_data={Tags:["village_artem_copper_coin"]},item_model="custom/item/clock",custom_model_data={strings:[village_copper_coin]}] 64

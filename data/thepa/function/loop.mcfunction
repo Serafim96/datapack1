@@ -29,7 +29,7 @@ kill @e[type=minecraft:arrow,nbt={damage:15.0d},nbt={inGround:1b}]
 
 
 execute as @a[scores={gz_crossbow=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{gz_data:{}}}}}] at @s run function thepa:shoot/trigger
-execute as @a[scores={gz_crossbow=1..},nbt={Inventory:[{Slot:-106b, components:{"minecraft:custom_data":{gz_data:{}}}}]}] at @s run function thepa:shoot/trigger
+execute as @a[scores={gz_crossbow=1..},nbt={equipment:{offhand:{components:{"minecraft:custom_data":{gz_data:{}}}}}}] at @s run function thepa:shoot/trigger
 
 
 scoreboard players set @a gz_click 0

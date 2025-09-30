@@ -1,0 +1,2 @@
+execute if dimension custom_dimension:new_overworld run function custom_items_functions:magic/instrument/3d_compass/reuse/tp_as_compass {dimension:"minecraft:overworld"}
+execute if dimension minecraft:overworld run function custom_items_functions:magic/instrument/3d_compass/reuse/tp_as_compass {dimension:"custom_dimension:new_overworld"}

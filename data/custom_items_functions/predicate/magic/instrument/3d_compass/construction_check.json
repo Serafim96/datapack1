@@ -1,0 +1,77 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_torch"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_torch"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_torch"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_torch"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_wire"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_wire"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_wire"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:redstone_wire"
+        }
+      }
+    }
+  ]
+}

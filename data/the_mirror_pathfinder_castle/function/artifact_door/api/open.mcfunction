@@ -1,0 +1,11 @@
+
+
+function the_mirror_pathfinder_castle:artifact_door/storage/set_artifact_door_processing_on
+function the_mirror_pathfinder_castle:artifact_door/setblock_air
+function the_mirror_pathfinder_castle:artifact_door/tech/summon
+function the_mirror_pathfinder_castle:artifact_door/storage/set_artifact_door_opened
+function the_mirror_pathfinder_castle:artifact_door/storage/set_artifact_door_processing_off
+
+function the_mirror_pathfinder_castle:artifact/forceload/add
+function the_mirror_pathfinder_castle:artifact/summon
+function the_mirror_pathfinder_castle:artifact/storage/set_summoned_on

@@ -1,0 +1,1 @@
+$function reuse:calculator/api/simple/compare/scale_to_storage {left:$(left),right:$(right),storage:"$(storage)",nbt_path:"$(nbt_path)",nbt_type:"$(nbt_type)",scale:1}

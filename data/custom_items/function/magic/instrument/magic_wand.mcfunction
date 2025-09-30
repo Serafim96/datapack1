@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_data={Tags:["magic_wand"]},custom_model_data={strings:["magic_wand"]},item_model="custom/instrument/warped_fungus_on_a_stick",custom_name={"italic":false,"text":"Волшебная палочка"}] 1

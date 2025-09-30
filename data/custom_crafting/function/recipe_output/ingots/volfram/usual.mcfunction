@@ -1,9 +1,9 @@
 
 
-execute as @s[tag=wasd.north] run summon minecraft:item ~ ~-0.7 ~-0.7 {Motion:[0.0,0.1,-0.15],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":'"Вольфрамовый слиток"',"minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
-execute as @s[tag=wasd.south] run summon minecraft:item ~ ~-0.7 ~0.7 {Motion:[0.0,0.1,0.15],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":'"Вольфрамовый слиток"',"minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
-execute as @s[tag=wasd.east] run summon minecraft:item ~0.7 ~-0.7 ~ {Motion:[0.15,0.1,0.0],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":'"Вольфрамовый слиток"',"minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
-execute as @s[tag=wasd.west] run summon minecraft:item ~-0.7 ~-0.7 ~ {Motion:[-0.15,0.1,0.0],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":'"Вольфрамовый слиток"',"minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
+execute as @s[tag=wasd.north] run summon minecraft:item ~ ~-0.7 ~-0.7 {Motion:[0.0,0.1,-0.15],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":"Вольфрамовый слиток","minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
+execute as @s[tag=wasd.south] run summon minecraft:item ~ ~-0.7 ~0.7 {Motion:[0.0,0.1,0.15],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":"Вольфрамовый слиток","minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
+execute as @s[tag=wasd.east] run summon minecraft:item ~0.7 ~-0.7 ~ {Motion:[0.15,0.1,0.0],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":"Вольфрамовый слиток","minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
+execute as @s[tag=wasd.west] run summon minecraft:item ~-0.7 ~-0.7 ~ {Motion:[-0.15,0.1,0.0],Item:{id:"minecraft:clock",count:1,components:{"minecraft:custom_name":"Вольфрамовый слиток","minecraft:custom_data":{Tags:["volfram_ingot"]},"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["volfram_ingot"]}}}}
 
 
 

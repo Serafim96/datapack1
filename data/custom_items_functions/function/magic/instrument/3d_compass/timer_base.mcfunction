@@ -1,0 +1,7 @@
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/timer_effects
+
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b,timer:100}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/reuse/title_number {title:"5"}
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b,timer:80}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/reuse/title_number {title:"4"}
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b,timer:60}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/reuse/title_number {title:"3"}
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b,timer:40}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/reuse/title_number {title:"2"}
+execute if data entity @s {data:{rounds:1b,started:1b,timer_started:1b,timer:20}} as @a[distance=..5,gamemode=!spectator] run function custom_items_functions:magic/instrument/3d_compass/reuse/title_number {title:"1"}

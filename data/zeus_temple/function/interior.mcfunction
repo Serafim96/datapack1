@@ -50,7 +50,8 @@ playsound minecraft:block.azalea_leaves.fall block @e[type=player,distance=..100
 
 #dust
 # particle minecraft:dust 12 12 12 1.7 -675 258 2640 1.5 1.8 1.5 1 30 force
-particle dust{color:[12,12,12],scale:1.7} -675 258 2640 1.5 1.8 1.5 1 30 force
+# particle dust{color:[12,12,12],scale:1.7} -675 258 2640 1.5 1.8 1.5 1 30 force
+particle dust_color_transition{from_color:[1.000,0.969,0.000],scale:3,to_color:[1.000,0.000,0.000]} -675 258 2640 1.5 1.8 1.5 0.1 5 force
 
 # kill @e[type=!player,type=!trident,type=!wither,type=!arrow,type=!ender_dragon,type=!shulker,type=!armor_stand,type=!creeper,type=!item,type=!item_frame,type=!glow_item_frame,type=!painting,type=!end_crystal,type=!creeper,type=!marker,type=!minecraft:armor_stand,x=-697,dx=78,y=244,dy=45,z=2604,dz=42]
 

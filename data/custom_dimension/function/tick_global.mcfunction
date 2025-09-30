@@ -6,3 +6,4 @@ execute in custom_dimension:tartarus run function custom_dimension:tartarus/tick
 execute in custom_dimension:heaven run function custom_dimension:heaven/tick_global
 execute in custom_dimension:join run function custom_dimension:join_world/tick_global
 execute in custom_dimension:afterlife run function custom_dimension:afterlife_world/tick_global
+execute in custom_dimension:new_overworld run function custom_dimension:new_overworld/tick_global

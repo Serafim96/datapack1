@@ -1,2 +1,2 @@
-$function reuse:calculator/tech/simple/division {left:$(left),right:$(right)}
-$function reuse:calculator/tech/result_to_storage {storage:"$(storage)",nbt_path:"$(nbt_path)",nbt_type:"$(nbt_type)",scale:$(scale)}
+$function reuse:calculator/tech/simple/division {storage:$(storage),left:$(left),right:$(right),scale:$(scale),nbt_type:"$(nbt_type)",nbt_path:"$(nbt_path)"}
+# $function reuse:calculator/tech/result_to_storage {storage:"$(storage)",nbt_path:"$(nbt_path)",nbt_type:"$(nbt_type)",scale:$(scale)}

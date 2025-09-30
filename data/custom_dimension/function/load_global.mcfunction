@@ -6,3 +6,4 @@ function custom_dimension:tartarus/load_global
 function custom_dimension:heaven/load_global
 function custom_dimension:join_world/load_global
 function custom_dimension:afterlife_world/load_global
+function custom_dimension:new_overworld/load_global

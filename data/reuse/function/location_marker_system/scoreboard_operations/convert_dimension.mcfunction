@@ -10,3 +10,5 @@ $execute if data storage $(storage_name) {location:{dimension_num:8}} run data m
 $execute if data storage $(storage_name) {location:{dimension_num:9}} run data modify storage $(storage_name) location.dimension set value "custom_dimension:tartarus"
 $execute if data storage $(storage_name) {location:{dimension_num:10}} run data modify storage $(storage_name) location.dimension set value "custom_dimension:afterlife"
 $execute if data storage $(storage_name) {location:{dimension_num:11}} run data modify storage $(storage_name) location.dimension set value "custom_dimension:join"
+
+$execute if data storage $(storage_name) {location:{dimension_num:12}} run data modify storage $(storage_name) location.dimension set value "custom_dimension:new_overworld"

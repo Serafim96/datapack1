@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"color":"#EABE75","text":"Деревенская золотая монета"}',custom_data={Tags:["village_artem_gold_coin"]},item_model="custom/item/clock",custom_model_data={strings:[village_gold_coin]}] 64
+give @s clock[custom_name={"color":"#EABE75","text":"Деревенская золотая монета"},custom_data={Tags:["village_artem_gold_coin"]},item_model="custom/item/clock",custom_model_data={strings:[village_gold_coin]}] 64

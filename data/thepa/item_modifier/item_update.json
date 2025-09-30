@@ -1,46 +1,63 @@
 [
-    {
-      "function": "minecraft:copy_custom_data",
-      "source": {
-        "type": "minecraft:storage",
-        "source": "gz:temp"
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "gz:temp"
+    },
+    "ops": [
+      {
+        "source": "bullets",
+        "target": "gz_data.bullets",
+        "op": "replace"
       },
-      "ops": [
+      {
+        "source": "capacity",
+        "target": "gz_data.capacity",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 25
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:warped_fungus_on_a_stick"
+    },
+    "modifier": {
+      "function": "minecraft:set_item",
+      "item": "minecraft:carrot_on_a_stick"
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "thepa.item.desc.line1",
+        "color": "gray",
+        "italic": false
+      },
+      [
         {
-          "source": "bullets",
-          "target": "gz_data.bullets",
-          "op": "replace"
+          "translate": "thepa.item.desc.line2",
+          "color": "blue",
+          "italic": false
         },
         {
-          "source": "capacity",
-          "target": "gz_data.capacity",
-          "op": "replace"
+          "score": {
+            "name": "@s",
+            "objective": "gz_reload_time"
+          }
+        },
+        {
+          "text": "s"
         }
       ]
-    },
-    {
-      "function": "minecraft:set_damage",
-      "damage": 0
-    },
-    {
-      "function": "minecraft:filtered",
-      "item_filter": {
-        "items": "minecraft:warped_fungus_on_a_stick"
-      },
-      "modifier": {
-        "function": "minecraft:set_item",
-        "item": "minecraft:carrot_on_a_stick"
-      }
-    },
-    {
-      "function": "minecraft:set_lore",
-      "lore": [
-          {"translate": "thepa.item.desc.line1","color": "gray","italic": false},
-          [{"translate": "thepa.item.desc.line2","color": "blue","italic": false},{"score":{"name":"@s","objective":"gz_reload_time"}},{"text":"s"}]
-        
-      ],
-      "entity": "this",
-      "mode": "replace_all"
-    }
-  ]
-  
+    ],
+    "entity": "this",
+    "mode": "replace_all"
+  }
+]

@@ -1,12 +1,7 @@
 {
     "values": [
-        "overworld_extension:vulcano_island/bamboo_jungle",
-        "overworld_extension:vulcano_island/beach",
-        "overworld_extension:vulcano_island/crater",
-        "overworld_extension:vulcano_island/foot_of_the_vulcano",
-        "overworld_extension:vulcano_island/jungle",
-        "overworld_extension:vulcano_island/vulcano",
-        "overworld_extension:vulcano_island/gas_geyzer/surroundings",
-        "overworld_extension:vulcano_island/gas_geyzer/the_mouth"
+        "#overworld_extension:vulcano_island/island_zone",
+        "#overworld_extension:vulcano_island/gaz_geyzer_zone",
+        "#overworld_extension:vulcano_island/vulcano_zone"
       ]
 }

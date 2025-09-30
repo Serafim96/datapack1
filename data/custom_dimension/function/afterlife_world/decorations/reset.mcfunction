@@ -19,6 +19,8 @@ execute in custom_dimension:afterlife run summon item_display 27 5.5 24 {Rotatio
 
 execute in custom_dimension:afterlife run fill 27 2 22 27 5 24 light[level=13]
 
+execute in custom_dimension:afterlife run summon text_display 26.99 3 21.0 {billboard:"fixed",Rotation:[90F,0F],Tags:["afterlife_world_decoration","afterlife_world_balance_display"],text:{"color":"#42AAFF","translate":"afterlife_world.decoration.your_balance"}}
+
 
 #  Портал в точку возрождения
 execute in custom_dimension:afterlife run summon item_display -26 2.5 23 {Rotation:[90F,0F],Tags:["afterlife_world_decoration","afterlife_resurrection_point_portal"],brightness:{sky:13,block:13},item:{id:"minecraft:snowball",count:1,components:{"minecraft:item_model":"custom/item/snowball","minecraft:custom_model_data":{strings:["frost_portal"]}}}}

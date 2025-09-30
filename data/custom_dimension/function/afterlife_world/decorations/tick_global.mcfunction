@@ -1,0 +1,1 @@
+execute in custom_dimension:afterlife run data merge entity @e[limit=1,tag=afterlife_world_balance_display] {billboard:"fixed",text:[{"color":"#42AAFF","translate":"afterlife_world.decoration.your_balance"},{"selector":"@p"},"->",{"score":{"name":"@p","objective":"JoinWorldMoneyBalance"}}]}

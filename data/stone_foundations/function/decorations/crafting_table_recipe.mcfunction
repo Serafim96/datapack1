@@ -58,7 +58,7 @@ summon block_display 292.6 -99.875 -335.04 {Rotation:[180F,0F],Tags:["stone_foun
 # Текст
 #-58.01 986.85 21.0
 #-58.04 987.0 21.0
-summon text_display 293.0 -99.0 -335.04 {Rotation:[180F,0F],Tags:["stone_foundations_decoration","stone_foundations_crafting_table_recipe"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.04f,1.04f,1f]},text:'{"text":"Усиленный\\nверстак","color":"gray"}',background:0}
+summon text_display 293.0 -99.0 -335.04 {Rotation:[180F,0F],Tags:["stone_foundations_decoration","stone_foundations_crafting_table_recipe"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.04f,1.04f,1f]},text:{"text":"Усиленный\\nверстак","color":"gray"},background:0}
 
 
 

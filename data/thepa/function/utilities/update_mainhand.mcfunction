@@ -20,4 +20,4 @@ item modify entity @s[scores={gz_bullets=1..}] weapon.mainhand thepa:crossbow_up
 #set the gun to a carrot on stick item
 item modify entity @s[scores={gz_bullets=..0}] weapon.mainhand thepa:item_update
 
-execute if entity @s[scores={gz_bullets=..0}] at @s as @s run function thepa:utilities/apply_item_modifiers
+execute if entity @s[scores={gz_bullets=..0}] run function thepa:utilities/apply_item_modifiers

@@ -10,14 +10,8 @@ scoreboard players reset @a GlobalPlayerDied
 
 
 
-## След творчества
-# execute as @a[scores={GlobalMyGamemode=1}] at @s unless block ~ ~-0.4 ~ water unless block ~ ~-0.4 ~ lava unless block ~ ~-0.4 ~ air unless block ~ ~-0.4 ~ cave_air unless block ~ ~-0.4 ~ light unless block ~ ~-0.4 ~ ladder run particle reverse_portal ~ ~0.125 ~ 0.15 0 0.15 0.015 2 normal
-
-execute as @a[scores={GlobalMyGamemode=1}] at @s unless block ~ ~-0.4 ~ water unless block ~ ~-0.4 ~ lava unless block ~ ~-0.4 ~ air unless block ~ ~-0.4 ~ cave_air unless block ~ ~-0.4 ~ light unless block ~ ~-0.4 ~ ladder run particle ominous_spawning ~ ~0.125 ~ 0.15 0 0.15 0.015 2 normal
-
-# execute as @a[scores={GlobalMyGamemode=1}] at @s unless block ~ ~-0.4 ~ water unless block ~ ~-0.4 ~ lava unless block ~ ~-0.4 ~ air unless block ~ ~-0.4 ~ cave_air unless block ~ ~-0.4 ~ light unless block ~ ~-0.4 ~ ladder run particle dust{color:[12,12,12],scale:0.8} ~ ~0.125 ~ 0.15 0 0.15 0.015 2 normal
-
-
+# След творчества
+execute as @a[scores={GlobalMyGamemode=1}] at @s unless block ~ ~-0.4 ~ water unless block ~ ~-0.4 ~ lava unless block ~ ~-0.4 ~ #air unless block ~ ~-0.4 ~ light unless block ~ ~-0.4 ~ ladder run particle ominous_spawning ~ ~0.125 ~ 0.15 0 0.15 0.015 2 normal
 
 
 scoreboard players set @a GlobalUsedBed 0

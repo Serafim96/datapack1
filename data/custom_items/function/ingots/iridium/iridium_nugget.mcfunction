@@ -1,1 +1,0 @@
-give @s clock[custom_name='{"text":"Кусочки иридия"}',custom_data={Tags:["iridium_nugget"]},custom_model_data={strings:[iridium_nugget]}] 1

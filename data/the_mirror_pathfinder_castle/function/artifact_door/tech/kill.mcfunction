@@ -1,0 +1,1 @@
+kill @e[tag=the_mirror_pathfinder_castle_artifact_door]

@@ -1,0 +1,1 @@
+data modify storage the_mirror_pathfinder_castle artifact_summoned set value 0

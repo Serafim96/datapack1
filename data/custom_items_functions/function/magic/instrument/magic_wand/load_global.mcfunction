@@ -1,0 +1,4 @@
+scoreboard objectives add UsedMagicWand minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add MagicWandShiftPress minecraft.custom:minecraft.sneak_time
+scoreboard objectives add MagicWandMana dummy
+scoreboard objectives add MagicWandSpell dummy

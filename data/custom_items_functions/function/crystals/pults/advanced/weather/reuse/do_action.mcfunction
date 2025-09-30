@@ -1,4 +1,4 @@
-execute unless dimension minecraft:overworld run return run title @s actionbar {"color":"red","text":"В этом месте погодный кристалл не работает..."}
+execute unless dimension minecraft:overworld run return run title @s actionbar {"color":"red","text":"В этом месте погодный пульт не работает..."}
 execute unless score WeatherCrystalPult WeatherCrystalPultDelay matches 0 run return run title @s actionbar {"color":"red","text":"Изменение погоды невозможно: энергетические помехи"}
 $execute if predicate myminecraft:weather/$(weather) run return run title @s actionbar {"color":"red","text":"Данная погода уже установлена..."}
 

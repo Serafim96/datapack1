@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_lore",
+    "lore": [
+        {
+            "translate": "thepa.item.desc.uses_bullets",
+            "italic": false
+        }
+    ],
+    "entity": "this",
+    "mode": "append"
+}

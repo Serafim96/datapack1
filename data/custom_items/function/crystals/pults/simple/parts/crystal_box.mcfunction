@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"italic":false,"text":"Отсек для кристалла"}',custom_data={Tags:["pult_crystal_box"]},item_model="custom/item/clock",custom_model_data={strings:[simple_pult_crystal_box]}] 1
+give @s clock[custom_name={"italic":false,"text":"Отсек для кристалла"},custom_data={Tags:["pult_crystal_box"]},item_model="custom/item/clock",custom_model_data={strings:[simple_pult_crystal_box]}] 1

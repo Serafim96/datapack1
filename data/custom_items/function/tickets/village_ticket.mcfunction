@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"bold":true,"color":"#4CBB17","text":"Пропуск в Деревню"}',item_model="custom/item/clock",custom_model_data={strings:["village_ticket"]},custom_data={Tags:["village_ticket"]}] 1
+give @s clock[custom_name={"bold":true,"color":"#4CBB17","text":"Пропуск в Деревню"},item_model="custom/item/clock",custom_model_data={strings:["village_ticket"]},custom_data={Tags:["village_ticket"]}] 1

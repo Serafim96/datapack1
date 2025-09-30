@@ -1,0 +1,3 @@
+execute if entity @e[type=item,x=546,dx=4,y=48,dy=1,z=-1039,dz=1,nbt={Item:{id:"minecraft:heart_of_the_sea"},Fire:300s}] run return run function angmar_tomb:lava_artifact/open_entrance
+execute at @e[type=item,x=546,dx=4,y=48,dy=1,z=-1039,dz=1,nbt={Item:{id:"minecraft:heart_of_the_sea"}}] if block ~ ~ ~ lava run return run function angmar_tomb:lava_artifact/open_entrance
+execute at @e[type=item,x=546,dx=4,y=48,dy=1,z=-1039,dz=1,nbt={Item:{id:"minecraft:heart_of_the_sea"}}] if block ~ ~-0.1 ~ lava run return run function angmar_tomb:lava_artifact/open_entrance

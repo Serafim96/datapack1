@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"bold":true,"color":"#005EB8","text":"Высокопрочный сплав"}',custom_data={Tags:["hydro_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[hydro_ingot]}] 1
+give @s clock[custom_name={"bold":true,"color":"#005EB8","text":"Высокопрочный сплав"},custom_data={Tags:["hydro_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[hydro_ingot]}] 1

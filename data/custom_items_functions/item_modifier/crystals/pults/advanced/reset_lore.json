@@ -1,0 +1,19 @@
+ {
+  "function": "minecraft:set_lore",
+  "lore": [
+      {
+        "text": "Отсутствует управляющий кристалл",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": "Имплантировать кристалл shift + r.click",
+        "color": "gray",
+        "bold": false, 
+        "italic": true
+      }
+  ],
+  "entity": "this",
+  "mode": "replace_all"
+}

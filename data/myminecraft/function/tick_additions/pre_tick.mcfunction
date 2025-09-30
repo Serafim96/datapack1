@@ -11,7 +11,7 @@ execute as @e[type=minecart] at @s if biome ~ ~ ~ #game_mechanic_extension:speed
 execute as @e[type=minecart] at @s if biome ~ ~ ~ #game_mechanic_extension:speedy_minecarts/biomes_enabled store result score @s GlobalMinecartMotionY run data get entity @s Motion[1] 1000
 execute as @e[type=minecart] at @s if biome ~ ~ ~ #game_mechanic_extension:speedy_minecarts/biomes_enabled store result score @s GlobalMinecartMotionZ run data get entity @s Motion[2] 1000
 
-execute as @a at @s store result score @s FallDistance run data get entity @s FallDistance
+execute as @a at @s store result score @s FallDistance run data get entity @s fall_distance
 
 
 

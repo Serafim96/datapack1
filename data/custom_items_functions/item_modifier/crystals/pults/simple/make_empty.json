@@ -21,7 +21,7 @@
     "lore": [
       {
         "text": "Отсутствует управляющий кристалл",
-        "color": "gray",
+        "color": "#FFFFFF",
         "bold": false,
         "italic": true
       },

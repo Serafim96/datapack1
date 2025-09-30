@@ -1,1 +1,0 @@
-give @s clock[custom_name='{"text":"Вольфрамовый слиток"}',custom_data={Tags:["volfram_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[volfram_ingot]}] 1

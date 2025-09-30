@@ -1,0 +1,1 @@
+function the_mirror_pathfinder_castle:artifact_door/tick_local

@@ -1,0 +1,1 @@
+give @s clock[custom_name={"text":"Иридиевый слиток"},custom_data={Tags:["iridium_ingot"]},item_model="custom/item/clock",custom_model_data={strings:[iridium_ingot]}] 1

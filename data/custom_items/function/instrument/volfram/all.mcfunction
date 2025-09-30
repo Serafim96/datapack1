@@ -1,4 +1,4 @@
-function custom_items:instruments/volfram/axe
-function custom_items:instruments/volfram/hoe
-function custom_items:instruments/volfram/pickaxe
-function custom_items:instruments/volfram/shovel
+function custom_items:instrument/volfram/axe
+function custom_items:instrument/volfram/hoe
+function custom_items:instrument/volfram/pickaxe
+function custom_items:instrument/volfram/shovel

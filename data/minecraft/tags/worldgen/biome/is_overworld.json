@@ -55,6 +55,6 @@
       "minecraft:lush_caves",
       "minecraft:deep_dark",
       
-      "#overworld_extension:all_biomes_no_dark_tunnels"
+      "#myminecraft:is_overworld"
     ]
   }

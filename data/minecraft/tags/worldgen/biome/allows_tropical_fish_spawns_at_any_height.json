@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:lush_caves",
-    "overworld_extension:village_artem"
+    
+    "#myminecraft:allows_tropical_fish_spawns_at_any_height"
   ]
 }

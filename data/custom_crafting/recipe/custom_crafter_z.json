@@ -1,47 +1,50 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "###",
-      "#C#",
-      "SSS"
-    ],
-    "key": {
-      "#": "minecraft:iron_ingot",
-      "S": "minecraft:smooth_stone",
-      "C": "minecraft:crafting_table"
-    },
-    "result": {
-      "id": "minecraft:item_frame",
-      "components": {
-        "minecraft:custom_name": "{\"italic\":false,\"text\":\"Усиленный верстак\"}",
-        "minecraft:custom_model_data": {
-          "strings": [
-            "custom_crafter"
-          ]
-        },
-        "minecraft:entity_data": {
-          "id": "minecraft:item_frame",
-          "Invulnerable": true,
-          "Tags": [
-            "wasd.custom_crafter"
-          ],
-          "Item": {
-            "id": "minecraft:item_frame",
-            "components": {
-              "minecraft:custom_model_data": {
-                "strings": [
-                  "custom_crafter"
-                ]
-              },
-              "minecraft:item_model": "custom/item/item_frame"
-            },
-            "count": 1
-          },
-          "Invisible": true,
-          "Fixed": true
-        },
-        "minecraft:item_model": "custom/item/item_frame"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "SSS"
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "S": "minecraft:smooth_stone",
+    "C": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:custom_name": {
+        "italic": false,
+        "text": "Усиленный верстак"
       },
-      "count": 1
-    }
+      "minecraft:custom_model_data": {
+        "strings": [
+          "custom_crafter"
+        ]
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invulnerable": true,
+        "Tags": [
+          "wasd.custom_crafter"
+        ],
+        "Item": {
+          "id": "minecraft:item_frame",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "custom_crafter"
+              ]
+            },
+            "minecraft:item_model": "custom/item/item_frame"
+          },
+          "count": 1
+        },
+        "Invisible": true,
+        "Fixed": true
+      },
+      "minecraft:item_model": "custom/item/item_frame"
+    },
+    "count": 1
   }
+}

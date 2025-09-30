@@ -50,7 +50,7 @@ scoreboard objectives add camera dummy
 scoreboard objectives add cameraRandom dummy
 scoreboard objectives add spray dummy
 # #Turret Mechanism
-# scoreboard objectives add rotation_x dummy
+scoreboard objectives add rotation_x dummy
 # scoreboard objectives add max_x dummy
 # scoreboard objectives add min_x dummy
 # scoreboard objectives add turretRotsp dummy

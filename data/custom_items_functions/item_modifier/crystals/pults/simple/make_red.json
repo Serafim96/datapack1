@@ -31,7 +31,14 @@
   },
   {
     "function": "minecraft:set_custom_model_data",
-    "value": 14
+    "strings": {
+      "values": [
+        "simple_crystal_pult_red"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
   },
   {
     "function": "minecraft:set_custom_data",

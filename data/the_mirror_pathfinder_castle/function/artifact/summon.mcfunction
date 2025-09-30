@@ -1,0 +1,1 @@
+execute positioned -2884 -20 -11136 if data storage the_mirror_pathfinder_castle {artifact_summoned:0} run function custom_items_functions:magic/instrument/3d_compass/summon_item

@@ -1,0 +1,2 @@
+function custom_dimension:afterlife_world/reuse/tp_to_last_place {death_point_name:Death}
+function custom_dimension:afterlife_world/scoreboard_operations/remove_10_balance

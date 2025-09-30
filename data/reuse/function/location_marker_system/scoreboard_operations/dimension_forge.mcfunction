@@ -10,3 +10,6 @@ $execute if data entity @s {Dimension:"custom_dimension:heaven"} run function re
 $execute if data entity @s {Dimension:"custom_dimension:tartarus"} run function reuse:location_marker_system/scoreboard_operations/set_param {objective_name:$(objective_name),mode:$(mode),param:Dimension,value:9}
 $execute if data entity @s {Dimension:"custom_dimension:afterlife"} run function reuse:location_marker_system/scoreboard_operations/set_param {objective_name:$(objective_name),mode:$(mode),param:Dimension,value:10}
 $execute if data entity @s {Dimension:"custom_dimension:join"} run function reuse:location_marker_system/scoreboard_operations/set_param {objective_name:$(objective_name),mode:$(mode),param:Dimension,value:11}
+
+
+$execute if data entity @s {Dimension:"custom_dimension:new_overworld"} run function reuse:location_marker_system/scoreboard_operations/set_param {objective_name:$(objective_name),mode:$(mode),param:Dimension,value:12}

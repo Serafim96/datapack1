@@ -14,3 +14,4 @@ execute as @a[scores={GlobalUsedBed=1..}] at @s run function custom_dimension:af
 
 
 function custom_dimension:afterlife_world/welcome_title/tick_global
+function custom_dimension:afterlife_world/decorations/tick_global

@@ -1,1 +1,1 @@
-give @s clock[custom_name='{"italic":false,"text":"Дисплей"}',custom_data={Tags:["display"]},item_model="custom/item/clock",custom_model_data={strings:[display]}] 1
+give @s clock[custom_name={"italic":false,"text":"Дисплей"},custom_data={Tags:["display"]},item_model="custom/item/clock",custom_model_data={strings:[display]}] 1

@@ -4,11 +4,13 @@
   "has_precipitation": true,
   "creature_spawn_probability": 0.99,
   "effects": {
-    "sky_color": 2585,
-    "fog_color": 2585,
+    "sky_color": 5170,
+    "fog_color": 5170,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "ambient_sound": { "sound_id": "minecraft:custom_sounds.ambient.elytra_flying_07db.loop" },
+    "ambient_sound": {
+      "sound_id": "minecraft:custom_sounds.ambient.elytra_flying_07db.loop"
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -18,7 +20,9 @@
     "particle": {
       "options": {
         "type": "minecraft:falling_dust",
-        "block_state": { "Name": "minecraft:snow" }
+        "block_state": {
+          "Name": "minecraft:snow"
+        }
       },
       "probability": 0.03
     }
