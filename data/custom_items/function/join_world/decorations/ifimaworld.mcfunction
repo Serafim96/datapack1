@@ -1,0 +1,1 @@
+give @s clock[item_model="custom/item/clock",custom_model_data={strings:["ifimaworld"]},custom_name={"italic":false,"text":"Имя Мира"},custom_data={Tags:["ifimaworld"]}] 1

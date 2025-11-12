@@ -19,8 +19,8 @@ forceload add ~ ~
 #===< Copy data >===
 execute as @s[tag=portal_a] run tag @e[sort=nearest,limit=1,tag=portal_gun_portal] add portal_a
 execute as @s[tag=portal_b] run tag @e[sort=nearest,limit=1,tag=portal_gun_portal] add portal_b
-execute as @e[tag=portal_gun_portal,sort=nearest,limit=1] as @s[tag=portal_a] run data merge entity @s {CustomName:'"PortalA"'}
-execute as @e[tag=portal_gun_portal,sort=nearest,limit=1] as @s[tag=portal_b] run data merge entity @s {CustomName:'"PortalB"'}
+execute as @e[tag=portal_gun_portal,sort=nearest,limit=1] as @s[tag=portal_a] run data merge entity @s {CustomName:"PortalA"}
+execute as @e[tag=portal_gun_portal,sort=nearest,limit=1] as @s[tag=portal_b] run data merge entity @s {CustomName:"PortalB"}
 execute as @s[tag=portal_hit_hori] run tag @e[sort=nearest,limit=1,tag=portal_gun_portal] add portal_hori
 execute as @s[tag=portal_hit_vert] run tag @e[sort=nearest,limit=1,tag=portal_gun_portal] add portal_vert
 execute as @s[tag=portal_hit_bottom] run tag @e[sort=nearest,limit=1,tag=portal_gun_portal] add portal_bottom

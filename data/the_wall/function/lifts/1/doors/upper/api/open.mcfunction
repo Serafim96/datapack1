@@ -1,0 +1,1 @@
+execute if data storage the_wall {lift1_upper_door_opened:0,lift1_upper_door_processing:0} run function the_wall:lifts/1/doors/upper/open/main

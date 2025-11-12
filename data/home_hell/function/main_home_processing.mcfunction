@@ -1,9 +1,9 @@
 #### Strange Crystal ####
-execute in minecraft:the_nether unless entity @e[type=player,x=28,dx=4,y=40,dy=0,z=-3,dz=4] run data modify entity @e[type=minecraft:end_crystal,limit=1] BeamTarget set value {X:36,Y:42,Z:-1}
-execute in minecraft:the_nether if entity @e[type=player,x=28,dx=4,y=40,dy=0,z=-3,dz=4] run data modify entity @e[type=minecraft:end_crystal,limit=1] BeamTarget set value {X:31,Y:38,Z:-1}
-execute in minecraft:the_nether as @e[type=minecraft:player,x=28,dx=4,y=40,dy=0,z=-3,dz=4] run effect give @s minecraft:nausea 5 3
-execute if entity @e[type=player,x=28,dx=4,y=40,dy=0,z=-3,dz=4] run particle minecraft:enchant 30.5 41.5 -0.5 1 1 1 3 15
-execute if entity @e[type=player,x=30,dx=2,y=40,dy=0,z=-2,dz=2] run experience add @e[type=player,x=30,dx=2,y=40,dy=0,z=-2,dz=2] 10 points
+execute in minecraft:the_nether unless entity @a[x=28,dx=4,y=40,dy=0,z=-3,dz=4,gamemode=!spectator] run data modify entity @e[type=minecraft:end_crystal,limit=1] BeamTarget set value {X:36,Y:42,Z:-1}
+execute in minecraft:the_nether if entity @a[x=28,dx=4,y=40,dy=0,z=-3,dz=4,gamemode=!spectator] run data modify entity @e[type=minecraft:end_crystal,limit=1] BeamTarget set value {X:31,Y:38,Z:-1}
+execute in minecraft:the_nether as @a[x=28,dx=4,y=40,dy=0,z=-3,dz=4,gamemode=!spectator] run effect give @s minecraft:nausea 5 3
+execute if entity @a[x=28,dx=4,y=40,dy=0,z=-3,dz=4,gamemode=!spectator] run particle minecraft:enchant 30.5 41.5 -0.5 1 1 1 3 15
+execute if entity @a[x=30,dx=2,y=40,dy=0,z=-2,dz=2,gamemode=!spectator] run experience add @e[type=player,x=30,dx=2,y=40,dy=0,z=-2,dz=2] 10 points
 
 #### Cyclic Killing Items ####
 #kill @e[type=minecraft:item,x=61,y=0,z=27,dx=-76,dy=127,dz=-41]

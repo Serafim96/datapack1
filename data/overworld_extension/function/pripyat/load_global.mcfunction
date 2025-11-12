@@ -1,2 +1,7 @@
 function overworld_extension:pripyat/chernobyl_npp/load_global
 function overworld_extension:pripyat/city/load_global
+
+scoreboard objectives add RadiationLevel dummy
+scoreboard objectives add RadiationImpactTimer dummy
+scoreboard objectives add RadiationDecreaseTimer dummy
+scoreboard objectives add PlayerDead deathCount

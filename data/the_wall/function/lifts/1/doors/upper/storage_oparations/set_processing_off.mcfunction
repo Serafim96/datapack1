@@ -1,0 +1,1 @@
+data modify storage the_wall lift1_upper_door_processing set value 0

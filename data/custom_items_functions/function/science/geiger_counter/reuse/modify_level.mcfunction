@@ -1,0 +1,1 @@
+$item modify entity @s weapon.$(hand) [{"function":"minecraft:set_custom_model_data","strings":{"values":["level_$(level)"],"mode":"replace_section","offset":0,"size":1}}]

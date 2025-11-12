@@ -3,7 +3,7 @@ kill @e[tag=village_artem_item_display_pochta]
 
 #Почта России
 fill -5107 68 8741 -5107 71 8747 light[level=7]
-summon text_display -5106.01 68 8744.5 {view_range:4.0f,Glowing:0b,Rotation:[90F,0F],Tags:["village_artem_text_display_pochta"],brightness:{sky:13,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[7f,7f,1f]},text:{"text":"Почта\\nРоссии","color":"#365EFF"},background:16711680}
+summon text_display -5106.01 68 8744.5 {view_range:4.0f,Glowing:0b,Rotation:[90F,0F],Tags:["village_artem_text_display_pochta"],brightness:{sky:13,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[7f,7f,1f]},text:{"text":"Почта\nРоссии","color":"#365EFF"},background:16711680}
 
 # Региональное отделение "Земская"
 summon text_display -5106.01 67 8744.5 {view_range:4.0f,Glowing:0b,Rotation:[90F,0F],Tags:["village_artem_text_display_pochta"],brightness:{sky:13,block:13},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,1f]},text:{"text":"Региональное отделение","color":"#365EFF"},background:16711680}

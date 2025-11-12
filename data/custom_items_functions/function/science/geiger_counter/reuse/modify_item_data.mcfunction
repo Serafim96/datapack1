@@ -1,0 +1,1 @@
+$data modify entity @e[type=item,distance=..5,limit=1] Item.components."minecraft:custom_model_data".strings[0] set value level_$(level)

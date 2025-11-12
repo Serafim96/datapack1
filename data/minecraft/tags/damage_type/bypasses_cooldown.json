@@ -1,6 +1,6 @@
 {
     "values": [
         "minecraft:arrow",
-        "thepa:shot"
+        "#myminecraft:bypasses_cooldown"
     ]
   }

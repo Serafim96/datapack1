@@ -1,0 +1,2 @@
+scoreboard objectives add UsedGasCylinder minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add GasCylinderShiftPress minecraft.custom:minecraft.sneak_time

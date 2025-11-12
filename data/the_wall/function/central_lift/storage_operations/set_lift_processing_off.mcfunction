@@ -1,1 +1,0 @@
-data modify storage the_wall CentralLiftProcessing set value 0

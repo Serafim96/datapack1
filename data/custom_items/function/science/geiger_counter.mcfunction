@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[item_model="custom/science/geiger_counter",custom_model_data={strings:["level_0"]},custom_data={Tags:["geiger_counter"]},custom_name={"color":"#F1AF15","italic":false,"text":"Счётчик Гейгера"}] 1

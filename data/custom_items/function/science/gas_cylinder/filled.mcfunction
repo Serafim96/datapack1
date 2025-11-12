@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[item_model="custom/science/gas_cylinder",custom_model_data={strings:["filled"]},custom_data={Tags:["gas_cylinder","filled"]},custom_name={"color":"#A4A4A4","italic":false,"text":"Газовый баллон"},lore=[{"color":"#26BB19","text":"Заполненный"}]] 1

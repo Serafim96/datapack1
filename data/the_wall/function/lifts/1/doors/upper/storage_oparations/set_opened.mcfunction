@@ -1,0 +1,1 @@
+data modify storage the_wall lift1_upper_door_opened set value 1

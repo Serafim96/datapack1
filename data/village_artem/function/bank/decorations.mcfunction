@@ -10,7 +10,7 @@ summon text_display -5076.99 72.1 8580.7 {view_range:4.0f,Rotation:[-90F,0F],Tag
 
 
 # Про комиссию на входе
-summon text_display -5076.95 67.9 8580 {view_range:4.0f,Silent:1b,CustomNameVisible:0b,default_background:0b,Rotation:[-90F,0F],Tags:["village_artem_bank_decorations"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,0.8f]},text:{"text":"Внимание!\\nНа покупки в банке\\nдействует комиссия 1 у.е.","color":"gold"},background:16765266}
+summon text_display -5076.95 67.9 8580 {view_range:4.0f,Silent:1b,CustomNameVisible:0b,default_background:0b,Rotation:[-90F,0F],Tags:["village_artem_bank_decorations"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,0.8f]},text:{"text":"Внимание!\nНа покупки в банке\nдействует комиссия 1 у.е.","color":"gold"},background:16765266}
 summon text_display -5076.95 67.6 8580 {view_range:4.0f,Silent:1b,CustomNameVisible:0b,default_background:0b,Rotation:[-90F,0F],Tags:["village_artem_bank_decorations"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]},text:{"text":"(на членство не распространяется)","color":"gold"},background:16765266}
 summon item_display -5077.0 68.0 8580 {view_range:4.0f,Silent:1b,CustomNameVisible:0b,Tags:["village_artem_bank_decorations"],brightness:{sky:11,block:11},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.1f,1.3f,2.95f]},item:{id:"minecraft:gold_block",count:1}}
 

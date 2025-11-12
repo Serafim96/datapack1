@@ -19,7 +19,7 @@ summon text_display -5147.01 68 8664 {view_range:4.0f,billboard:"fixed",default_
 summon text_display -5158 73.1 8682.99 {view_range:4.0f,billboard:"fixed",default_background:0b,shadow:1b,Rotation:[180F,0F],Tags:["village_artem_ambar_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,2f,1f]},text:{"text":"Изделия из дерева","color":"#FFFFF0"},background:0}
 
 # Оружие и доспехи
-summon text_display -5166.99 77.3 8675 {view_range:4.0f,billboard:"fixed",default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["village_artem_ambar_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,1f]},text:{"text":"Оружие\\nи\\nДоспехи","color":"#FFFFF0"},background:0}
+summon text_display -5166.99 77.3 8675 {view_range:4.0f,billboard:"fixed",default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["village_artem_ambar_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,1f]},text:{"text":"Оружие\nи\nДоспехи","color":"#FFFFF0"},background:0}
 
 # Разное
 summon text_display -5166.99 74 8679.99 {view_range:4.0f,billboard:"fixed",default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["village_artem_ambar_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,1f]},text:{"text":"Разное","color":"#FFFFF0"},background:0}

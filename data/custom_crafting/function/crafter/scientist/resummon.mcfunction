@@ -1,2 +1,2 @@
-summon item_frame ~ ~ ~ {Facing:1b,Tags:["wasd.custom_crafter_scientist"],CustomName:'"Научный станок"',Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_model":"custom/item/item_frame","minecraft:custom_model_data":{strings:["custom_crafter_scientist"]}}}}
+summon item_frame ~ ~ ~ {Facing:1b,Tags:["wasd.custom_crafter_scientist"],CustomName:"Научный станок",Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_model":"custom/item/item_frame","minecraft:custom_model_data":{strings:["custom_crafter_scientist"]}}}}
 kill @s

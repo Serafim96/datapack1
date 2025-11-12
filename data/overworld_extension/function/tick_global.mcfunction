@@ -15,4 +15,4 @@ function overworld_extension:zeus_temple/tick_global
 function overworld_extension:secret_golf_club_laboratory/tick_global
 function overworld_extension:gold_babylon_express/tick_global
 function overworld_extension:lothlorien/tick_global
-function overworld_extension:pripyat/tick_global
+# function overworld_extension:pripyat/tick_global

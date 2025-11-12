@@ -1,5 +1,5 @@
 # Саммоним вардена
-execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether run summon warden 637 33 -1013 {CustomNameVisible:1b,PersistenceRequired:1b,Tags:["angmar_warden"],CustomName:'[{"text":"K","color":"dark_purple","obfuscated":true},{"text":"Ангмарский Хранитель","obfuscated":false},{"text":"K","obfuscated":true}]',Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether run summon warden 637 33 -1013 {CustomNameVisible:1b,PersistenceRequired:1b,Tags:["angmar_warden"],CustomName:[{"text":"K","color":"dark_purple","obfuscated":true},{"text":"Ангмарский Хранитель","obfuscated":false},{"text":"K","obfuscated":true}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
 
 # Добавляем боссбар на Хранителя
 execute in the_nether run function angmar_tomb:spider_buff/prepare_warden_bossbar
