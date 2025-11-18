@@ -22,5 +22,6 @@ execute as @e[type=minecraft:witch] at @s if biome ~ ~ ~ #overworld_extension:gr
 ##############################
 ## Убиваем предметы и метки ##
 ##############################
-execute as @e[type=marker,tag=greenfield_city_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
-execute as @e[type=marker,tag=greenfield_city_bad_mob_kill] at @s run kill @s
+execute as @e[type=marker,tag=greenfield_city_bad_mob_kill] at @s run function overworld_extension:greenfield_city/as_marker
+# execute as @e[type=marker,tag=greenfield_city_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
+# execute as @e[type=marker,tag=greenfield_city_bad_mob_kill] at @s run kill @s

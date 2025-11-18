@@ -1,0 +1,2 @@
+function custom_dimension:join_world/scoreboard_operations/reset_survival
+function custom_dimension:join_world/scoreboard_operations/reset_creative

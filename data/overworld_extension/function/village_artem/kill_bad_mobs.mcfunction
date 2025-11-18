@@ -20,5 +20,7 @@ execute as @e[type=minecraft:witch] at @s if biome ~ ~ ~ #overworld_extension:vi
 ##############################
 ## Убиваем предметы и метки ##
 ##############################
-execute as @e[type=marker,tag=village_artem_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
-execute as @e[type=marker,tag=village_artem_bad_mob_kill] at @s run kill @s
+execute as @e[type=marker,tag=village_artem_bad_mob_kill] at @s run function overworld_extension:village_artem/as_marker
+
+# execute as @e[type=marker,tag=village_artem_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
+# execute as @e[type=marker,tag=village_artem_bad_mob_kill] at @s run kill @s

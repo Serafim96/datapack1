@@ -22,5 +22,6 @@ execute as @e[type=minecraft:witch] at @s if biome ~ ~ ~ #overworld_extension:ho
 ##############################
 ## Убиваем предметы и метки ##
 ##############################
-execute as @e[type=marker,tag=hogwarts_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
-execute as @e[type=marker,tag=hogwarts_bad_mob_kill] at @s run kill @s
+execute as @e[type=marker,tag=hogwarts_bad_mob_kill] at @s run function overworld_extension:hogwarts/as_marker
+# execute as @e[type=marker,tag=hogwarts_bad_mob_kill] at @s run kill @e[type=item,distance=0..0.3]
+# execute as @e[type=marker,tag=hogwarts_bad_mob_kill] at @s run kill @s

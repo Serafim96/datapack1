@@ -13,7 +13,6 @@ execute in overworld as @a[tag=village_artem_fire_resistance] at @s if biome ~ ~
 ## Cопротивление
 execute in overworld as @a[tag=village_artem_resistance] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run effect give @s minecraft:resistance 1 255 true
 
-
 ## Водное дыхание
 execute in overworld as @a[tag=village_artem_water_breating] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run effect give @s minecraft:water_breathing 1 255 true
 

@@ -12,6 +12,7 @@
     "minecraft:armor_stand",
     "minecraft:area_effect_cloud",
     "#minecraft:arrows",
-    "#minecraft:all_minecarts"
+    "#minecraft:all_minecarts",
+    "minecraft:player"
   ]
 }

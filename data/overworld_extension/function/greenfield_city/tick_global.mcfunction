@@ -4,7 +4,7 @@
 
 
 # Тормозим, если вагонетка без игрока
-execute as @e[type=minecart] at @s if biome ~ ~ ~ #overworld_extension:greenfield_city_zone unless entity @a[distance=..2] if block ~ ~-0.01 ~ powered_rail[powered=true] run data modify entity @s Motion set value [0.0d,0.0d,0.0d] 
+execute as @e[type=minecart] at @s if biome ~ ~ ~ #overworld_extension:greenfield_city_zone if block ~ ~-0.01 ~ powered_rail[powered=true] run data modify entity @s Motion set value [0.0d,0.0d,0.0d] 
 
 # Изменяем движение
 execute as @e[type=minecart,scores={GlobalMinecartMotionX=2053..,GlobalMinecartMotionY=0,GlobalMinecartMotionZ=0}] at @s if biome ~ ~ ~ #overworld_extension:greenfield_city_zone if block ~ ~-0.01 ~ powered_rail[powered=true,shape=east_west] if block ~2 ~-0.01 ~ powered_rail[powered=true,shape=east_west] if block ~-2 ~-0.01 ~ powered_rail[powered=true,shape=east_west] if entity @a[gamemode=!spectator,distance=..0.5] run function overworld_extension:greenfield_city/minecarts/x_plus

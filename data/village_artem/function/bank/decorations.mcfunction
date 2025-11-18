@@ -6,7 +6,7 @@ kill @e[tag=village_artem_bank_decorations]
 
 # Банк
 fill -5077 75 8584 -5077 73 8576 light[level=9]
-summon text_display -5076.99 72.1 8580.7 {view_range:4.0f,Rotation:[-90F,0F],Tags:["village_artem_bank_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[15f,15f,15f]},text:{"text":"Банк","color":"gold"},background:0}
+summon text_display -5076.99 72.45 8580.7 {view_range:4.0f,Rotation:[-90F,0F],Tags:["village_artem_bank_decorations"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[15f,15f,15f]},text:{"text":"Банк","color":"gold"},background:0}
 
 
 # Про комиссию на входе

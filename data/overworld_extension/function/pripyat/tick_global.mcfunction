@@ -35,6 +35,6 @@ execute as @a[scores={RadiationImpactTimer=0,RadiationLevel=4800..},gamemode=!cr
 
 execute as @e[type=!#custom_items_functions:spell/fireball/not_allowed,scores={RadiationImpactTimer=0,RadiationLevel=4800..}] at @s unless dimension custom_dimension:join unless dimension custom_dimension:afterlife run function overworld_extension:pripyat/radiation_impact
 
-execute as @e[scores={PlayerDead=1..}] run function overworld_extension:pripyat/reset_vars
+execute as @e[type=!#custom_items_functions:spell/fireball/not_allowed,scores={PlayerDead=1..}] run function overworld_extension:pripyat/reset_vars
 
-scoreboard players reset @e PlayerDead
+scoreboard players reset @e[type=!#custom_items_functions:spell/fireball/not_allowed] PlayerDead
