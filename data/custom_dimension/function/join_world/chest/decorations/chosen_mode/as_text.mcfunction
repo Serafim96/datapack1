@@ -1,0 +1,2 @@
+execute if data storage custom_dimension:join_world/chest {ChosenMode:0} run function custom_dimension:join_world/chest/decorations/chosen_mode/set_creative
+execute if data storage custom_dimension:join_world/chest {ChosenMode:1} run function custom_dimension:join_world/chest/decorations/chosen_mode/set_survival

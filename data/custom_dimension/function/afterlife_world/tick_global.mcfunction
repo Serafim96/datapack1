@@ -1,8 +1,8 @@
+execute as @a[tag=!player_stays_in_join_world,tag=!no_tp_afterlife,scores={GlobalPlayerDied=1..}] at @s unless dimension custom_dimension:afterlife unless dimension custom_dimension:join run function custom_dimension:afterlife_world/player_died_dp_new
+
 # Телепортируем всех, кто уже умер, но еще не возродился, кроме тех, кто перезашел и находится в измерении присоединения
 execute as @a[tag=player_stays_in_afterlife_world,tag=!player_stays_in_join_world] at @s unless dimension custom_dimension:afterlife run function custom_dimension:afterlife_world/tp_to_world
 
-
-execute as @a[tag=!player_stays_in_join_world,tag=!no_tp_afterlife,scores={GlobalPlayerDied=1..}] at @s unless dimension custom_dimension:afterlife unless dimension custom_dimension:join run function custom_dimension:afterlife_world/player_died_dp_new
 
 execute in custom_dimension:afterlife as @a[tag=!player_stays_in_join_world,tag=player_stays_in_afterlife_world] at @s run gamemode adventure @s
 

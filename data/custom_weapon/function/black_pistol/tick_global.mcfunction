@@ -1,9 +1,4 @@
 
-
-#execute as @e[tag=black_pistol_bullet] at @s store result score @s GlobalEntityMotionX run data get entity @s Motion[0] 10000000
-#execute as @e[tag=black_pistol_bullet] at @s store result score @s GlobalEntityMotionY run data get entity @s Motion[1] 10000000
-#execute as @e[tag=black_pistol_bullet] at @s store result score @s GlobalEntityMotionZ run data get entity @s Motion[2] 10000000
-
 execute as @e[tag=black_pistol_bullet] at @s run function custom_weapon:black_pistol/as_bullet
 
 kill @e[tag=black_pistol_bullet,scores={BlackPistolBulletLifetime=100}] 

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "CrystalPultUsed": {
+      "min": 1
+    },
+    "CrystalShiftPress": {
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+data modify storage custom_dimension:join_world/chest ChosenMode set value 0

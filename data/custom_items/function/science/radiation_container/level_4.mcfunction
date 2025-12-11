@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[item_model="custom/science/radiation_container",custom_model_data={strings:["level_4"]},custom_data={Tags:["radiation_container","level_4"]},custom_name={"color":"#e5fc09","italic":false,"text":"Радиационный контейнер"},lore=[{"color":"#A4A4A4","text":"Пустой"}]] 1

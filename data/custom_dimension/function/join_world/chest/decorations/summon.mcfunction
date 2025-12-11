@@ -1,15 +1,14 @@
 kill @e[tag=join_world_chest_decoration]
 
-
-summon text_display 39.99 5.5 -1.01 {Rotation:[90F,0F],Tags:["join_world_chest_decoration"],text:{"translate":"join_world.decoration.chest.mode"}}
-summon text_display 39.99 5.2 -1.01 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_mode_name"],text:{"translate":"join_world.decoration.chest.mode.survival"}}
-
+summon text_display 39.99 5.5 -1.5 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_mode"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},text:{"translate":"join_world.decoration.chest.mode"}}
+summon text_display 39.99 5.2 -1.5 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_mode_name"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},text:{translate:"join_world.decoration.chest.mode.survival"}}
 
 
+summon text_display 39.99 5.35 -0.5 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_load"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},text:{"translate":"join_world.decoration.chest.load"}}
 
-summon interaction 40.2 4.1 -2 {width:0.8f,height:0.8f,response:1b,Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_button","join_world_chest_mode_button","join_world_chest_left_button"]}
-summon item_display 40.3 4 -2 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_button","join_world_chest_mode_button","join_world_chest_left_button"],brightness:{sky:0,block:10},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0.4f],scale:[3f,3f,3f]},item:{id:"minecraft:clock",count:1,components:{"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["button"]}}}}
 
-summon interaction 40.2 4.1 -1 {width:0.8f,height:0.8f,response:1b,Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_button","join_world_chest_mode_button","join_world_chest_right_button"]}
-summon item_display 40.3 4 -1 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_button","join_world_chest_mode_button","join_world_chest_right_button"],brightness:{sky:0,block:10},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0.4f],scale:[3f,3f,3f]},item:{id:"minecraft:clock",count:1,components:{"minecraft:item_model":"custom/item/clock","minecraft:custom_model_data":{strings:["button"]}}}}
+summon text_display 39.99 5.35 0.5 {Rotation:[90F,0F],Tags:["join_world_chest_decoration","join_world_chest_save"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.7f,0.7f,0.7f]},text:{"translate":"join_world.decoration.chest.save"}}
 
+function custom_dimension:join_world/chest/storage_operations/chosen_mode/set_survival
+
+function custom_dimension:join_world/chest/decorations/buttons/summon_all

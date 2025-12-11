@@ -1,3 +1,5 @@
+execute unless data entity @s {Facing:0b} unless data entity @s {Facing:1b} run function custom_crafting:crafter/resummon
+
 #move item frame up one AFTER waiting a gametick.
 
 # data modify entity @s Facing set value 1b

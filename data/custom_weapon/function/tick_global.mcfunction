@@ -1,2 +1,1 @@
 function custom_weapon:black_pistol/tick_global
-#function custom_weapon:black_pistol_test/tick_global

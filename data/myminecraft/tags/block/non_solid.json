@@ -1,7 +1,7 @@
 {
  "replace":false,
  "values": [
- "#thepa:air",
+ "#minecraft:air",
  "#minecraft:wool_carpets",
  "#minecraft:buttons",
  "#minecraft:banners",
@@ -35,6 +35,8 @@
  "minecraft:kelp_plant",
  "minecraft:seagrass",
  "minecraft:tall_seagrass",
- "minecraft:sugar_cane"
+ "minecraft:sugar_cane",
+
+ "minecraft:leaf_litter"
  ]
 }

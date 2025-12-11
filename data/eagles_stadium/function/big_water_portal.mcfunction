@@ -27,7 +27,7 @@ execute if block 4213 83 3400 air run setblock 4213 83 3400 light[level=0]
 execute if block 4213 84 3400 air run setblock 4213 84 3400 light[level=0]
 execute if block 4213 85 3399 air run setblock 4213 85 3399 light[level=0]
 
-execute as @e[type=player,x=4212,dx=0,y=82,dy=13,z=3400,dz=20] at @s run tp @s -664 256 2639 ~90 ~
+execute as @a[x=4212,dx=0,y=82,dy=13,z=3400,dz=20] at @s run tp @s -664 256 2639 ~90 ~
 
 particle minecraft:glow 4212 88 3410 0.1 4 4 0.00001 5
 particle minecraft:dripping_water 4212.99 88 3410 0.1 4.1 4.1 0.001 10

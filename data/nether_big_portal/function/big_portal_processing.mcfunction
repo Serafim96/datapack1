@@ -36,6 +36,6 @@ execute if block 899 71 -1346 air run setblock 899 71 -1346 light[level=0]
 particle minecraft:crimson_spore 896.99 82 -1362 2 7.5 7.5 0 50 normal
 particle minecraft:lava 899.99 82 -1362 0.1 7.5 7.5 0.1 4 normal
 
-execute as @e[type=player,x=900,dx=0,y=70,dy=24,z=-1378,dz=32] at @s in minecraft:overworld run tp @s -664 256 2611 ~90 ~
+execute as @a[x=900,dx=0,y=70,dy=24,z=-1378,dz=32] at @s in minecraft:overworld run tp @s -664 256 2611 ~90 ~
 kill @e[type=!player,type=!item,type=!trident,type=!arrow,type=!painting,type=!item_frame,type=!glow_item_frame,x=887,dx=12,y=70,dy=10,z=-1379,dz=24]
 

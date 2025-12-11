@@ -1,5 +1,4 @@
 
-
 scoreboard players reset @s gz_damage
 scoreboard players set @s[scores={gz_bullets=..0}] gz_bullets 0
 execute unless entity @s[scores={gz_bullets=..0}] run function thepa:utilities/calc_damage

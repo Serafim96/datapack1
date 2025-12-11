@@ -1,0 +1,1 @@
+data modify storage custom_dimension:join_world/chest ModeList set value [creative,survival]

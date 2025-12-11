@@ -1,4 +1,3 @@
-execute as @a[nbt={equipment:{head:{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}}},chest:{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}}},legs:{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}}},feet:{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}}}}}] at @s run function custom_items_functions:armor/lava_resistant_suit/effects
+# execute as @a[predicate=custom_items_functions:armor/lava_resistant_suit/is_wearing] at @s run function custom_items_functions:armor/lava_resistant_suit/effects
 
-
-# {components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}},Slot:103b},{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}},Slot:102b},{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}},Slot:101b},{components:{"minecraft:custom_data":{Tags:["lava_resistant_suit"]}},Slot:100b}
+execute as @a[tag=lava_resistant_suit_need_effects] at @s run function custom_items_functions:armor/lava_resistant_suit/effects

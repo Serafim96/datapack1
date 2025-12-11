@@ -13,7 +13,7 @@
     },
     "title": "Путешественник",
     "description": "Улетел в Путешествие",
-    "background": "minecraft:textures/block/light_blue_concrete.png",
+    "background": "minecraft:block/light_blue_concrete",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

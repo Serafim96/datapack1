@@ -1,3 +1,5 @@
+execute as @a unless score @s shootingdelay matches ..0 unless score @s shootingdelay matches 0.. run scoreboard players set @s shootingdelay 0
+execute as @a unless score @s dualiesFire matches ..0 unless score @s dualiesFire matches 0.. run scoreboard players set @s dualiesFire 0
 
 scoreboard players add @e[scores={gz_teslatimer=1..}] gz_teslatimer 1
 scoreboard players add @a[tag=gz_shoot,scores={shootingdelay=0}] shootingdelay 1
@@ -16,7 +18,7 @@ execute if score timer ztimer matches 2.. run scoreboard players set timer ztime
 scoreboard players remove @a[scores={shotcounterdelay=0..}] shotcounterdelay 1
 scoreboard players set @a[scores={shotcounterdelay=0}] shotcounter 0
 
-execute as @a run function thepa:utilities/player_tick
+function thepa:utilities/player_tick
 
 function thepa:utilities/shooting_delay
 
@@ -51,8 +53,9 @@ execute as @e[tag=motion_projectile] at @e[tag=motion_projectile] unless block ~
 execute as @e[tag=motion_projectile2,tag=!motion_added2] at @s rotated as @p run function thepa:projectiles/apply_motion2
 execute as @e[tag=motion_projectile2] at @e[tag=motion_projectile2] unless block ~ ~-0.5 ~ #thepa:air run data merge entity @e[tag=motion_projectile2,limit=1] {Fuse:0}
 
-execute as @a[tag=!recipeggiven] run function thepa:give/recipe_book
-execute as @a[tag=!recipeggiven] run function thepa:utilities/recipes
+# execute as @a[tag=!recipeggiven] run function thepa:give/recipe_book
+# execute as @a[tag=!recipeggiven] run function thepa:utilities/recipes
+execute as @a[tag=!recipeggiven] run function thepa:as_no_recipe_given
 tag @a add recipeggiven
 
 execute as @a[scores={deathCount=1..}] run attribute @s minecraft:scale base set 1

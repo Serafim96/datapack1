@@ -12,7 +12,3 @@ scoreboard players set @e[x=654,dx=1,y=48,dy=0,z=-1039,dz=1,type=player,scores={
 
 ## Сбрасываем очки
 execute as @e[x=654,dx=1,y=48,dy=0,z=-1039,dz=1,type=player,scores={angmar_tomb_underwater_buff_achieved=1,angmar_tomb_underwater_buff_progress=510..}] at @s run function angmar_tomb:underwater_buff/reset_scoreboard
-
-#execute if entity @e[x=654,dx=1,y=48,dy=0,z=-1039,dz=1,type=player,scores={angmar_tomb_underwater_buff_achieved=1,angmar_tomb_underwater_buff_progress=510..}] run scoreboard players reset AngmarTombTestUser angmar_tomb_underwater_buff_progress
-
-#scoreboard players reset @e[x=654,dx=1,y=48,dy=0,z=-1039,dz=1,type=player,scores={angmar_tomb_underwater_buff_achieved=1,angmar_tomb_underwater_buff_progress=510..}] angmar_tomb_underwater_buff_progress

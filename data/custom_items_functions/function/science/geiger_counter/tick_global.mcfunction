@@ -1,7 +1,7 @@
 function custom_items_functions:science/geiger_counter/sound/tick_global
 
 
-execute as @e[type=!#custom_items_functions:science/geiger_counter/cannot_handle_items,predicate=custom_items_functions:science/geiger_counter/holds/anyhand] at @s run function custom_items_functions:science/geiger_counter/hand_fork
+execute as @a[predicate=custom_items_functions:science/geiger_counter/holds/anyhand] at @s run function custom_items_functions:science/geiger_counter/hand_fork
 
 
 

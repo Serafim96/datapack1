@@ -1,0 +1,44 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "Tags": [
+              "hydro_suit"
+            ]
+          }
+        }
+      },
+      "chest": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "Tags": [
+              "hydro_suit"
+            ]
+          }
+        }
+      },
+      "legs": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "Tags": [
+              "hydro_suit"
+            ]
+          }
+        }
+      },
+      "feet": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "Tags": [
+              "hydro_suit"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+data modify entity @s text.translate set value join_world.decoration.chest.mode.survival

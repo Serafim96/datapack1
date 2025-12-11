@@ -1,4 +1,3 @@
-
 scoreboard players set multiplier gz_damage 100
 scoreboard players set one gz_damage 1
 

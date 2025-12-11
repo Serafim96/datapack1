@@ -1,5 +1,7 @@
 scoreboard objectives add CrystalPultUsed minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add CrystalShiftPress minecraft.custom:minecraft.sneak_time
 
+function custom_items_functions:crystals/pults/tick_period_5t
+
 function custom_items_functions:crystals/pults/simple/load_global
 function custom_items_functions:crystals/pults/advanced/load_global

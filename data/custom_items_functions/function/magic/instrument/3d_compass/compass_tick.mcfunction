@@ -1,3 +1,5 @@
+execute unless data entity @s Item run function custom_items_functions:magic/instrument/3d_compass/kill
+
 # Выходим, если не то измерение
 execute unless dimension minecraft:overworld unless dimension custom_dimension:new_overworld run return 1 
 

@@ -25,14 +25,14 @@ particle minecraft:portal -681.0 252.05 2626.0 0.35 0.35 0.35 1 1 force
 #execute as @e[type=shulker,tag=zeus_stone] at @s run effect give @s regeneration 999999 255 true
 
 #lava portal
-execute as @e[type=player,x=-667,y=256,z=2610,dx=6,dy=6,dz=0] at @s in minecraft:the_nether run tp @s 899 70 -1362 ~-90 ~
+execute as @a[x=-667,y=256,z=2610,dx=6,dy=6,dz=0] at @s in minecraft:the_nether run tp @s 899 70 -1362 ~-90 ~
 particle minecraft:lava -664 259 2610.9 1.3 1.8 0.1 1 2
 particle minecraft:crimson_spore -664 259 2610.9 1.3 1.8 0.1 1 20
 
 #water portal
 particle minecraft:glow -664 259 2639.99 1.4 1.9 0.1 0.00001 1
 particle minecraft:dripping_water -664 259 2639.99 1.4 1.85 0.1 0.001 5
-execute as @e[type=player,x=-667,y=256,z=2640,dx=6,dy=8,dz=0] at @s run tp @s 4213 82 3410 ~-90 ~
+execute as @a[x=-667,y=256,z=2640,dx=6,dy=8,dz=0] at @s run tp @s 4213 82 3410 ~-90 ~
 
 #potion
 particle minecraft:campfire_cosy_smoke -653 269.6 2610 1.45 0.9 1.45 0.001 25 force

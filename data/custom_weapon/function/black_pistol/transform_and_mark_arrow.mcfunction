@@ -8,7 +8,7 @@
 summon arrow ~ ~ ~ {NoGravity:1b,Silent:1b,Glowing:1b,life:50,damage:10d,Tags:["black_pistol_bullet"]}
 
 
-data modify entity @s NoGravity set value 1
+data modify entity @s NoGravity set value 1b
 data modify entity @e[tag=black_pistol_bullet,distance=..1,limit=1] Motion[0] set from entity @s Motion[0]
 data modify entity @e[tag=black_pistol_bullet,distance=..1,limit=1] Motion[1] set from entity @s Motion[1]
 data modify entity @e[tag=black_pistol_bullet,distance=..1,limit=1] Motion[2] set from entity @s Motion[2]

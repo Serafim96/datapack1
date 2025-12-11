@@ -1,3 +1,3 @@
-execute as @e[type=player,x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s times 17 27 17
-execute as @e[type=player,x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s title {"text":"Арена Страданий","color":"#d5ce3a"}
-execute as @e[type=player,x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s subtitle {"text":"PVP-игра","color":"#d5ce3a"}
+execute as @a[x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s times 17 27 17
+execute as @a[x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s title {"text":"Арена Страданий","color":"#d5ce3a"}
+execute as @a[x=601,dx=2,y=71,dy=5,z=-1400,scores={MainHeaderFlag=1}] at @s run title @s subtitle {"text":"PVP-игра","color":"#d5ce3a"}

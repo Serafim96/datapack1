@@ -10,17 +10,17 @@ execute if data storage minecraft:global {GlobalTickEnable:1} run function pk_be
 execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_items_functions:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function thepa:loop
 execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_block:main
-execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_weapon:tick_global
+# execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_weapon:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_crafting:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function portal_guns:main
 execute if data storage minecraft:global {GlobalTickEnable:1} run function pochta_russia:tick_global
 
+# Расширение измерения Верхний мир
+execute if data storage minecraft:global {GlobalTickEnable:1} in overworld run function overworld_extension:tick_global
+
 # Отдельные измерения
 execute if data storage minecraft:global {GlobalTickEnable:1} in dev_dimension:dev_dimension run function dev_dimension:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_dimension:tick_global
-
-# Расширение измерения Верхний мир
-execute if data storage minecraft:global {GlobalTickEnable:1} in overworld run function overworld_extension:tick_global
 
 # Команды по зонам, в том числе локальные тики измерений
 execute if data storage minecraft:global {GlobalTickEnable:1} run function hell_castle:tick_global
@@ -40,6 +40,7 @@ execute if data storage minecraft:global {GlobalTickEnable:1} run function hogwa
 execute if data storage minecraft:global {GlobalTickEnable:1} run function vulcano_island:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function ust_yuryung_khaya:tick_global
 execute if data storage minecraft:global {GlobalTickEnable:1} run function terracotta_quarry:tick_global
+
 
 # Постобработка переменных
 execute if data storage minecraft:global {GlobalTickEnable:1} run function myminecraft:tick_additions/post_tick

@@ -1,6 +1,6 @@
 #Открытие ворот
-#execute if block 1160 64 3655 gold_block if entity @e[type=!#myminecraft:popular_exclude_no_players,type=player,x=1151,dx=6,y=59,dy=6,z=3655,dz=14] run schedule function church_hell:open_entrance 1s append
-#execute if block 1160 64 3655 black_wool unless entity @e[type=!#myminecraft:popular_exclude_no_players,type=player,x=1151,dx=6,y=59,dy=6,z=3655,dz=14] run schedule function church_hell:close_entrance 1s append
+#execute if block 1160 64 3655 gold_block if entity @e[type=!#myminecraft:popular_exclude_no_player,type=player,x=1151,dx=6,y=59,dy=6,z=3655,dz=14] run schedule function church_hell:open_entrance 1s append
+#execute if block 1160 64 3655 black_wool unless entity @e[type=!#myminecraft:popular_exclude_no_player,type=player,x=1151,dx=6,y=59,dy=6,z=3655,dz=14] run schedule function church_hell:close_entrance 1s append
 
 execute if entity @a[x=1151,dx=6,y=59,dy=6,z=3655,dz=14,gamemode=!spectator] run function church_hell:api/main_open
 execute unless entity @a[x=1151,dx=6,y=59,dy=6,z=3655,dz=14,gamemode=!spectator] run function church_hell:api/main_close
@@ -9,16 +9,16 @@ execute unless entity @a[x=1151,dx=6,y=59,dy=6,z=3655,dz=14,gamemode=!spectator]
 kill @e[type=item,x=999,dx=2,y=-48,dy=2,z=3497,dz=41]
 
 #Убийство лишних с последним тунеллем
-#kill @e[type=!#myminecraft:popular_exclude_no_players,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=998,dx=158,y=-63,dy=118,z=3534,dz=113]
+#kill @e[type=!#myminecraft:popular_exclude_no_player,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=998,dx=158,y=-63,dy=118,z=3534,dz=113]
 
 #Убийство лишних без последнего тунелля
-#kill @e[type=!#myminecraft:popular_exclude_no_players,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=1008,dx=158,y=-63,dy=118,z=3534,dz=113]
+#kill @e[type=!#myminecraft:popular_exclude_no_player,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=1008,dx=158,y=-63,dy=118,z=3534,dz=113]
 
 #Убийство лишних на весь туннель
-#kill @e[type=!#myminecraft:popular_exclude_no_players,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=999,dx=2,y=-52,dy=2,z=3495,dz=51]
+#kill @e[type=!#myminecraft:popular_exclude_no_player,type=!player,type=!painting,type=!item_frame,type=!item,type=!glow_item_frame,x=999,dx=2,y=-52,dy=2,z=3495,dz=51]
 
 #Чистка за порталом и 1 блок за ним
-kill @e[type=!#myminecraft:popular_exclude_no_players,type=!#myminecraft:popular_exclude,x=999,dx=2,y=-52,dy=2,z=3495,dz=15]
+kill @e[type=!#myminecraft:popular_exclude_no_player,type=!#myminecraft:popular_exclude_with_player,x=999,dx=2,y=-52,dy=2,z=3495,dz=15]
 
 #Обработка мобов
 function church_hell:pos_mobs_overworld
@@ -48,9 +48,9 @@ function church_hell:header_processing
 #function church_hell:set_2_scoreboard
 
 #Телепорт в АД
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1001,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1361 ~90 ~
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1000,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1362 ~90 ~
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=999,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1363 ~90 ~
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1001,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1361 ~90 ~
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1000,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1362 ~90 ~
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=999,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1363 ~90 ~
 
 #Атмосферка
 #particle minecraft:crimson_spore 1000 -50.5 3519.99 1 1 25 0 6 normal
@@ -58,87 +58,87 @@ execute as @e[type=!#myminecraft:popular_exclude_no_players,x=999,dx=2,y=-52,dy=
 
 #Переходы телепорт
 #1-2 *
-# execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1153,dx=2,y=-57,dy=6,z=3540,gamemode=!spectator] at @s run tp @s ~-11 ~99 ~99
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1153,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1153,dx=2,y=-57,dy=6,z=3540,gamemode=!spectator] at @s run tp @s ~-11 ~99 ~99
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1153,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #2-1 *
-# execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run tp ~11 ~-99 ~-99
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run tp ~11 ~-99 ~-99
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #2-3
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1142,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1142,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #3-2
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1131,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1131,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #3-4
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1131,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1131,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #4-3
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1120,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1120,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #4-5
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1120,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1120,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #5-4
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1109,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1109,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #5-6
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1109,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1109,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #6-5
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1098,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1098,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #6-7
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1098,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1098,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #7-6
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1087,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1087,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #7-8
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1087,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1087,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #8-7
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1076,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1076,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #8-9
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1076,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1076,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #9-8
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1065,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1065,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #8-9
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1065,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1065,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #9-8
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1054,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1054,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #9-10
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1054,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1054,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #10-9
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1043,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1043,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #10-11
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1043,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1043,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #11-10
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1032,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1032,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #11-12
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1032,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1032,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #12-11
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1021,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1021,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #12-13
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1021,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1021,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #13-12
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1010,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1010,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #13-14
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=1010,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=1010,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #14-13
-execute as @e[type=!#myminecraft:popular_exclude_no_players,x=999,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=999,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back

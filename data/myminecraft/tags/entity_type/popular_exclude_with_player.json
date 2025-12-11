@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#myminecraft:popular_exclude_no_player",
+    "minecraft:player"
+  ]
+}

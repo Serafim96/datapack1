@@ -1,0 +1,3 @@
+function custom_dimension:join_world/chest/decorations/buttons/change_mode/summon
+function custom_dimension:join_world/chest/decorations/buttons/load/summon
+function custom_dimension:join_world/chest/decorations/buttons/save/summon

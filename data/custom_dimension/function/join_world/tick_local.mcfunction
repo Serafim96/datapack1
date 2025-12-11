@@ -1,3 +1,4 @@
+function custom_dimension:join_world/chest/decorations/tick_local
 
 # Слева
 execute in custom_dimension:join as @a[x=1,dx=6,y=5,dy=4,z=37,dz=0,tag=player_stays_in_join_world] at @s run function custom_dimension:join_world/tp_to_last_place_survival
