@@ -1,1 +1,0 @@
-execute as @e[tag=omp_ust_zalesskiy_item_display_pochta] at @s run tp @s ~ ~ ~ ~-1.1 ~

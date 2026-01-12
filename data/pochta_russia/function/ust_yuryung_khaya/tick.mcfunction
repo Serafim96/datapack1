@@ -1,4 +1,0 @@
-function pochta_russia:ust_yuryung_khaya/kill_on_entrance
-function pochta_russia:ust_yuryung_khaya/sending/tick
-function pochta_russia:ust_yuryung_khaya/recieving/tick
-function pochta_russia:ust_yuryung_khaya/decorations/tick

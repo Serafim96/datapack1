@@ -1,0 +1,2 @@
+function pochta_russia:reuse/storage_operations/api/init {storage_name:pochta_russia,dep_id:4,dep_name:ust_yuryung_khaya,dep_name_txt:"Усть-Юрюнг-Хая",pos_send_x:1839,pos_send_y:130,pos_send_z:-4874}
+function pochta_russia:ust_yuryung_khaya/decorations_summon

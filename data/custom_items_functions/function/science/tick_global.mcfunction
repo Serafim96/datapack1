@@ -1,0 +1,3 @@
+function custom_items_functions:science/gas_cylinder/tick_global
+function custom_items_functions:science/geiger_counter/tick_global
+function custom_items_functions:science/radiation_container/tick_global

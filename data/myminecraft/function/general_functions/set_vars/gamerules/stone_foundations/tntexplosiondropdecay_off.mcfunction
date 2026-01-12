@@ -1,1 +1,0 @@
-data modify storage my_gamerules:stone_foundations tntExplosionDropDecay set value 0

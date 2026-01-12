@@ -1,0 +1,2 @@
+function custom_items_functions:magic/instrument/consumableizer/tick_period_main
+function custom_items_functions:magic/instrument/magic_wand/tick_period_main

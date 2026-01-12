@@ -1,1 +1,0 @@
-execute in minecraft:overworld as @a[x=3260,dx=4,y=205,dy=3,z=4856,dz=3] at @s run title @s actionbar {"text":"Получите, пожалуйста","color":"#00C832"}

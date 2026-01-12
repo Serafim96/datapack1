@@ -1,0 +1,1 @@
+execute as @a[predicate=custom_items_functions:weapon/magic/tartarus_artifacts/tartarus_stick/is_anyhand,scores={GlobalWarpedFungusOnAStickUsed=1..}] run tag @s add need_s_tartarus_stick_action

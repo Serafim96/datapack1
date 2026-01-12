@@ -1,1 +1,0 @@
-execute as @e[type=glow_item_frame,x=-5095,y=65,z=8747,nbt={Item:{id:"minecraft:writable_book"}}] at @s run data modify entity @s Item.tag.pages append value "3"

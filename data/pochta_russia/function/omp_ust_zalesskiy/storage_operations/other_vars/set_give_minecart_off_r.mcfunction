@@ -1,1 +1,0 @@
-data modify storage pochta_russia:omp_ust_zalesskiy GiveMinecartOnR set value 0

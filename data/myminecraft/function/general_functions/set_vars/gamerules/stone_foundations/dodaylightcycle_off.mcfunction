@@ -1,1 +1,0 @@
-data modify storage my_gamerules:stone_foundations doDaylightCycle set value 0

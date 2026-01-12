@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether forgiveDeadPlayers set value 1

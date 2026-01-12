@@ -1,2 +1,4 @@
+tag @s remove need_s_gas_cylinder_action
+
 execute if predicate custom_items_functions:science/gas_cylinder/holds/empty/mainhand run item modify entity @s weapon.mainhand custom_items_functions:science/gas_cylinder/make_filled
 execute if predicate custom_items_functions:science/gas_cylinder/holds/empty/offhand run item modify entity @s weapon.offhand custom_items_functions:science/gas_cylinder/make_filled

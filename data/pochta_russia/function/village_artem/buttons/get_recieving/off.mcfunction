@@ -1,0 +1,1 @@
+data modify storage pochta_russia village_artem.buttons.get_recieving set value 0

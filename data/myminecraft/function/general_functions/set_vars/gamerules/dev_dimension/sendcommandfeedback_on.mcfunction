@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension sendCommandFeedback set value 1

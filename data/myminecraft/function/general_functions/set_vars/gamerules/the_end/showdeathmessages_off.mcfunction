@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end showDeathMessages set value 0

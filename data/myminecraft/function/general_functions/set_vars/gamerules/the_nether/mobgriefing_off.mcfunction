@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether mobGriefing set value 0

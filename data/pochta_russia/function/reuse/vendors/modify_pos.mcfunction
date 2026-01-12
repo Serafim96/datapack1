@@ -1,1 +1,0 @@
-$execute as @e[tag=$(vendor_tag)] run data modify entity @s Pos set value [$(x)d,$(y)d,$(z)d]

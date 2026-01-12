@@ -24,8 +24,8 @@ execute as @a[tag=player_stays_in_join_world] at @s unless dimension custom_dime
 execute in custom_dimension:join as @a[tag=player_stays_in_join_world,tag=do_creative_join] at @s run gamemode creative @s
 
 # Только те, кто в режиме присоединения в приключениях
-execute in custom_dimension:join as @a[tag=player_stays_in_join_world,tag=!do_creative_join] at @s run gamemode adventure @s
-execute in custom_dimension:join as @a[tag=player_stays_in_join_world,tag=do_creative_join] at @s run gamemode creative @s
+execute as @a[tag=player_stays_in_join_world,tag=!do_creative_join] at @s run gamemode adventure @s
+execute as @a[tag=player_stays_in_join_world,tag=do_creative_join] at @s run gamemode creative @s
 
 # Эффекты
 execute as @a at @s if dimension custom_dimension:join run function custom_dimension:join_world/effects
@@ -37,8 +37,7 @@ execute in custom_dimension:join as @a[x=-15,dx=30,y=3,dy=10,z=-42,dz=14,tag=!is
 
 
 # Сбрасываем координаты телепорта у тех, кто не имеет их
-# execute as @a unless score @s JoinWorldSurvivalDimension matches 0..12 run function custom_dimension:join_world/scoreboard_operations/reset_survival
-#reset_creative
-execute as @a unless score @s JoinWorldCreativeDimension matches 0..12 run function custom_dimension:join_world/scoreboard_operations/reset_all
+execute as @a unless score @s JoinWorldSurvivalDimension matches 0..12 run function custom_dimension:join_world/scoreboard_operations/reset_survival
+execute as @a unless score @s JoinWorldCreativeDimension matches 0..12 run function custom_dimension:join_world/scoreboard_operations/reset_creative
 
 execute as @a run function myminecraft:general_functions/set_vars/scoreboard/leave_world_reset

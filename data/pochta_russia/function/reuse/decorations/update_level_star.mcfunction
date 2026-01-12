@@ -1,0 +1,1 @@
+$data modify entity @e[tag=pochta_russia_$(dep_name)_level_star,limit=1] text set value [{"text":"Уровень:\n"},{"nbt":"$(dep_name).level_star","storage":$(storage_name)}]

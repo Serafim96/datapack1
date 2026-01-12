@@ -1,1 +1,0 @@
-data modify storage my_gamerules:stone_foundations waterSourceConversion set value 1

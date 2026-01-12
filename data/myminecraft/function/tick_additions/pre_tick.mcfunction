@@ -13,7 +13,7 @@ execute as @a at @s unless entity @s[scores={MainHeaderFlag=0..}] unless entity 
 
 execute as @e[type=minecart] at @s if biome ~ ~ ~ #game_mechanic_extension:speedy_minecarts/biomes_enabled run function myminecraft:tick_additions/as_speedy_minecarts
 
-execute as @a at @s store result score @s FallDistance run data get entity @s fall_distance
+# execute as @a at @s store result score @s FallDistance run data get entity @s fall_distance
 
 
 

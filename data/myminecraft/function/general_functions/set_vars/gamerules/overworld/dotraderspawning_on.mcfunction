@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doTraderSpawning set value 1

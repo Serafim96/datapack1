@@ -1,17 +1,25 @@
 {
-  "ultrawarm": false,
-  "natural": false,
-  "piglin_safe": false,
-  "respawn_anchor_works": false,
-  "bed_works": false,
-  "has_raids": false,
+  "attributes": {
+    "minecraft:gameplay/water_evaporates": false,
+    "minecraft:gameplay/fast_lava": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "never",
+      "can_set_spawn": "never",
+      "explodes": false
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:visual/sun_angle": 180,
+    "minecraft:visual/moon_angle": 180
+  },
   "has_skylight": false,
   "has_ceiling": true,
   "coordinate_scale": 1,
   "ambient_light": 0.05,
+  "has_fixed_time": true,
   "logical_height": 384,
-  "fixed_time": 6000,
-  "effects": "minecraft:the_nether",
+  "skybox": "none",
+  "cardinal_light": "nether",
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": 0,
   "height": 384,

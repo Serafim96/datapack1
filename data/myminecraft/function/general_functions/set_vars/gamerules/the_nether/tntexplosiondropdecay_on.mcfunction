@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether tntExplosionDropDecay set value 1

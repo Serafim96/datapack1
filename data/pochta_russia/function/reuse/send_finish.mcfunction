@@ -1,0 +1,2 @@
+$function pochta_russia:reuse/storage_operations/sendings/decrease {storage_name:$(storage_name),sender_name:$(sender_name),consignee_name:$(consignee_name)}
+$execute positioned $(pos_send_x) $(pos_send_y) $(pos_send_z) as @a[distance=..10] run function pochta_russia:reuse/messages/sucsess_send {consignee_name_txt:"$(consignee_name_txt)"}

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "send_terracotta_quarry_village_artem"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pochta_russia:terracotta_quarry/boughts/sendings/village_artem"
+  }
+}

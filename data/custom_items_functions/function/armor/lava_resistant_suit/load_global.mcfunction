@@ -1,4 +1,4 @@
 scoreboard objectives add LavaResistanceSuitCarvedPumpkunFound dummy
 
-function custom_items_functions:armor/lava_resistant_suit/tick_period_5t
+function custom_items_functions:armor/lava_resistant_suit/tick_period_main
 function custom_items_functions:armor/lava_resistant_suit/tick_period_100t

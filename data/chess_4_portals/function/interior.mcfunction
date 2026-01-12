@@ -1,5 +1,5 @@
 #Minigame
-tp @e[type=player,x=-37,y=-57,dy=3,z=104,dz=1] 2146 69 3976.01
+tp @a[x=-37,y=-57,dy=3,z=104,dz=1] 2146 69 3976.01
 particle minecraft:campfire_signal_smoke -37 -55.1 104.99 0.17 0.6 0.5 0.0053 1
 
 

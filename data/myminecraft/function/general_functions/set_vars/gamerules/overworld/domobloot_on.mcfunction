@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doMobLoot set value 1

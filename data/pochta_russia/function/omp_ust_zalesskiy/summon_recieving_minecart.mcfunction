@@ -1,0 +1,1 @@
+summon chest_minecart -3947 38 4635 {Rotation:[0F,0F],Tags:["pochta_russia_omp_ust_zalesskiy_recieving_minecart"]}

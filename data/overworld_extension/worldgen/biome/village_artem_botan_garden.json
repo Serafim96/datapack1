@@ -1,38 +1,48 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 5082111,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "minecraft:custom_sounds.ambient.nature_botan_garden.loop"
+      },
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "minecraft:custom_sounds.silence"
+        },
+        "min_delay": 200,
+        "max_delay": 600,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:happy_villager"
+          },
+          "probability": 0.0003
+        }
+      ]
+    }
+  },
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": true,
   "creature_spawn_probability": 0.5,
   "effects": {
-    "sky_color": 5082111,
-    "fog_color": 12638463,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color": 4830221,
-    "ambient_sound": { "sound_id": "minecraft:custom_sounds.ambient.nature_botan_garden.loop" },
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": { "sound_id": "minecraft:custom_sounds.silence" },
-          "min_delay": 200,
-          "max_delay": 600,
-          "replace_current_music": true
-        }
-      }
-    ],
-    "particle": {
-      "options": {
-        "type": "minecraft:happy_villager"
-      },
-      "probability": 0.0003
-    }
+    "grass_color": 4830221
   },
   "spawners": {
     "ambient": [

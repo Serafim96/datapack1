@@ -1,4 +1,0 @@
-function pochta_russia:high_badlands_house/kill_on_entrance
-function pochta_russia:high_badlands_house/sending/tick
-function pochta_russia:high_badlands_house/recieving/tick
-function pochta_russia:high_badlands_house/decorations/tick

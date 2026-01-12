@@ -14,3 +14,5 @@ scoreboard objectives add portal_dummy dummy
 scoreboard players set $portal_vert_mot portal_dummy 0
 
 scoreboard objectives add PortalGunTitleDelay dummy
+
+# scoreboard objectives add rotPortalGun dummy

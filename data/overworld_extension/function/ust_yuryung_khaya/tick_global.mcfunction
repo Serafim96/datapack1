@@ -1,5 +1,3 @@
-function overworld_extension:ust_yuryung_khaya/kill_bad_mobs
-
 # Вход в биом
 execute as @a[scores={UstYuryungKhayaHeaderAlreadyShown=0}] at @s if biome ~ ~ ~ overworld_extension:ust_yuryung_khaya run function overworld_extension:ust_yuryung_khaya/title/title_welcome
 execute as @a[scores={UstYuryungKhayaHeaderAlreadyShown=0}] at @s if biome ~ ~ ~ overworld_extension:ust_yuryung_khaya_underground run function overworld_extension:ust_yuryung_khaya/title/title_welcome

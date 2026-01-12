@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension doWeatherCycle set value 1

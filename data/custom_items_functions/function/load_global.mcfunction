@@ -3,9 +3,11 @@ function custom_items_functions:armor/hydro_suit/load_global
 function custom_items_functions:crystals/load_global
 function custom_items_functions:join_world/load_global
 function custom_items_functions:magic/load_global
-function custom_items_functions:science/gas_cylinder/load_global
-function custom_items_functions:science/geiger_counter/load_global
+function custom_items_functions:science/load_global
 
 #Artem: { 
 # function custom_items_functions:weapons/load_global
 #}
+
+
+function custom_items_functions:tick_period_main

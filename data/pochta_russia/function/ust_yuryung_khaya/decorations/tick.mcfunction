@@ -1,1 +1,0 @@
-execute as @e[tag=ust_yuryung_khaya_item_display_pochta] at @s run tp @s ~ ~ ~ ~-1.1 ~

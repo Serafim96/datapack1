@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "pochta_russia_ust_yuryung_khaya_arrow_up"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pochta_russia:ust_yuryung_khaya/boughts/level_up"
+  }
+}

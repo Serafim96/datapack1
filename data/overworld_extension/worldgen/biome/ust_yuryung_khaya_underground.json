@@ -1,20 +1,26 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 2585,
+    "minecraft:visual/fog_color": 2585,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "minecraft:custom_sounds.ambient.elytra_flying_02db.loop"
+      },
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    }
+  },
   "temperature": 0,
   "downfall": 0.5,
   "has_precipitation": false,
   "creature_spawn_probability": 0.99,
   "effects": {
-    "sky_color": 2585,
-    "fog_color": 2585,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "ambient_sound": { "sound_id": "minecraft:custom_sounds.ambient.elytra_flying_02db.loop" },
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    }
+    "water_color": 4159204
   },
   "spawners": {
     "ambient": [

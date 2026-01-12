@@ -1,0 +1,1 @@
+function village_artem:central_gates/security/load_global

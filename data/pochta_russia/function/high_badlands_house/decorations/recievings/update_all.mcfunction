@@ -1,3 +1,0 @@
-function pochta_russia:high_badlands_house/decorations/recievings/signs/update_1
-function pochta_russia:high_badlands_house/decorations/recievings/signs/update_2
-function pochta_russia:high_badlands_house/decorations/recievings/signs/update_3

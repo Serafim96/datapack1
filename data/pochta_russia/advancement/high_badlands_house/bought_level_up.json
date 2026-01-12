@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "pochta_russia_high_badlands_house_arrow_up"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pochta_russia:high_badlands_house/boughts/level_up"
+  }
+}

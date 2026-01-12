@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld freezeDamage set value 1

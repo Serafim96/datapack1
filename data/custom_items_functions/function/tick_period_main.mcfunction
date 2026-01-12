@@ -1,0 +1,9 @@
+function custom_items_functions:armor/lava_resistant_suit/tick_period_main
+function custom_items_functions:crystals/tick_period_main
+function custom_items_functions:join_world/tick_period_main
+function custom_items_functions:magic/tick_period_main
+function custom_items_functions:science/tick_period_main
+
+#Artem: { 
+# function custom_items_functions:weapons/tick_global
+#}

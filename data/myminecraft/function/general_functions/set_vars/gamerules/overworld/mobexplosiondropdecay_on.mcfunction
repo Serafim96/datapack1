@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld mobExplosionDropDecay set value 1

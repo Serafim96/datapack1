@@ -1,2 +1,2 @@
-tag @s remove need_crystal_pult_advanced_finished_mainhand
-tag @s remove need_crystal_pult_advanced_finished_offhand
+tag @s remove need_s_crystal_pult_advanced_finished_mainhand
+tag @s remove need_s_crystal_pult_advanced_finished_offhand

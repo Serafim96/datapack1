@@ -1,0 +1,1 @@
+data modify storage pochta_russia high_badlands_house.buttons.change_consignee.right set value 0

@@ -1,1 +1,1 @@
-$data modify storage $(storage_name) $(dep_name).max_recievings set value $(max_recievings)b
+$data modify storage $(storage_name) $(dep_name).max_recievings set value $(max_recievings)

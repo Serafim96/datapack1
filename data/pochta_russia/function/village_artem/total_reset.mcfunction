@@ -1,0 +1,2 @@
+function pochta_russia:reuse/storage_operations/api/init {storage_name:pochta_russia,dep_id:3,dep_name:village_artem,dep_name_txt:"Региональное Отделение Земская",pos_send_x:-5094,pos_send_y:65,pos_send_z:8743}
+function pochta_russia:village_artem/decorations_summon

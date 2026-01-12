@@ -1,1 +1,1 @@
-execute as @e[x=-1,dx=2,y=114,dy=3,z=60,dz=0] at @s in overworld run tp @s 369 -62 -11445 -90 ~
+execute as @e[type=!#myminecraft:popular_exclude_no_player,x=-1,dx=2,y=114,dy=3,z=60,dz=0] at @s in overworld run tp @s 369 -62 -11445 -90 ~

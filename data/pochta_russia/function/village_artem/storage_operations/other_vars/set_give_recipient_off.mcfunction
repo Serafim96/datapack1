@@ -1,1 +1,0 @@
-data modify storage pochta_russia:village_artem GiveRecipientOn set value 0

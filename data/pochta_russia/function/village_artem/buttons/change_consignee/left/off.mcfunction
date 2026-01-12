@@ -1,0 +1,1 @@
+data modify storage pochta_russia village_artem.buttons.change_consignee.left set value 0

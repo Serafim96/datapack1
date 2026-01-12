@@ -1,1 +1,0 @@
-summon minecraft:chest_minecart 3260 206 4853

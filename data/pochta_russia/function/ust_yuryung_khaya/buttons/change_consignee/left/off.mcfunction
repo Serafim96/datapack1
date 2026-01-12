@@ -1,0 +1,1 @@
+data modify storage pochta_russia ust_yuryung_khaya.buttons.change_consignee.left set value 0

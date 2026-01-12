@@ -16,7 +16,7 @@ execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if da
 execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
 
 # Если игрок умер/исчез по непонятной причине, если бафф идет кончаем бафф просто
-execute if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=player,gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
+execute if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
 
 #Если бафф в процессе, то закрываем комнату подсказки
 execute if data storage angmar_tomb:spider_buff {Is_processing:1} run function angmar_tomb:spider_buff/close_hint_room_lever

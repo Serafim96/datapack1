@@ -1,1 +1,0 @@
-$title @s actionbar {"text":"В отделении \"$(dep_name_txt)\" заполнен склад","color":"#00C832"}

@@ -11,6 +11,6 @@ execute if entity @s[tag=gz_mainhand] run tag @s add gz_reloading
 execute if entity @s[tag=gz_offhand] run tag @s add gz_reloading
 
 
-execute as @s[tag=gz_mainhand] store result score @s prevGun run data get entity @s SelectedItem.components."minecraft:custom_data".gz_data.id
-execute as @s[tag=gz_offhand] store result score @s prevGun run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".gz_data.id
+# execute as @s[tag=gz_mainhand] store result score @s prevGun run data get entity @s SelectedItem.components."minecraft:custom_data".gz_data.id
+# execute as @s[tag=gz_offhand] store result score @s prevGun run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".gz_data.id
 

@@ -1,13 +1,16 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "offhand": {
-          "components": {
-            "minecraft:consumable": {}
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:consumable": {
+            "consume_seconds": 3,
+            "sound": "minecraft:entity.turtle.egg_crack"
           }
         }
       }
     }
   }
+}

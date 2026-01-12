@@ -1,0 +1,4 @@
+$execute if biome ~ ~ ~ #overworld_extension:greenfield_city_zone run return run function game_mechanic_extension:speedy_minecarts/reuse/$(ort)_change {tp_delta:$(tp_sign)1.5,particle_delta:$(particle_sign)5,motion:$(tp_sign)2.054}
+$execute if biome ~ ~ ~ #overworld_extension:makuta_city_zone run return run function game_mechanic_extension:speedy_minecarts/reuse/$(ort)_change {tp_delta:$(tp_sign)1.5,particle_delta:$(particle_sign)5,motion:$(tp_sign)2.054}
+$execute if biome ~ ~ ~ overworld_extension:greenfield_moria_village_express run return run function game_mechanic_extension:speedy_minecarts/reuse/$(ort)_change {tp_delta:$(tp_sign)2.5,particle_delta:$(particle_sign)7,motion:$(tp_sign)2.054}
+$execute if biome ~ ~ ~ #overworld_extension:gold_babylon_express_zone run return run function game_mechanic_extension:speedy_minecarts/reuse/$(ort)_change {tp_delta:$(tp_sign)5,particle_delta:$(particle_sign)9,motion:$(tp_sign)2.054}

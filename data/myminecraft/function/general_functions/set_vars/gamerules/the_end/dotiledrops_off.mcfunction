@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end doTileDrops set value 0

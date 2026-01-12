@@ -1,0 +1,4 @@
+$execute if data storage $(storage_name) {$(dep_name):{level:1}} run function pochta_russia:reuse/decorations/update_recievings_lvl_1 with storage $(storage_name) $(dep_name)
+$execute if data storage $(storage_name) {$(dep_name):{level:2}} run function pochta_russia:reuse/decorations/update_recievings_lvl_2 with storage $(storage_name) $(dep_name)
+$execute if data storage $(storage_name) {$(dep_name):{level:3}} run function pochta_russia:reuse/decorations/update_recievings_lvl_3 with storage $(storage_name) $(dep_name)
+$execute if data storage $(storage_name) {$(dep_name):{level:4}} run function pochta_russia:reuse/decorations/update_recievings_lvl_4 with storage $(storage_name) $(dep_name)

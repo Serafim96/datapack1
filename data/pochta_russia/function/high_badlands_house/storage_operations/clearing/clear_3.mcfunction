@@ -1,1 +1,0 @@
-data modify storage pochta_russia:high_badlands_house Recieving.3 set value []

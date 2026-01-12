@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension blockExplosionDropDecay set value 1

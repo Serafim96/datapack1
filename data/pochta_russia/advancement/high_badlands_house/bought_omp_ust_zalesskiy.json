@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "send_high_badlands_house_omp_ust_zalesskiy"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pochta_russia:high_badlands_house/boughts/sendings/omp_ust_zalesskiy"
+  }
+}

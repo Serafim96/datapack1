@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end keepInventory set value 0

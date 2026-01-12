@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether globalSoundEvents set value 1

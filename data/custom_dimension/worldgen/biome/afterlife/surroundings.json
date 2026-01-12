@@ -1,52 +1,40 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 197379,
+    "minecraft:visual/fog_color": 197379,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "minecraft:custom_sounds.ambient_music.afterlife_world.all"
+        },
+        "min_delay": 0,
+        "max_delay": 0,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:audio/ambient_sounds": {},
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:mycelium"
+          },
+          "probability": 0.01
+        }
+      ]
+    }
+  },
   "temperature": 0.5,
   "downfall": 0.8,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 16777215,
-    "fog_color": 16777215,
     "water_color": 4159204,
-    "water_fog_color": 329011,
     "grass_color": 4499468,
-    "foliage_color": 6072580,
-    "mood_sound": {
-      "sound": { "sound_id": "minecraft:custom_sounds.silence" },
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": { "sound_id": "minecraft:custom_sounds.ambient_music.afterlife_world.all" },
-          "min_delay": 0,
-          "max_delay": 0,
-          "replace_current_music": true
-        }
-      }
-    ],
-    "additions_sound": {
-      "sound": { "sound_id": "minecraft:custom_sounds.silence" },
-      "tick_chance": 0.0001
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:mycelium"
-      },
-      "probability": 0.01
-    }
+    "foliage_color": 6072580
   },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
+  "spawners": {},
   "spawn_costs": {},
   "carvers": "minecraft:cave",
   "features": []

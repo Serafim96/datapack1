@@ -1,1 +1,0 @@
-data modify storage pochta_russia:ust_yuryung_khaya MinecartSendingDetectionOn set value 0

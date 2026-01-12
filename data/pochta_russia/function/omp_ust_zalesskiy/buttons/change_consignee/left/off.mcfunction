@@ -1,0 +1,1 @@
+data modify storage pochta_russia omp_ust_zalesskiy.buttons.change_consignee.left set value 0

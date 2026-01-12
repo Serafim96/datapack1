@@ -1,8 +1,8 @@
 {
     "values": [
-        "overworld_extension:gold_babylon_express",
+        "#overworld_extension:gold_babylon_express_zone",
         "overworld_extension:greenfield_moria_village_express",
-        "overworld_extension:makuta_city",
-        "overworld_extension:greenfield_city"
+        "#overworld_extension:makuta_city_zone",
+        "#overworld_extension:greenfield_city_zone"
     ]
 }

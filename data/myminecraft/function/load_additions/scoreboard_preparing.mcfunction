@@ -28,5 +28,5 @@ scoreboard objectives add GlobalUsedBed minecraft.custom:minecraft.sleep_in_bed
 
 # Artem: {
 scoreboard objectives add GlobalWarpedFungusOnAStickUsed minecraft.used:minecraft.warped_fungus_on_a_stick
-scoreboard objectives add GlobalSneakTime minecraft.custom:minecraft.sneak_time
+# scoreboard objectives add GlobalSneakTime minecraft.custom:minecraft.sneak_time
 #}

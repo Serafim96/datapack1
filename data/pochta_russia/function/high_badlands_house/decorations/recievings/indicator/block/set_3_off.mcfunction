@@ -1,1 +1,0 @@
-setblock 3256 207 4855 red_concrete

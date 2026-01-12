@@ -3,8 +3,7 @@ function custom_items_functions:armor/hydro_suit/tick_global
 function custom_items_functions:crystals/tick_global
 function custom_items_functions:join_world/tick_global
 function custom_items_functions:magic/tick_global
-function custom_items_functions:science/gas_cylinder/tick_global
-function custom_items_functions:science/geiger_counter/tick_global
+function custom_items_functions:science/tick_global
 
 #Artem: { 
 # function custom_items_functions:weapons/tick_global

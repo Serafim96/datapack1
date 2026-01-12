@@ -1,1 +1,0 @@
-execute as @a[x=-3951,dx=4,y=36,dy=4,z=4635,dz=9] at @s run title @s actionbar {"text":"Посылки закончились","color":"#FF0000"}

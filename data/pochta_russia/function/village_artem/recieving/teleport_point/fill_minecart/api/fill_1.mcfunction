@@ -1,1 +1,0 @@
-function pochta_russia:village_artem/recieving/teleport_point/fill_minecart/check/fill_1

@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether spectatorsGenerateChunks set value 0

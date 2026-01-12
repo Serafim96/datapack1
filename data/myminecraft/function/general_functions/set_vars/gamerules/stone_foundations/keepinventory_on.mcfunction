@@ -1,1 +1,0 @@
-data modify storage my_gamerules:stone_foundations keepInventory set value 1

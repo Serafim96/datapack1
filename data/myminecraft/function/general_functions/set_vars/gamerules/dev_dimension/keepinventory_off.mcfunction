@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension keepInventory set value 0

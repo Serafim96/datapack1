@@ -2,6 +2,5 @@
   "asset_id": "custom_armor_trims:lava_resistant_suit",
   "description": {
     "translate": "Высокотемпературный сплав"
-  },
-  "template_item": "minecraft:book"
+  }
 }

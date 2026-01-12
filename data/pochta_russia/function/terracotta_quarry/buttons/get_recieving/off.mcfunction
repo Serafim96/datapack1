@@ -1,0 +1,1 @@
+data modify storage pochta_russia terracotta_quarry.buttons.get_recieving set value 0

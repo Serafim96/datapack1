@@ -1,0 +1,1 @@
+$data modify entity @e[tag=pochta_russia_$(dep_name)_dep_name,limit=1] text set value [{"text":"Отделение: "},{"nbt":"$(dep_name).dep_name_txt","storage":$(storage_name)}]

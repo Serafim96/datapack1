@@ -3,8 +3,5 @@
   "description": {
     "color": "#7C9CBF",
     "translate": "Варп-улучшение"
-  },
-  "incompatible_armor_material": "diamond",
-  "ingredient": "minecraft:prismarine_crystals",
-  "item_model_index": 0.8
+  }
 }

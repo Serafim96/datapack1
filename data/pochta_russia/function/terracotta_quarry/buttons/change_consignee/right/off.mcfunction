@@ -1,0 +1,1 @@
+data modify storage pochta_russia terracotta_quarry.buttons.change_consignee.right set value 0

@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension showDeathMessages set value 1

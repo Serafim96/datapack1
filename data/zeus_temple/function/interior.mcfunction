@@ -46,7 +46,7 @@ particle minecraft:flame -685.9 260.5 2628 0.1 0.3 0.3 0.005 4 force
 particle minecraft:reverse_portal -691.5 262.5 2620.5 0.3 0.3 0.3 0.09 5 force
 #playsound minecraft:particle.soul_escape block @a[distance=..16] -690 252 2625 1
 execute positioned -681.0 250.05 2626.0 run playsound minecraft:particle.soul_escape block @a[distance=..16] -681.0 250.05 2626.0 1
-playsound minecraft:block.azalea_leaves.fall block @e[type=player,distance=..100] -686 260 2628 0.1
+playsound minecraft:block.azalea_leaves.fall block @a[distance=..100] -686 260 2628 0.1
 
 #dust
 # particle minecraft:dust 12 12 12 1.7 -675 258 2640 1.5 1.8 1.5 1 30 force

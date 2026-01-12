@@ -1,1 +1,0 @@
-data modify storage my_gamerules:dev_dimension universalAnger set value 0

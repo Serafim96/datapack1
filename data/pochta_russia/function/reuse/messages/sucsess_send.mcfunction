@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"Успешно отправлено в $(consignee_name_txt)","color":"#00C832"}

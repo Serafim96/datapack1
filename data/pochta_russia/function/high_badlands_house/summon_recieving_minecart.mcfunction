@@ -1,0 +1,1 @@
+summon chest_minecart 3256 207 4853 {Rotation:[0F,0F],Tags:["pochta_russia_high_badlands_house_recieving_minecart"]}

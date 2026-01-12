@@ -1,1 +1,0 @@
-title @s actionbar {"text":"Получите, пожалуйста","color":"#00C832"}

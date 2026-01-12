@@ -1,0 +1,1 @@
+summon chest_minecart -5092 66 8750 {Rotation:[0F,0F],Tags:["pochta_russia_village_artem_recieving_minecart"]}

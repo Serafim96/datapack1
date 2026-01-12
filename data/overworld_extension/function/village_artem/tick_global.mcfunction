@@ -1,4 +1,3 @@
-function overworld_extension:village_artem/kill_bad_mobs
 function overworld_extension:village_artem/biome_buff
 
 execute as @a at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run effect clear @s minecraft:bad_omen

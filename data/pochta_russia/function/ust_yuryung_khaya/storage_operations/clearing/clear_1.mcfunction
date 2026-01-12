@@ -1,1 +1,0 @@
-data modify storage pochta_russia:ust_yuryung_khaya Recieving.1 set value []

@@ -1,35 +1,37 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 14333006,
+    "minecraft:visual/fog_color": 13087093,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": {
+          "sound_id": "minecraft:ambient.cave"
+        },
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:campfire_cosy_smoke"
+          },
+          "probability": 0.03
+        }
+      ]
+    }
+  },
   "temperature": 2,
   "downfall": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 14333006,
-    "fog_color": 13087093,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:campfire_cosy_smoke"
-      },
-      "probability": 0.03
-    }
+    "water_color": 4159204
   },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
+  "spawners": {},
   "spawn_costs": {},
   "carvers": "minecraft:cave",
   "features": []

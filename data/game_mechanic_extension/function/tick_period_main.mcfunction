@@ -1,0 +1,1 @@
+function game_mechanic_extension:speedy_minecarts/tick_period_main

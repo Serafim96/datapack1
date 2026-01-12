@@ -1,1 +1,6 @@
+function pochta_russia:omp_ust_zalesskiy/tick_global
+function pochta_russia:high_badlands_house/tick_global
+function pochta_russia:village_artem/tick_global
+function pochta_russia:ust_yuryung_khaya/tick_global
 function pochta_russia:terracotta_quarry/tick_global
+function pochta_russia:bamboo_fabric/tick_global

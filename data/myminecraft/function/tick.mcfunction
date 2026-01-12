@@ -5,6 +5,9 @@
 # Предобработка переменных
 execute if data storage minecraft:global {GlobalTickEnable:1} run function myminecraft:tick_additions/pre_tick
 
+# Расширение механик игры
+execute if data storage minecraft:global {GlobalTickEnable:1} run function game_mechanic_extension:tick_global
+
 # Глобальные функции (не зависят от местоположения и чего-либо еще)
 execute if data storage minecraft:global {GlobalTickEnable:1} run function pk_be_co:_main/tick
 execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_items_functions:tick_global

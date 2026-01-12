@@ -1,1 +1,0 @@
-data modify storage pochta_russia:ust_yuryung_khaya GiveRecipientOn set value 0

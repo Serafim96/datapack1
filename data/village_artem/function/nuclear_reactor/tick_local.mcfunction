@@ -1,0 +1,1 @@
+function village_artem:nuclear_reactor/lifts/tick_local

@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld logAdminCommands set value 1

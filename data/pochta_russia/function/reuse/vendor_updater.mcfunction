@@ -1,0 +1,2 @@
+$execute unless data storage $(storage_name) {$(dep_name):{level:4}} unless data storage $(storage_name) {$(dep_name):{summoned_vendor:1}} run return run function pochta_russia:$(dep_name)/summon_vendor
+$execute if data storage $(storage_name) {$(dep_name):{level:4,summoned_vendor_no_level:0}} run return run function pochta_russia:$(dep_name)/summon_vendor_no_level

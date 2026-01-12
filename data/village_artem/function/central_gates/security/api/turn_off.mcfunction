@@ -1,3 +1,4 @@
+data modify storage minecraft:village_artem CentralGateSecurityTurnOffScheduled set value 0
 
 execute if data storage minecraft:village_artem {CentralGateSecurityOn:1} run schedule function village_artem:central_gates/security/set_stone 20t
 execute if data storage minecraft:village_artem {CentralGateSecurityOn:1} run schedule function village_artem:central_gates/security/storage_operations/set_redstone_off 20t

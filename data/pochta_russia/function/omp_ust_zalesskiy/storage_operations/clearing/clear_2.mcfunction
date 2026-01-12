@@ -1,1 +1,0 @@
-data modify storage pochta_russia:omp_ust_zalesskiy Recieving.2 set value []

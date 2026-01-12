@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doWardenSpawning set value 0

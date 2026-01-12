@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doEntityDrops set value 0

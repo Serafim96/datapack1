@@ -1,0 +1,1 @@
+summon chest_minecart -7228 68 8789 {Rotation:[0F,0F],Tags:["pochta_russia_bamboo_fabric_recieving_minecart"]}

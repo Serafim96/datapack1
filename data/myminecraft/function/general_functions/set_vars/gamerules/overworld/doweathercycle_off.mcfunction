@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doWeatherCycle set value 0

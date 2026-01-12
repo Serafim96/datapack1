@@ -1,0 +1,1 @@
+data modify storage pochta_russia ust_yuryung_khaya.buttons.get_recieving set value 0

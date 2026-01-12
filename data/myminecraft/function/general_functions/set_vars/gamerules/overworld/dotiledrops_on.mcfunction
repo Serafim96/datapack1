@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doTileDrops set value 1

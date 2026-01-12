@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "pochta_russia_village_artem_arrow_up"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pochta_russia:village_artem/boughts/level_up"
+  }
+}

@@ -1,4 +1,0 @@
-function pochta_russia:village_artem/kill_on_entrance
-function pochta_russia:village_artem/sending/tick
-function pochta_russia:village_artem/recieving/tick
-function pochta_russia:village_artem/decorations/tick

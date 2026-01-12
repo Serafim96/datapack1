@@ -1,0 +1,1 @@
+data modify storage village_artem ArtemVillageNuclearReactorLiftProcessing set value 1

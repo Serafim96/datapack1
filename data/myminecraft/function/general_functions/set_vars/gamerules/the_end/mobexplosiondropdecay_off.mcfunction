@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end mobExplosionDropDecay set value 0

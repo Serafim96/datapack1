@@ -1,0 +1,1 @@
+$data modify storage $(storage_name) temp.consignee_name_txt set from storage $(storage_name) $(consignee_name).dep_name_txt

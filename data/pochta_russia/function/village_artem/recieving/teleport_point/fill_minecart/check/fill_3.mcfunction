@@ -1,1 +1,0 @@
-execute unless entity @e[type=chest_minecart,x=-5094,dx=2,y=65,dy=0,z=8742,dz=2] if data storage pochta_russia:village_artem Recieving.3[0] run function pochta_russia:village_artem/recieving/teleport_point/fill_minecart/base/fill_3

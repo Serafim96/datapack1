@@ -1,0 +1,1 @@
+summon chest_minecart -8123 200 -5041 {Rotation:[0F,0F],Tags:["pochta_russia_terracotta_quarry_recieving_minecart"]}

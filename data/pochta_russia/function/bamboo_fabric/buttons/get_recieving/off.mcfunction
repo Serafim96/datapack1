@@ -1,0 +1,1 @@
+data modify storage pochta_russia bamboo_fabric.buttons.get_recieving set value 0

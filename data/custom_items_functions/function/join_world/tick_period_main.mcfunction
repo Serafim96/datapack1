@@ -1,0 +1,1 @@
+function custom_items_functions:join_world/teleporter/tick_period_main

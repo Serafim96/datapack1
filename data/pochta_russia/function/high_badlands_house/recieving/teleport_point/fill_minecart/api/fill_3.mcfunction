@@ -1,1 +1,0 @@
-function pochta_russia:high_badlands_house/recieving/teleport_point/fill_minecart/check/fill_3

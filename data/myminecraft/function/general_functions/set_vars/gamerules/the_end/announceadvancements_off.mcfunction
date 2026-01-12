@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end announceAdvancements set value 0

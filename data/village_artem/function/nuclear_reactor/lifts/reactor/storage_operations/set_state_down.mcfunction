@@ -1,0 +1,1 @@
+data modify storage village_artem ArtemVillageNuclearReactorLiftState set value 1

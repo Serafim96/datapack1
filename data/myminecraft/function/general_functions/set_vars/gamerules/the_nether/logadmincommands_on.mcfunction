@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_nether logAdminCommands set value 1

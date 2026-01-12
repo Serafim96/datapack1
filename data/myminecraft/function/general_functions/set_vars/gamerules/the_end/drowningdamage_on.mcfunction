@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end drowningDamage set value 1

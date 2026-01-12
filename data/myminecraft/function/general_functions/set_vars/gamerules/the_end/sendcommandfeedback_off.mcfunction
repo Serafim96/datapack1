@@ -1,1 +1,0 @@
-data modify storage my_gamerules:the_end sendCommandFeedback set value 0

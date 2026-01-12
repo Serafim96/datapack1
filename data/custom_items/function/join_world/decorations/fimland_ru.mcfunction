@@ -1,0 +1,1 @@
+give @s clock[item_model="custom/decorations/3d_letters",custom_model_data={strings:["fimland_ru"]},custom_name={"italic":false,"text":"Имя Мира"},custom_data={Tags:["fimland_ru"]}] 1

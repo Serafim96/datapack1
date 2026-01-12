@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 89,
-    "min_format": 89,
-    "max_format": 89,
-    "description": "1.21.10 main datapack for map"
+    "pack_format": 94,
+    "min_format": 94,
+    "max_format": 94,
+    "description": "1.21.11 main datapack for map"
   }
 }

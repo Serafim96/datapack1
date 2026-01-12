@@ -1,0 +1,2 @@
+function custom_items_functions:magic/instrument/tick_period_main
+function custom_items_functions:magic/tartarus_artifacts/tick_period_main

@@ -1,1 +1,0 @@
-data modify storage pochta_russia:high_badlands_house GiveRecipientOn set value 1

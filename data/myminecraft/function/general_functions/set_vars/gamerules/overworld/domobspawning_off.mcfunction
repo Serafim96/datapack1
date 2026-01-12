@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doMobSpawning set value 0

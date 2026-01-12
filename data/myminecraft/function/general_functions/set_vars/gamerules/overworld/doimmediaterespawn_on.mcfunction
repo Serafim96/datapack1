@@ -1,1 +1,0 @@
-data modify storage my_gamerules:overworld doImmediateRespawn set value 1
