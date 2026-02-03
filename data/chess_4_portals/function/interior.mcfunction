@@ -21,7 +21,7 @@ particle minecraft:portal -15.99 -55.01 125 0.5 0.8 0.1 1.5 2
 #particle minecraft:mycelium -16.01 -52 105.01 9 4 9 0 20
 
 #notorious big pos
-data modify entity @e[type=giant,limit=1] Pos set value [-32.2d,-59d,85.7d]
+data modify entity @e[limit=1,type=giant] Pos set value [-32.2d,-59d,85.7d]
 
 # fire columns 
 function chess_4_portals:fire_columns

@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "level_4"
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "Tags": [
+        "radiation_container",
+        "level_4"
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Заполненный",
+        "color": "#26BB19"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

@@ -1,3 +1,5 @@
+execute if data storage village_artem {nuclear_reactor:{powered:0}} run return fail
+
 ## Fire Trail Hell
 execute in overworld as @a[gamemode=!spectator,tag=village_artem_fire_trail] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone unless block ~ ~-0.4 ~ air unless block ~ ~-0.4 ~ cave_air unless block ~ ~-0.4 ~ light unless block ~ ~-0.4 ~ ladder run particle minecraft:happy_villager ~ ~0.125 ~ 0.15 0 0.15 0.01 1 normal
 

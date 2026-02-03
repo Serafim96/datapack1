@@ -3,47 +3,47 @@
 #######################################
 
 # Предобработка переменных
-execute if data storage minecraft:global {GlobalTickEnable:1} run function myminecraft:tick_additions/pre_tick
+function myminecraft:tick_additions/pre_tick
 
 # Расширение механик игры
-execute if data storage minecraft:global {GlobalTickEnable:1} run function game_mechanic_extension:tick_global
+function game_mechanic_extension:tick_global
 
 # Глобальные функции (не зависят от местоположения и чего-либо еще)
-execute if data storage minecraft:global {GlobalTickEnable:1} run function pk_be_co:_main/tick
-execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_items_functions:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function thepa:loop
-execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_block:main
-# execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_weapon:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_crafting:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function portal_guns:main
-execute if data storage minecraft:global {GlobalTickEnable:1} run function pochta_russia:tick_global
+function pk_be_co:_main/tick
+function custom_items_functions:tick_global
+function thepa:loop
+function custom_block:main
+# function custom_weapon:tick_global
+function custom_crafting:tick_global
+function portal_guns:main
+function pochta_russia:tick_global
 
-# Расширение измерения Верхний мир
-execute if data storage minecraft:global {GlobalTickEnable:1} in overworld run function overworld_extension:tick_global
+# Тик Верхний мир
+execute in overworld run function myminecraft:tick_overworld
 
 # Отдельные измерения
-execute if data storage minecraft:global {GlobalTickEnable:1} in dev_dimension:dev_dimension run function dev_dimension:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function custom_dimension:tick_global
+execute in dev_dimension:dev_dimension run function dev_dimension:tick_global
+function custom_dimension:tick_global
 
 # Команды по зонам, в том числе локальные тики измерений
-execute if data storage minecraft:global {GlobalTickEnable:1} run function hell_castle:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function home_hell:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} if data storage minecraft:church_hell {EnableTickFunction:1} in the_nether run function church_hell:interiors/tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function church_hell:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function angmar_tomb:time_buff/tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function lothlorien_forest:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function dwarf_net:dwarf_library/secret_door/tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function zeus_temple:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function gold_babylon:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function stone_foundations:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function village_artem:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function far_far_away:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function the_wall:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function hogwarts:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function vulcano_island:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function ust_yuryung_khaya:tick_global
-execute if data storage minecraft:global {GlobalTickEnable:1} run function terracotta_quarry:tick_global
+function hell_castle:tick_global
+function home_hell:tick_global
+execute if data storage minecraft:church_hell {EnableTickFunction:1} in the_nether run function church_hell:interiors/tick_global
+function church_hell:tick_global
+function angmar_tomb:time_buff/tick_global
+function lothlorien_forest:tick_global
+function dwarf_net:dwarf_library/secret_door/tick_global
+function zeus_temple:tick_global
+function gold_babylon:tick_global
+function stone_foundations:tick_global
+function village_artem:tick_global
+function far_far_away:tick_global
+function the_wall:tick_global
+function hogwarts:tick_global
+function vulcano_island:tick_global
+function ust_yuryung_khaya:tick_global
+function terracotta_quarry:tick_global
 
 
 # Постобработка переменных
-execute if data storage minecraft:global {GlobalTickEnable:1} run function myminecraft:tick_additions/post_tick
+function myminecraft:tick_additions/post_tick

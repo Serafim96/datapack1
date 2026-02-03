@@ -1,1 +1,0 @@
-function far_far_away:tour_operator/tick_global

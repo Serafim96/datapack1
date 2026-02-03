@@ -8,7 +8,7 @@ summon text_display 1842 131.95 -4881.01 {Glowing:0b,view_range:4f,Rotation:[180
 #Почтовая коробка
 #fill 3258 212 4865 3259 212 4865 light[level=12]
 setblock 1842 142 -4889 light[level=5]
-summon item_display 1842 143.0 -4889 {view_range:4f,Tags:["pochta_russia_ust_yuryung_khaya_decoration","pochta_russia_ust_yuryung_khaya_label"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:[post_box]}}}}
+summon item_display 1842 143.0 -4889 {view_range:4f,Tags:["pochta_russia_ust_yuryung_khaya_decoration","pochta_russia_ust_yuryung_khaya_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:[post_box]}}}}
 
 # Почтовая коробка
 fill -5106 74 8748 -5106 74 8749 light[level=12]

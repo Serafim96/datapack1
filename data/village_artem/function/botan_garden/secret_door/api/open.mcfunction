@@ -1,0 +1,1 @@
+execute if data storage village_artem {BotanGardenDoorOpened:0} run function village_artem:botan_garden/secret_door/open_door

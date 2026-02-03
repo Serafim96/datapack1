@@ -1,0 +1,2 @@
+execute unless biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run data modify entity @s Item.components.minecraft:custom_model_data.strings[1] set value "not_filling"
+execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run data modify entity @s Item.components.minecraft:custom_model_data.strings[1] set value "is_filling"

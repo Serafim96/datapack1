@@ -1,1 +1,1 @@
-tp @s 3258 205 4862
+execute in overworld run tp @s 3258 205 4862

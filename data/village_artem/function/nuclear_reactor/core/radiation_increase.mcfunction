@@ -1,0 +1,3 @@
+execute if entity @s[type=!player] run return run scoreboard players add @s RadiationLevel 250
+execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator,predicate=custom_items_functions:armor/radiation_suit/is_wearing] run return run scoreboard players add @s RadiationLevel 50
+execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator,predicate=!custom_items_functions:armor/radiation_suit/is_wearing] run return run scoreboard players add @s RadiationLevel 250

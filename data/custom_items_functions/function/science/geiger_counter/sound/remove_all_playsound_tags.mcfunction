@@ -5,4 +5,4 @@ tag @s remove need_s_geiger_counter_playsound_100
 tag @s remove need_s_geiger_counter_playsound_7
 tag @s remove need_s_geiger_counter_playsound_8
 tag @s remove need_s_geiger_counter_playsound_9
-tag @s remove need_s_geiger_counter_playsound_100
+tag @s remove need_s_geiger_counter_playsound_999

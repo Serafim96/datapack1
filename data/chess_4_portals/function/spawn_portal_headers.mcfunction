@@ -1,16 +1,16 @@
 
-kill @e[type=armor_stand,x=-43,dx=53,y=-59,dy=13,z=78,dz=53]
+# kill @e[x=-43,dx=53,y=-59,dy=13,z=78,dz=53,type=armor_stand]
+kill @e[tag=chess_4_portals_sign]
 
 #Minigame
-summon armor_stand -36 -56 104.99 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[90f,0f],CustomName:{"text":"MINIGAME","color":"gold"},CustomNameVisible:1b}
-summon armor_stand -36 -56 104.99 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[90f,0f],CustomName:{"text":"!#?+-!            !$*%@!","color":"gold","italic":0b,"obfuscated":1b},CustomNameVisible:1b}
+summon text_display -36 -54 104.99 {NoGravity:1b,Rotation:[-90F,0F],Tags:["chess_4_portals_sign","minigame_1"],text:{"color":"gold","text":"MINIGAME"}}
+summon text_display -36 -54 104.99 {NoGravity:1b,Rotation:[-90F,0F],Tags:["chess_4_portals_sign","minigame_2"],text:{"color":"gold","italic":false,"obfuscated":true,"text":"!#?+-!            !$*%@!"}}
 
 #shopping center
-summon armor_stand -15.99 -56 85 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[0f,0f],CustomName:{"text":"Shopping Center","color":"green","bold":1b},CustomNameVisible:1b}
+summon text_display -15.99 -54 85 {NoGravity:1b,Rotation:[0F,0F],Tags:["chess_4_portals_sign","shopping_center"],text:{"bold":true,"color":"green","text":"Shopping Center"}}
 
 #the end portal
-summon armor_stand 3.8 -56 104.99 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[90f,0f],CustomName:{"text":"The End","color":"light_purple"},CustomNameVisible:1b}
+summon text_display 3.8 -54 104.99 {NoGravity:1b,Rotation:[90F,0F],Tags:["chess_4_portals_sign","end"],text:{"color":"light_purple","text":"The End"}}
 
 #aquarium
-summon armor_stand -16.01 -56 124 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Rotation:[0f,0f],CustomName:{"text":"Aquarium","color":"aqua","bold":1b},CustomNameVisible:1b}
-
+summon text_display -16.01 -54 124 {NoGravity:1b,Rotation:[180F,0F],Tags:["chess_4_portals_sign","aqua"],text:{"bold":true,"color":"aqua","text":"Aquarium"}}

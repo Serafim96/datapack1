@@ -1,1 +1,0 @@
-execute as @e[tag=ust_yuryung_khaya_tour_operator] run data modify entity @s Pos set value [1711.5d,63d,-4788.5d]

@@ -1,3 +1,6 @@
+execute if data storage village_artem {nuclear_reactor:{powered:0}} run return run function village_artem:prison/lift/reactor_disabled
+
+
 function village_artem:prison/lift/storage_operations/set_go_down_upper_button_on
 #/fill -4981 165 9049 
 #      -4976 167 9051

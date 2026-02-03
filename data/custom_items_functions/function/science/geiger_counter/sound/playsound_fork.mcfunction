@@ -26,6 +26,11 @@ execute as @s[tag=need_s_geiger_counter_playsound_9] run function custom_items_f
 #############
 execute as @s[tag=need_s_geiger_counter_playsound_100] run function custom_items_functions:science/geiger_counter/sound/playsound_100
 
+#############
+#### 999 ####
+#############
+execute as @s[tag=need_s_geiger_counter_playsound_999] run function custom_items_functions:science/geiger_counter/sound/playsound_999
+
 
 
 function custom_items_functions:science/geiger_counter/sound/remove_all_playsound_tags

@@ -8,6 +8,8 @@ execute as @a run function portal_guns:reset
 execute as @a[scores={PortalGunTitleDelay=1..}] run scoreboard players remove @s PortalGunTitleDelay 1
 execute as @a[scores={PortalGunTitleDelay=..-1}] run scoreboard players set @s PortalGunTitleDelay 0
 
+execute as @a if score @s PortalGunNotWorkingInJoinMessage matches 0.. run scoreboard players remove @s PortalGunNotWorkingInJoinMessage 1
+
 #===< Credit >===
 # This datapack was made by Craiy. Visit Craiy.net for more!
 # <3

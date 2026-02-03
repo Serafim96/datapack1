@@ -1,1 +1,0 @@
-function ust_yuryung_khaya:tour_operator/tick_global

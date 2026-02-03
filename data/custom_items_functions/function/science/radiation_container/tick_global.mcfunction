@@ -1,13 +1,6 @@
 
 
 
-# execute as @a[predicate=custom_items_functions:science/radiation_container/holds/anyhand] at @s run function custom_items_functions:science/radiation_container/fill_hand_fork
-
-
-
-# execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{Tags:["radiation_container"]}}}}] at @s run function custom_items_functions:science/radiation_container/item_biome_fork
-
-
 
 # Можно реализовать нажатия кнопок
 # execute as @e[scores={UsedGeigerCounter=1..,GeigerCounterShiftPress=1..}] at @s if predicate custom_items_functions:science/radiation_container/holds/anyhand run function custom_items_functions:science/radiation_container/

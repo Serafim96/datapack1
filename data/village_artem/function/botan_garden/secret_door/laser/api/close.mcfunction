@@ -1,0 +1,1 @@
+execute if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0,SecretWarehouseLaserOpened:1} run function village_artem:botan_garden/secret_door/laser/close_lasers

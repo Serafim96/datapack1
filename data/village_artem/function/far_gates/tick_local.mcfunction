@@ -1,5 +1,7 @@
-#Открываем если игрок поблизости
+execute if data storage village_artem {nuclear_reactor:{powered:0}} run return run function village_artem:far_gates/reactor_disabled
 
+
+#Открываем если игрок поблизости
 #fill -5116 66 8980 
 #     -5114 69 8992
 # x=-5116,dx=2,y=66,dy=3,z=8980,dz=12

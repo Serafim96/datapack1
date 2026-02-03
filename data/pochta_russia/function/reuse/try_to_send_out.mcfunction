@@ -1,5 +1,3 @@
-###
-
 # Проверяем, если вагонетка с пустым инвентарем, выходим
 execute if data entity @s {Items:[]} as @a[distance=..10] run return run function pochta_russia:messages/nothing_to_send
 

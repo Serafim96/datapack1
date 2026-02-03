@@ -1,0 +1,1 @@
+execute if data storage village_artem {BankLaserOpened:0,BankLaserProcessing:0} run function village_artem:bank/laser/open_lasers

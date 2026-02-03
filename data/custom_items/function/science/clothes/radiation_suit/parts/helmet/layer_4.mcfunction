@@ -1,0 +1,1 @@
+give @s leather_helmet[custom_name={"italic":false,"text":"4-слойный кожаный шлем"},custom_data={Tags:["radiation_leather_helmet","4_layer"]},attribute_modifiers=[{id:"armor",type:"armor",amount:1.03,operation:"add_value",slot:"head"}]] 1

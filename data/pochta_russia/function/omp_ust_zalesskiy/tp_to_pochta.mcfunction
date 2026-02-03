@@ -1,1 +1,1 @@
-tp @s -3942 36 4643
+execute in overworld run tp @s -3942 36 4643

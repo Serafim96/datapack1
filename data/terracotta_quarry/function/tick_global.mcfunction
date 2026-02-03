@@ -1,1 +1,0 @@
-function terracotta_quarry:tour_operator/tick_global

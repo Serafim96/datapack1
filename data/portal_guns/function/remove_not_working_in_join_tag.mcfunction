@@ -1,0 +1,1 @@
+tag @s remove portal_gun_not_working_in_join_message

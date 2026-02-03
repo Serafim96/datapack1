@@ -8,15 +8,13 @@ execute at @e[tag=portal_gun_portal,tag=portal_b] if score @s portal_id = @e[sor
 
 #===< Crosshair >===
 #title @s times 0 3 1
-title @s[scores={PortalGunTitleDelay=0},tag=!portal_a_exists,tag=!portal_b_exists] actionbar [{"text":"0","font":"portal_crosshair"}]
-title @s[scores={PortalGunTitleDelay=0},tag=portal_a_exists,tag=!portal_b_exists] actionbar [{"text":"1","font":"portal_crosshair"}]
-title @s[scores={PortalGunTitleDelay=0},tag=!portal_a_exists,tag=portal_b_exists] actionbar [{"text":"2","font":"portal_crosshair"}]
-title @s[scores={PortalGunTitleDelay=0},tag=portal_a_exists,tag=portal_b_exists] actionbar [{"text":"3","font":"portal_crosshair"}]
+execute if score @s PortalGunNotWorkingInJoinMessage matches ..0 run function portal_guns:title_crosshair
 
 #===< Controls >===
 execute as @s[scores={portal_shoot=1..,portal_sneak=1..},x_rotation=-90..79] run function portal_guns:items/portal_gun/switch
 execute as @s[scores={portal_shoot=1..,portal_sneak=1..},x_rotation=80..90] run function portal_guns:items/portal_gun/dismantle
-execute as @s[scores={portal_shoot=1..,portal_sneak=0}] run function portal_guns:items/portal_gun/shoot
+execute as @s[scores={portal_shoot=1..,portal_sneak=0}] at @s unless dimension custom_dimension:join run function portal_guns:items/portal_gun/shoot
+execute as @s[scores={portal_shoot=1..,portal_sneak=0}] at @s if dimension custom_dimension:join run function portal_guns:not_working_in_join
 
 execute as @s[tag=!holdsPortalGun] at @s run playsound portal_guns:equip voice @a
 tag @s[tag=!holdsPortalGun] add holdsPortalGun

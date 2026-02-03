@@ -1,0 +1,1 @@
+give @s leather_chestplate[custom_name={"italic":false,"text":"5-слойный кожаный нагрудник"},custom_data={Tags:["radiation_leather_chestplate","5_layer"]},attribute_modifiers=[{id:"armor",type:"armor",amount:3.04,operation:"add_value",slot:"chest"}]] 1

@@ -1,3 +1,7 @@
+execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone unless function village_artem:nuclear_reactor/core/check_location run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:0}
+
+execute if function village_artem:nuclear_reactor/core/check_location run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:999}
+
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/1 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:10}
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/2 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:20}
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/3 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:30}
@@ -8,7 +12,6 @@ execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/rad
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/8 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:80}
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/9 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:90}
 execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/100 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:100}
-# $execute if biome ~ ~ ~ overworld_extension:pripyat/$(biome)/999 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {hand:$(hand),level:999}
 
 
 execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/low run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:70}
@@ -17,4 +20,4 @@ execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiati
 execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/100 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:100}
 
 
-execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:0}
+execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run function custom_items_functions:science/geiger_counter/reuse/modify_item_data {level:999}

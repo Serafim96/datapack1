@@ -1,3 +1,4 @@
+function dev_dimension:welcome_title/tick_global
 function dev_dimension:overworld_portal/tick
 
 # Запуск центрального главного лифта

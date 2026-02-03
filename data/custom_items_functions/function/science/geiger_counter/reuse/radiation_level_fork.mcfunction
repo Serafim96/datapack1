@@ -8,10 +8,15 @@ $execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/ra
 $execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/8 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:80}
 $execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/9 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:90}
 $execute unless block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/100 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:100}
-# $execute if biome ~ ~ ~ overworld_extension:pripyat/$(biome)/999 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:999}
 
 
 $execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/low run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:70}
 $execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/middle run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:80}
 $execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/high run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:90}
 $execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/100 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:100}
+
+
+$execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:999}
+
+
+$function custom_items_functions:science/geiger_counter/reuse/extra_places {hand:$(hand),level:999}

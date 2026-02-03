@@ -1,1 +1,1 @@
-tp @s -8114 198 -5044
+execute in overworld run tp @s -8114 198 -5044

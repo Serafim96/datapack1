@@ -1,0 +1,1 @@
+function village_artem:hospital/pharmacy/tick_global

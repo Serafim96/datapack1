@@ -1,0 +1,1 @@
+$execute if function village_artem:nuclear_reactor/core/check_location run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:$(hand),level:999}

@@ -1,0 +1,1 @@
+execute as @e[type=item,predicate=custom_items_functions:crystals/is_item] at @s if entity @e[type=lightning_bolt,distance=..8] run function custom_items_functions:crystals/animated/weather/summon_and_kill

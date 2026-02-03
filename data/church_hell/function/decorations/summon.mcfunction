@@ -1,4 +1,4 @@
-kill @e[tag=atom_station_metro_text_display]
+kill @e[tag=atom_station_metro_text_display,type=text_display]
 
 # Метро
 summon text_display 1144 63.7 3718.99 {view_range:4.0f,Rotation:[180F,0F],Tags:["atom_station_metro_text_display"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,1f]},text:{"text":"Метро —>","color":"#FF4314"},background:16711680}

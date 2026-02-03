@@ -1,0 +1,1 @@
+give @s leather_boots[custom_name={"italic":false,"text":"5-слойные кожаные ботинки"},custom_data={Tags:["radiation_leather_boots","5_layer"]},attribute_modifiers=[{id:"armor",type:"armor",amount:1.04,operation:"add_value",slot:"feet"}]] 1

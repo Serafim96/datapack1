@@ -1,0 +1,1 @@
+data modify storage village_artem nuclear_reactor set value {powered:0,containers:0,timer:0}

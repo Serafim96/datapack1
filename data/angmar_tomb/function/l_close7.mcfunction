@@ -1,11 +1,11 @@
 execute in minecraft:the_nether store result storage minecraft:global SucsessFunctionCall int 1 run setblock 625 34 -1091 deepslate_bricks
 execute if data storage minecraft:global {SucsessFunctionCall:1} run data modify storage angmar_tomb:main_door_state lisSound7Played set value 0
-execute if data storage angmar_tomb:main_door_state {lisSound7Played:0} run playsound minecraft:block.stone.place block @a 625.5 34.5 -1090.5
+execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {lisSound7Played:0} run playsound minecraft:block.stone.place block @a 625.5 34.5 -1090.5
 data modify storage angmar_tomb:main_door_state lisSound7Played set value 1
 
 execute in minecraft:the_nether store result storage minecraft:global SucsessFunctionCall int 1 run setblock 627 34 -1091 deepslate_bricks
 execute if data storage minecraft:global {SucsessFunctionCall:1} run data modify storage angmar_tomb:main_door_state lisSound7Played set value 0
-execute if data storage angmar_tomb:main_door_state {lisSound7Played:0} run playsound minecraft:block.stone.place block @a 27.5 34.5 -1090.5
+execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {lisSound7Played:0} run playsound minecraft:block.stone.place block @a 27.5 34.5 -1090.5
 data modify storage angmar_tomb:main_door_state lisSound7Played set value 1
 
 ########## store result storage minecraft:global SucsessFunctionCall int 1 ######################################################################################

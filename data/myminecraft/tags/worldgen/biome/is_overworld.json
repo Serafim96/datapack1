@@ -1,5 +1,6 @@
 {
     "values": [
-      "#overworld_extension:all_biomes_no_dark_tunnels"
+      "#overworld_extension:all_biomes_no_dark_tunnels",
+      "#custom_dimension:floating_islands_zone"
     ]
   }

@@ -1,0 +1,1 @@
+give @s clock[item_model="custom/science/antiradine",custom_model_data={strings:["antiradine"]},consumable={consume_seconds:2,animation:"eat",has_consume_particles:true},custom_data={Tags:["antiradine"]},food={nutrition:0,saturation:-60,can_always_eat:true},custom_name={"italic":false,"text":"Антирадиационные препараты"}] 1

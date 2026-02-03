@@ -1,1 +1,1 @@
-give @s clock[custom_name={"bold":true,"color":"#FFF86D","text":"Желтый Кристалл"},custom_data={Tags:["yellow_crystal"]},item_model="clock",custom_model_data={strings:[yellow_crystal]}] 1
+give @s clock[custom_name={"bold":true,"color":"#FFF86D","text":"Желтый Кристалл"},custom_data={Tags:["crystal_of_power","simple","yellow_crystal"]},item_model="custom/crystals",custom_model_data={strings:[yellow_crystal]}] 1

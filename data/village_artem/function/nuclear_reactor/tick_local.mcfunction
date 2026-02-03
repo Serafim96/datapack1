@@ -1,1 +1,3 @@
 function village_artem:nuclear_reactor/lifts/tick_local
+function village_artem:nuclear_reactor/cleaning_chamber/tick_local
+function village_artem:nuclear_reactor/core/tick_local

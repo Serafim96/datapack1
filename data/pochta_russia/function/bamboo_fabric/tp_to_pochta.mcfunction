@@ -1,1 +1,1 @@
-tp @s -7225 66 8783
+execute in overworld run tp @s -7225 66 8783

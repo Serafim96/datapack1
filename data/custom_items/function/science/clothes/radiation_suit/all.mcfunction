@@ -1,0 +1,4 @@
+function custom_items:science/clothes/radiation_suit/helmet
+function custom_items:science/clothes/radiation_suit/chestplate
+function custom_items:science/clothes/radiation_suit/leggings
+function custom_items:science/clothes/radiation_suit/boots

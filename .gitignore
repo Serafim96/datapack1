@@ -1,2 +1,5 @@
 .vscode
 .VSCodeCounter
+.gitignore
+spyglass.json
+datapack.config.json

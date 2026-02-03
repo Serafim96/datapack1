@@ -1,1 +1,1 @@
-tp @s 1842 129 -4881
+execute in overworld run tp @s 1842 129 -4881

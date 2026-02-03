@@ -1,1 +1,0 @@
-function vulcano_island:tour_operator/tick_global

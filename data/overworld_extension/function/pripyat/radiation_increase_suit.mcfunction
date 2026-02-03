@@ -18,4 +18,4 @@ execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiati
 execute if block ~ ~ ~ water if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/100 run return run scoreboard players add @s RadiationLevel 10
 
 
-execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run scoreboard players add @s RadiationLevel 64
+execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run scoreboard players add @s RadiationLevel 50

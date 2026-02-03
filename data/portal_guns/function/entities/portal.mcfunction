@@ -2,7 +2,9 @@ scoreboard players add @s portal_timer 1
 scoreboard players operation @s portal_pre_motion = @s portal_motion
 
 #===< Check for other portal >===
-execute as @e[tag=portal_gun_portal,distance=0.1..] if score @s portal_id = @e[tag=portal_gun_portal,sort=nearest,limit=1] portal_id run tag @s add portal_target
+tag @s add not_me
+execute as @e[tag=portal_gun_portal,tag=!not_me] if score @s portal_id = @e[tag=portal_gun_portal,sort=nearest,limit=1] portal_id run tag @s add portal_target
+tag @s remove not_me
 execute if entity @e[tag=portal_target] run tag @s add portal_linked
 
 #===< Display models >===

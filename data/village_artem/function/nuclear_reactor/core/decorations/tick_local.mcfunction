@@ -1,0 +1,3 @@
+data modify entity @e[tag=village_artem_nuclear_reactor_timer,limit=1] text set value ["Таймер: ",{"nbt":"nuclear_reactor.timer","storage":"village_artem"}]
+data modify entity @e[tag=village_artem_nuclear_reactor_powered,limit=1] text set value ["Вкл.: ",{"nbt":"nuclear_reactor.powered","storage":"village_artem"}]
+data modify entity @e[tag=village_artem_nuclear_reactor_containers,limit=1] text set value ["Контейнеры: ",{"nbt":"nuclear_reactor.containers","storage":"village_artem"}]

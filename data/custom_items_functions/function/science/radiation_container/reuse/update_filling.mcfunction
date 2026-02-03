@@ -1,0 +1,2 @@
+$execute if biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run item modify entity @s weapon.$(hand) custom_items_functions:science/radiation_container/set_filling
+$execute unless biome ~ ~ ~ #overworld_extension:pripyat/radiation_levels/999 run return run item modify entity @s weapon.$(hand) custom_items_functions:science/radiation_container/set_not_filling

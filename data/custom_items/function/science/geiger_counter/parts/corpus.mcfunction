@@ -1,0 +1,1 @@
+give @s clock[item_model="custom/science/geiger_counter/parts/corpus",custom_model_data={strings:["corpus"]},custom_data={Tags:["geiger_counter_corpus"]},custom_name={"color":"#F1AF15","italic":false,"text":"Корпус счётчика Гейгера"}] 1

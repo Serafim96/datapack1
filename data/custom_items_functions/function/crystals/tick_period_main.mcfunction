@@ -1,1 +1,2 @@
 function custom_items_functions:crystals/pults/tick_period_main
+function custom_items_functions:crystals/animated/tick_period_main

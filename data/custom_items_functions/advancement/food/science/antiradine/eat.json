@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [],
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "Tags": [
+                "antiradine"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_items_functions:science/antiradine/do_eat"
+  }
+}

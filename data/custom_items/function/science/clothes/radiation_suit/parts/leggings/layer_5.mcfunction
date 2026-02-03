@@ -1,0 +1,1 @@
+give @s leather_leggings[custom_name={"italic":false,"text":"5-слойные кожаные поножи"},custom_data={Tags:["radiation_leather_leggings","5_layer"]},attribute_modifiers=[{id:"armor",type:"armor",amount:2.04,operation:"add_value",slot:"legs"}]] 1

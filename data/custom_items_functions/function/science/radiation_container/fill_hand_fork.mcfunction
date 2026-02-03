@@ -1,2 +1,2 @@
-# execute if predicate custom_items_functions:science/gas_cylinder/holds/empty/mainhand run item modify entity @s weapon.mainhand custom_items_functions:science/gas_cylinder/make_filled
-# execute if predicate custom_items_functions:science/gas_cylinder/holds/empty/offhand run item modify entity @s weapon.offhand custom_items_functions:science/gas_cylinder/make_filled
+execute if predicate custom_items_functions:science/radiation_container/holds/mainhand run function custom_items_functions:science/radiation_container/reuse/update {item_path:"SelectedItem",hand:mainhand}
+execute if predicate custom_items_functions:science/radiation_container/holds/offhand run function custom_items_functions:science/radiation_container/reuse/update {item_path:"equipment.offhand",hand:offhand} 

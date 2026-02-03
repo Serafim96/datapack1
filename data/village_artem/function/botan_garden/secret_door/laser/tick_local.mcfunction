@@ -1,10 +1,13 @@
 
+execute if data storage village_artem {nuclear_reactor:{powered:0}} run return run function village_artem:botan_garden/secret_door/laser/reactor_disabled
+
+
 #/fill -4969 -47 8756 
 #      -4963 -45 8758
 # x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2
 
-execute if entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0} if data storage minecraft:village_artem {SecretWarehouseLaserOpened:0} run function village_artem:botan_garden/secret_door/laser/open_lasers
-execute if entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={equipment:{offhand:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}}] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0} if data storage minecraft:village_artem {SecretWarehouseLaserOpened:0} run function village_artem:botan_garden/secret_door/laser/open_lasers
+execute if entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0,SecretWarehouseLaserOpened:0} run function village_artem:botan_garden/secret_door/laser/api/open
+execute if entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={equipment:{offhand:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}}] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0,SecretWarehouseLaserOpened:0} run function village_artem:botan_garden/secret_door/laser/api/open
 
 
 
@@ -15,7 +18,7 @@ execute if entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={equipment:{offhand
 #      -4966 -45 8758
 # x=-4966,dx=0,y=-47,dy=2,z=8756,dz=2
 
-execute unless entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}] unless entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={equipment:{offhand:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}}] unless entity @a[x=-4966,dx=0,y=-47,dy=2,z=8756,dz=2] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0} if data storage minecraft:village_artem {SecretWarehouseLaserOpened:1} run function village_artem:botan_garden/secret_door/laser/close_lasers
+execute unless entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}] unless entity @a[x=-4969,dx=6,y=-47,dy=2,z=8756,dz=2,nbt={equipment:{offhand:{components:{"minecraft:custom_data":{Tags:["village_secret_botan_door_ticket"]}}}}}] unless entity @a[x=-4966,dx=0,y=-47,dy=2,z=8756,dz=2] if data storage minecraft:village_artem {SecretWarehouseLaserProcessing:0,SecretWarehouseLaserOpened:1} run function village_artem:botan_garden/secret_door/laser/api/close
 
 execute as @e[x=-4965.5,dx=0,y=-47,dy=2,z=8756,dz=2,tag=!secret_warehouse_laser,gamemode=!spectator] at @s if data storage minecraft:village_artem {SecretWarehouseLaserOpened:0} run kill @s
 #execute as @e[x=-4965.5,dx=0,y=-47,dy=2,z=8756,dz=2,tag=!secret_warehouse_laser,gamemode=!spectator,gamemode=!creative] at @s if data storage minecraft:village_artem {SecretWarehouseLaserOpened:0} run damage @s 9999999999 village_artem:laser

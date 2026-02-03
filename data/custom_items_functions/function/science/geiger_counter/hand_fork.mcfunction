@@ -1,6 +1,6 @@
-execute if predicate custom_items_functions:science/geiger_counter/holds/mainhand run function custom_items_functions:science/geiger_counter/reuse/radiation_level_fork {hand:mainhand}
-execute if predicate custom_items_functions:science/geiger_counter/holds/offhand run function custom_items_functions:science/geiger_counter/reuse/radiation_level_fork {hand:offhand}
+execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone unless function village_artem:nuclear_reactor/core/check_location if predicate custom_items_functions:science/geiger_counter/holds/mainhand run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:mainhand,level:0}
+execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone unless function village_artem:nuclear_reactor/core/check_location if predicate custom_items_functions:science/geiger_counter/holds/offhand run return run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:offhand,level:0}
 
 
-execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone if predicate custom_items_functions:science/geiger_counter/holds/mainhand run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:mainhand,level:0}
-execute unless biome ~ ~ ~ #overworld_extension:pripyat_zone if predicate custom_items_functions:science/geiger_counter/holds/offhand run function custom_items_functions:science/geiger_counter/reuse/modify_level {hand:offhand,level:0}
+execute if predicate custom_items_functions:science/geiger_counter/holds/mainhand run return run function custom_items_functions:science/geiger_counter/reuse/radiation_level_fork {hand:mainhand}
+execute if predicate custom_items_functions:science/geiger_counter/holds/offhand run return run function custom_items_functions:science/geiger_counter/reuse/radiation_level_fork {hand:offhand}

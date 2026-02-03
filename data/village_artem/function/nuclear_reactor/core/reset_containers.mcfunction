@@ -1,0 +1,1 @@
+ data modify storage village_artem nuclear_reactor.containers set value 0
