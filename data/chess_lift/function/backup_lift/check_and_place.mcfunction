@@ -1,0 +1,1 @@
+execute if data storage chess_lift {ChessLift1Processing:0,ChessLift2Processing:0} run function chess_lift:backup_lift/place_lift_closed
