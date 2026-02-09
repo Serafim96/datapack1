@@ -8,9 +8,9 @@ execute as @a[x=-16,dx=1,y=-57,dy=3,z=84] at @s run tp @s 5775 76 4568 ~ ~
 particle minecraft:reverse_portal -15.99 -55.01 84 0.5 0.8 0.1 0.04 2
 
 #the end portal
-#execute as @a[x=4,y=-57,dy=3,z=104,dz=1] at @s in minecraft:the_end run tp @s 40 58 14.99
-#particle minecraft:enchant 4.5 -54.2 104.99 0.17 1 0.5 1.9 2 force
-#particle minecraft:squid_ink 4.5 -55 104.99 0.1 0.85 0.4 0.09 2 force
+execute as @a[x=4,dx=0,y=-57,dy=3,z=104,dz=1] in the_end run tp @s 1025 58 -252.99 -90 0
+particle minecraft:squid_ink 4.5 -55 104.99 0.1 0.7 0.5 0.01 2 force
+particle minecraft:enchant 4.5 -54.2 104.99 0.17 1 0.5 1.9 2 force
 
 
 #aquarium
