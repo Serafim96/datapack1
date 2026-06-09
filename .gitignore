@@ -3,3 +3,8 @@
 .gitignore
 spyglass.json
 datapack.config.json
+# AI audit working files
+_work/
+Spyglass-main*/
+datapack-optimization-helper-master/
+*.jar
