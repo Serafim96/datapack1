@@ -8,3 +8,6 @@ _work/
 Spyglass-main*/
 datapack-optimization-helper-master/
 *.jar
+# Backup of original datapack (safety copy, must NOT be committed)
+backup/
+Последний промпт.txt
