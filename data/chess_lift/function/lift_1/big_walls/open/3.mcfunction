@@ -6,7 +6,11 @@ fill -16 6 109 -19 11 109 minecraft:sticky_piston[facing=north]
 fill -12 6 104 -12 11 107 minecraft:sticky_piston[facing=west]
 fill -17 6 100 -14 11 100 minecraft:sticky_piston[facing=south]
 fill -21 6 105 -21 11 102 minecraft:sticky_piston[facing=east]
-fill -19 6 110 -16 11 110 redstone_block
-fill -11 6 104 -11 11 107 redstone_block
-fill -17 6 99 -14 11 99 redstone_block
-fill -22 6 105 -22 11 102 redstone_block
+
+
+
+# fill -19 6 110 -16 11 110 redstone_block
+# fill -11 6 104 -11 11 107 redstone_block
+# fill -17 6 99 -14 11 99 redstone_block
+# fill -22 6 105 -22 11 102 redstone_block
+function chess_lift:lift_1/big_walls/open/3/main

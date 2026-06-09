@@ -29,6 +29,8 @@ function hogwarts:load_global
 function zeus_temple:load_global
 function vulcano_island:load_global
 function terracotta_quarry:load_global
+function dwarf_net:load_global
+
 
 # Запуск периодического тика
 function myminecraft:tick_period_check

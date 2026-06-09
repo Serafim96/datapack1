@@ -1,3 +1,5 @@
+execute as @a at @s store result score @s FallDistance run data get entity @s fall_distance
+
 execute as @a unless score @s GlobalMyGamemode matches 0 unless score @s GlobalMyGamemode matches 1 run scoreboard players set @s GlobalMyGamemode 0
 
 # у кого вообще никакого заголовка -- тому ставим готовым для отображения

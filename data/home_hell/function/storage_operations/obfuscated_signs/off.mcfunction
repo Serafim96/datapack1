@@ -1,0 +1,1 @@
+data modify storage home_hell portal_sings_obfuscated set value 0b

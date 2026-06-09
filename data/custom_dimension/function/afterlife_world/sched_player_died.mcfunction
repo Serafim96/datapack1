@@ -1,1 +1,0 @@
-# execute as @a[tag=!player_stays_in_join_world,tag=afterlife_schedule_re] at @s unless dimension custom_dimension:afterlife unless dimension custom_dimension:join run function custom_dimension:afterlife_world/player_died_new

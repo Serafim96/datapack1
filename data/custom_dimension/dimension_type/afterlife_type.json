@@ -1,5 +1,8 @@
 {
   "attributes": {
+    "minecraft:visual/sky_color": 11579568,
+    "minecraft:visual/fog_color": 11579568,
+    "minecraft:visual/water_fog_color": 329011,
     "minecraft:gameplay/water_evaporates": false,
     "minecraft:gameplay/fast_lava": false,
     "minecraft:gameplay/bed_rule": {
@@ -10,11 +13,18 @@
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:visual/sun_angle": 180,
-    "minecraft:visual/moon_angle": 180
+    "minecraft:visual/moon_angle": 180,
+    "minecraft:visual/fog_start_distance": 0,
+    "minecraft:visual/fog_end_distance": 27,
+    "minecraft:visual/sky_fog_end_distance": 27,
+    "minecraft:visual/cloud_fog_end_distance": 27,
+    "minecraft:visual/water_fog_end_distance": 27,
+    "minecraft:visual/water_fog_start_distance": 0
   },
   "has_skylight": false,
   "has_ceiling": true,
   "coordinate_scale": 1,
+  "has_ender_dragon_fight": false,
   "ambient_light": 0.05,
   "has_fixed_time": true,
   "logical_height": 384,

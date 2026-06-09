@@ -1,0 +1,1 @@
+place template chess_lift:steps/big_walls/open/prepare -23 3 98

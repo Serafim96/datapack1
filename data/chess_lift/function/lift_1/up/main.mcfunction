@@ -16,14 +16,21 @@
 
 function chess_lift:lift_1/up/1
 schedule function chess_lift:lift_1/up/2 5t
+schedule function chess_lift:lift_1/up/fix/2 9t
 schedule function chess_lift:lift_1/up/3 10t
 schedule function chess_lift:lift_1/up/4 15t
+schedule function chess_lift:lift_1/up/fix/4 19t
 schedule function chess_lift:lift_1/up/5 20t
 schedule function chess_lift:lift_1/up/6 25t
+schedule function chess_lift:lift_1/up/fix/6 29t
 schedule function chess_lift:lift_1/up/7 30t
 schedule function chess_lift:lift_1/up/8 35t
+schedule function chess_lift:lift_1/up/fix/8 39t
 schedule function chess_lift:lift_1/up/9 40t
 schedule function chess_lift:lift_1/up/10 45t
+schedule function chess_lift:lift_1/up/fix/10 49t
 schedule function chess_lift:lift_1/up/11 50t
 schedule function chess_lift:lift_1/up/12 55t
+schedule function chess_lift:lift_1/up/fix/12 59t
 schedule function chess_lift:lift_1/up/13 60t
+schedule function chess_lift:lift_1/up/fix/13 60t

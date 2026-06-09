@@ -1,0 +1,2 @@
+# $title @s actionbar "У вас недостаточно баллов баланса. Нужно $(value)" 
+$title @s actionbar ["У вас недостаточно баллов баланса: ",{"color":"red","score":{"name":"@s","objective":"JoinWorldMoneyBalance"}},". Нужно ",{"color":"green","text":"$(value)"}]

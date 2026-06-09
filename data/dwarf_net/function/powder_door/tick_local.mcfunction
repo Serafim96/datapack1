@@ -1,0 +1,1 @@
+execute if data storage dwarf_net {powder_door:{set_powder:1}} run function dwarf_net:powder_door/fill_powder

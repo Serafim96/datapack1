@@ -1,0 +1,1 @@
+fill -14 10 102 -19 10 107 air replace minecraft:sticky_piston

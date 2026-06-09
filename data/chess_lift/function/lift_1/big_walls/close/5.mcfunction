@@ -10,3 +10,8 @@ fill -19 11 105 -19 11 107 white_concrete
 fill -18 11 107 -17 11 107 white_concrete
 fill -16 11 107 -14 11 107 black_concrete
 fill -14 11 106 -14 11 105 black_concrete
+
+fill -14 6 104 -14 10 107 air
+fill -19 6 107 -16 10 107 air
+fill -19 6 102 -19 10 105 air
+fill -17 6 102 -14 10 102 air

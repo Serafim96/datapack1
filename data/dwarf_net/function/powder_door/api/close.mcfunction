@@ -1,0 +1,1 @@
+execute if data storage dwarf_net {powder_door:{processing:0,opened:1}} run function dwarf_net:powder_door/close_luk_main

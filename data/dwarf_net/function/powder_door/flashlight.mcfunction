@@ -1,0 +1,2 @@
+execute if data storage dwarf_net {powder_door:{fill_redstone:1}} run return run function dwarf_net:powder_door/fill_redstone
+execute if data storage dwarf_net {powder_door:{fill_redstone:0}} run return run function dwarf_net:powder_door/fill_stone

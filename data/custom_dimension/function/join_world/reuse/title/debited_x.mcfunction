@@ -1,0 +1,1 @@
+$title @s actionbar ["Потрачено ",{"color":"red","text":"$(value)"}," баллов. Текущий баланс: ",{"color":"green","score":{"name":"@s","objective":"JoinWorldMoneyBalance"}}]

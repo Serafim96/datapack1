@@ -21,7 +21,8 @@ execute store result storage pk:common temp.location.z int 1 run data get storag
 # Show title
 execute unless score @s GlobalMyGamemode matches 1 if biome ~ ~ ~ #minecraft:is_overworld run title @s actionbar [{"text":"X:","color":"white"},{"nbt":"temp.location.x","storage":"pk:common","color":"yellow"},{"text":" Y:","color":"white"},{"nbt":"temp.location.y","storage":"pk:common","color":"yellow"},{"text":" Z:","color":"white"},{"nbt":"temp.location.z","storage":"pk:common","color":"yellow"},{"text": " | ","color":"white"},{"nbt":"temp.facing","storage":"pk:common","color":"white"}]
 
-execute unless dimension custom_dimension:join unless biome ~ ~ ~ #minecraft:is_overworld run title @s actionbar {"color":"red","text":"Здесь компас не работает..."}
+# у кого портал режим выживания, тот видит эту надпись
+execute if score @s GlobalMyGamemode matches 0 unless dimension custom_dimension:join unless biome ~ ~ ~ #minecraft:is_overworld run return run title @s actionbar {"color":"red","text":"Здесь компас не работает..."}
 
 #Кто в режиме творчества -- у тех работает везде, кроме мира присоединения
-execute if score @s GlobalMyGamemode matches 1 unless dimension custom_dimension:join run title @s actionbar [{"text":"X:","color":"white"},{"nbt":"temp.location.x","storage":"pk:common","color":"yellow"},{"text":" Y:","color":"white"},{"nbt":"temp.location.y","storage":"pk:common","color":"yellow"},{"text":" Z:","color":"white"},{"nbt":"temp.location.z","storage":"pk:common","color":"yellow"},{"text": " | ","color":"white"},{"nbt":"temp.facing","storage":"pk:common","color":"white"}]
+execute if score @s GlobalMyGamemode matches 1 unless dimension custom_dimension:join run return run title @s actionbar [{"text":"X:","color":"white"},{"nbt":"temp.location.x","storage":"pk:common","color":"yellow"},{"text":" Y:","color":"white"},{"nbt":"temp.location.y","storage":"pk:common","color":"yellow"},{"text":" Z:","color":"white"},{"nbt":"temp.location.z","storage":"pk:common","color":"yellow"},{"text": " | ","color":"white"},{"nbt":"temp.facing","storage":"pk:common","color":"white"}]

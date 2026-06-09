@@ -12,6 +12,10 @@
         "max_delay": 6000,
         "replace_current_music": true
       }
+    },
+    "minecraft:visual/water_fog_end_distance": {
+      "modifier": "multiply",
+      "argument": 0.5
     }
   },
   "temperature": 4,

@@ -1,1 +1,2 @@
-execute if dimension custom_dimension:join run tag @s add JoinWorldHeaderDelay
+# execute if dimension custom_dimension:join run 
+tag @s add JoinWorldNeedHeaderDelay

@@ -1,0 +1,1 @@
+fill -11 6 104 -11 11 107 minecraft:redstone_block

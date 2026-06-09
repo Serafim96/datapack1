@@ -10,7 +10,7 @@ tag @s add player_stays_in_join_world
 function custom_dimension:join_world/scoreboard_operations/update_location
 
 # Сбрасываем плеер
-function custom_dimension:join_world/scoreboard_operations/music_timer/set_0
+# function custom_dimension:join_world/scoreboard_operations/music_timer/set_0
 
 #Телепортируемся в мир входа
 function custom_dimension:join_world/tp_to_join_world

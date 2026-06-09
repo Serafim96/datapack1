@@ -1,0 +1,1 @@
+data modify storage dwarf_net powder_door.set_powder set value 0

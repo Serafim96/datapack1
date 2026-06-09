@@ -11,8 +11,8 @@ function chess_lift:lift_1/ceiling/api/blackout
 
 function chess_lift:lift_1/down/main
 schedule function chess_lift:lift_1/big_walls/open/main 70t
-schedule function chess_lift:lift_1/decorations/on 125t
-schedule function chess_lift:lift_1/sounds/open 125t
+schedule function chess_lift:lift_1/decorations/on 135t
+schedule function chess_lift:lift_1/sounds/open 135t
 schedule function chess_lift:lift_1/lower_door/vertical/open/main 140t
 schedule function chess_lift:lift_1/lower_door/flower/open/main 160t
 

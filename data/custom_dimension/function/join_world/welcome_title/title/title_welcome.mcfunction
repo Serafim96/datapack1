@@ -6,3 +6,5 @@ title @a[scores={JoinWorldHeaderAlreadyShown=0},tag=JoinWorldHeaderDelay] subtit
 execute as @a[scores={JoinWorldHeaderAlreadyShown=0},tag=JoinWorldHeaderDelay] run function custom_dimension:join_world/welcome_title/scoreboard_operations/set_header_already_shown_on
 
 tag @a remove JoinWorldHeaderDelay
+
+# say test

@@ -1,0 +1,1 @@
+function dwarf_net:powder_door/load_global

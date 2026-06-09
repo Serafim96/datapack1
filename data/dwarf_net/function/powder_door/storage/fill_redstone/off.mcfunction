@@ -1,0 +1,1 @@
+data modify storage dwarf_net powder_door.fill_redstone set value 0

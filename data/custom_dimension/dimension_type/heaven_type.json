@@ -10,16 +10,14 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:gameplay/can_start_raid": false
   },
-  "timelines": [
-    "minecraft:day"
-  ],
+  "timelines": "#minecraft:in_overworld",
   "has_skylight": true,
   "has_ceiling": false,
   "coordinate_scale": 1,
   "ambient_light": 0.4,
-  "has_fixed_time": true,
+  "has_fixed_time": false,
   "logical_height": 368,
-  "skybox": "overworld",
+  "has_ender_dragon_fight": false,
   "cardinal_light": "default",
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": 0,

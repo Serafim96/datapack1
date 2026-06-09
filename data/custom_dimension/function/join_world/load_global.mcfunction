@@ -23,3 +23,6 @@ scoreboard objectives add JoinWorldCreativeDimension dummy
 scoreboard objectives add JoinWorldCreativeX dummy
 scoreboard objectives add JoinWorldCreativeY dummy
 scoreboard objectives add JoinWorldCreativeZ dummy
+
+
+scoreboard objectives add JoinWorldHeaderDelay dummy

@@ -1,0 +1,1 @@
+fill -22 6 105 -22 11 102 minecraft:stone

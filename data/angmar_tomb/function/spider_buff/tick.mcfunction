@@ -25,7 +25,7 @@ execute if data storage angmar_tomb:spider_buff {Is_processing:1} run function a
 execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] if entity @e[scores={angmar_tomb_spider_buff_warden_kill=1..}] run function angmar_tomb:spider_buff/give_buff
 
 # Если бафф в процессе, то включаем гравитацию
-#execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether as @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] at @s facing 639 33 -1013 run tp @s ^ ^ ^0.015
+# execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether as @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] at @s facing 639 33 -1013 run tp @s ^ ^ ^0.015
 
 # Если бафф в процессе, то даем эффект темноты
 execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether run effect give @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] minecraft:darkness 2 0 true

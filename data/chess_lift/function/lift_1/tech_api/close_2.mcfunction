@@ -14,13 +14,13 @@ function chess_lift:lift_1/lower_door/flower/close/main
 schedule function chess_lift:lift_1/lower_door/vertical/close/main 9t
 schedule function chess_lift:lift_1/decorations/off 20t
 schedule function chess_lift:lift_1/big_walls/close/main 50t
-schedule function chess_lift:lift_1/up/main 100t
-schedule function chess_lift:lift_1/sounds/close 160t
+schedule function chess_lift:lift_1/up/main 106t
+schedule function chess_lift:lift_1/sounds/close 166t
 
 
 
-schedule function chess_lift:set_usual_buttons 160t
-schedule function chess_lift:lift_1/storage_operations/state/close 160t
-schedule function chess_lift:lift_1/storage_operations/processing/off 160t
-schedule function chess_lift:forceload/off 160t
-schedule function chess_lift:storage_operations/total_mode/off 160t
+schedule function chess_lift:set_usual_buttons 166t
+schedule function chess_lift:lift_1/storage_operations/state/close 166t
+schedule function chess_lift:lift_1/storage_operations/processing/off 166t
+schedule function chess_lift:forceload/off 166t
+schedule function chess_lift:storage_operations/total_mode/off 166t

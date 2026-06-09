@@ -10,7 +10,8 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:visual/sun_angle": 0,
-    "minecraft:visual/moon_angle": 180
+    "minecraft:visual/moon_angle": 180,
+    "minecraft:gameplay/sky_light_level": 15
   },
   "has_skylight": true,
   "has_ceiling": false,
@@ -18,6 +19,7 @@
   "ambient_light": 1.0,
   "has_fixed_time": true,
   "logical_height": 384,
+  "has_ender_dragon_fight": false,
   "skybox": "overworld",
   "cardinal_light": "default",
   "infiniburn": "#minecraft:infiniburn_overworld",

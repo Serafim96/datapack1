@@ -12,10 +12,12 @@
     "minecraft:visual/sun_angle": 0,
     "minecraft:visual/moon_angle": 180,
     "minecraft:visual/sky_color": 8060803,
-    "minecraft:visual/fog_color": 13762516
+    "minecraft:visual/fog_color": 13762516,
+    "minecraft:gameplay/sky_light_level": 15
   },
   "has_skylight": true,
   "has_ceiling": false,
+  "has_ender_dragon_fight": false,
   "coordinate_scale": 1,
   "ambient_light": 0.8,
   "has_fixed_time": true,
