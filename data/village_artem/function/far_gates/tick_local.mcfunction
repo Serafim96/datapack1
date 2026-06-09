@@ -14,4 +14,5 @@ execute unless entity @a[x=-5116,dx=2,y=66,dy=3,z=8980,dz=12,gamemode=!spectator
 execute if data storage village_artem {FarGateOpened:0} if data storage village_artem {FarGateProcessing:0} run fill -5116 66 8986 -5114 69 8986 oak_fence
 
 #Заголовки
-function village_artem:far_gates/title/tick_local
+# [BROKEN_REF: вызов несуществующей функции — папка/функция village_artem:far_gates/title/tick_local отсутствует в датапаке. Закомментировано, чтобы не вызывать ошибку. Если функция нужна — создать её; если заголовки больше не используются — удалить этот вызов.]
+# function village_artem:far_gates/title/tick_local

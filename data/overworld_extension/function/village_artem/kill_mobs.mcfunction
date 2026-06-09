@@ -7,4 +7,5 @@ execute as @e[type=chicken] at @s if biome ~ ~ ~ #overworld_extension:village_ar
 execute as @e[type=villager,tag=!village_artem_special_villager] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run kill @s
 execute as @e[type=iron_golem] at @s if biome ~ ~ ~ #overworld_extension:village_artem_zone run kill @s
 
-schedule function #overworld_extension:village_artem_zone/kill_items 5t append
+# [BROKEN_REF: планирование несуществующего тега функций — тег #overworld_extension:village_artem_zone/kill_items отсутствует (нет tags/function/village_artem_zone/kill_items.json; одноимённый village_artem_zone.json есть только в tags/worldgen/biome/). Закомментировано, чтобы не вызывать ошибку. Если очистка предметов в зоне нужна — создать тег функций; иначе удалить.]
+# schedule function #overworld_extension:village_artem_zone/kill_items 5t append
