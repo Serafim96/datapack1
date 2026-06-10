@@ -1,1 +1,2 @@
-give @s clock[custom_name={"italic":false,"text":"Продвинутый отсек для кристалла"},custom_data={Tags:["advanced_pult_crystal_box"]},item_model="custom/item/clock",custom_model_data={strings:[advanced_pult_crystal_box]}] 1
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
+give @s clock[custom_name={"italic":false,"text":"Продвинутый отсек для кристалла"},custom_data={Tags:["advanced_pult_crystal_box"]},item_model="custom/item/clock",custom_model_data={strings:["advanced_pult_crystal_box"]}] 1

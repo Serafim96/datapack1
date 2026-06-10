@@ -1,1 +1,2 @@
-give @s clock[custom_name={"bold":true,"color":"#6DF1FF","text":"Голубой Кристалл"},custom_data={Tags:["crystal_of_power","simple","light_blue_crystal"]},item_model="custom/crystals",custom_model_data={strings:[light_blue_crystal]}] 1
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
+give @s clock[custom_name={"bold":true,"color":"#6DF1FF","text":"Голубой Кристалл"},custom_data={Tags:["crystal_of_power","simple","light_blue_crystal"]},item_model="custom/crystals",custom_model_data={strings:["light_blue_crystal"]}] 1

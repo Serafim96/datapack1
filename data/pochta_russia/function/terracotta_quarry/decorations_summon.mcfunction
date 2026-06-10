@@ -1,3 +1,4 @@
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
 kill @e[tag=pochta_russia_terracotta_quarry_decoration]
 
 # #Почта России
@@ -6,7 +7,7 @@ summon text_display -8109.99 201 -5043.0 {Glowing:0b,view_range:4f,Rotation:[-90
 
 # #Почтовая коробка
 # fill -3965 44 4640 -3965 44 4641 light[level=12]
-summon item_display -8111 205 -5043.0 {view_range:4f,Tags:["pochta_russia_terracotta_quarry_decoration","pochta_russia_terracotta_quarry_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:[post_box]}}}}
+summon item_display -8111 205 -5043.0 {view_range:4f,Tags:["pochta_russia_terracotta_quarry_decoration","pochta_russia_terracotta_quarry_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:["post_box"]}}}}
 
 
 # Название отделения

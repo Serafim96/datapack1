@@ -1,3 +1,4 @@
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
 kill @e[tag=pochta_russia_village_artem_decoration]
 
 #Почта России
@@ -10,7 +11,7 @@ summon text_display -5106.01 66 8743.99 {view_range:4.0f,Glowing:0b,Rotation:[90
 
 # Почтовая коробка
 fill -5106 74 8748 -5106 74 8749 light[level=12]
-summon item_display -5106 74.0 8748.99 {view_range:4f,Tags:["pochta_russia_village_artem_decoration","pochta_russia_village_artem_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:[post_box]}}}}
+summon item_display -5106 74.0 8748.99 {view_range:4f,Tags:["pochta_russia_village_artem_decoration","pochta_russia_village_artem_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:["post_box"]}}}}
 
 #Кафе
 summon text_display -5097.0 66.99 8750.99 {view_range:4.0f,Rotation:[-90F,90F],Tags:["pochta_russia_village_artem_decoration"],brightness:{sky:7,block:7},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.8f,2.8f,2.8f]},text:{"text":"Кафе","color":"blue"},background:0}

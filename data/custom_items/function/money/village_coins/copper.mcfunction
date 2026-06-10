@@ -1,1 +1,2 @@
-give @s clock[custom_name={"color":"#684B3B","text":"Деревенская медная монета"},custom_data={Tags:["village_artem_copper_coin"]},item_model="custom/item/clock",custom_model_data={strings:[village_copper_coin]}] 64
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
+give @s clock[custom_name={"color":"#684B3B","text":"Деревенская медная монета"},custom_data={Tags:["village_artem_copper_coin"]},item_model="custom/item/clock",custom_model_data={strings:["village_copper_coin"]}] 64

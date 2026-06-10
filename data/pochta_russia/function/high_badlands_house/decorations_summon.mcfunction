@@ -1,3 +1,4 @@
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
 kill @e[tag=pochta_russia_high_badlands_house_decoration]
 
 
@@ -8,7 +9,7 @@ summon text_display 3258.99 208.0 4860.01 {Glowing:0b,view_range:4f,Tags:["pocht
 
 #Почтовая коробка
 fill 3258 212 4865 3259 212 4865 light[level=12]
-summon item_display 3259.0 212.0 4865 {view_range:4f,Tags:["pochta_russia_high_badlands_house_decoration","pochta_russia_high_badlands_house_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:[post_box]}}}}
+summon item_display 3259.0 212.0 4865 {view_range:4f,Tags:["pochta_russia_high_badlands_house_decoration","pochta_russia_high_badlands_house_post_box"],brightness:{sky:12,block:12},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:stone",count:1,components:{"minecraft:item_model":"custom/block/stone","minecraft:custom_model_data":{strings:["post_box"]}}}}
 
 # Название отделения
 # summon text_display -8115.99 201 -5044.0 {Rotation:[-90F,0F],Tags:["pochta_russia_high_badlands_house_decoration","pochta_russia_high_badlands_house_dep_name"]}

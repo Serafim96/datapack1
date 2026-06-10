@@ -1,1 +1,2 @@
-give @s clock[custom_name={"text":"Кусочки иридия"},custom_data={Tags:["iridium_nugget"]},item_model="custom/item/clock",custom_model_data={strings:[iridium_nugget]}] 1
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
+give @s clock[custom_name={"text":"Кусочки иридия"},custom_data={Tags:["iridium_nugget"]},item_model="custom/item/clock",custom_model_data={strings:["iridium_nugget"]}] 1

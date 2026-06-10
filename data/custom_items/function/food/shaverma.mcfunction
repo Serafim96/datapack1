@@ -1,1 +1,2 @@
-give @s cooked_beef[custom_name={"color":"#E69C53","text":"Шаурма из Ларька"},item_model="custom/food/cooked_beef",custom_model_data={strings:[shaverma]}] 1
+# [AI: L2 — стандартизация кавычек (косметика, поведение не меняется): id в двойные кавычки, безкавычечные значения custom_model_data.strings -> в кавычки. Оригинал в git-diff и backup/.]
+give @s cooked_beef[custom_name={"color":"#E69C53","text":"Шаурма из Ларька"},item_model="custom/food/cooked_beef",custom_model_data={strings:["shaverma"]}] 1
