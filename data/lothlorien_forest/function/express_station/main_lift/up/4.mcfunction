@@ -1,4 +1,5 @@
+# [AI: lift_exclude — технические сущности не телепортируются в лифте]
 execute in overworld run playsound minecraft:block.piston.contract block @a -4857.5 -44 5626.5 0.05 0
 execute in overworld run fill -4859 -44 5625 -4857 -44 5627 oak_log
-execute in overworld as @e[x=-4859,dx=2,z=5625,dz=2,y=-44,dy=0] at @s run tp @s ~ ~1 ~ ~ ~
+execute in overworld as @e[tag=!lift_exclude,x=-4859,dx=2,z=5625,dz=2,y=-44,dy=0] at @s run tp @s ~ ~1 ~ ~ ~
 execute in overworld run fill -4859 -45 5625 -4857 -45 5627 air

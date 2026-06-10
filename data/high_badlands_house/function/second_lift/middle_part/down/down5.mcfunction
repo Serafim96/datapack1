@@ -1,3 +1,4 @@
+# [AI: lift_exclude — технические сущности не телепортируются в лифте]
 execute in overworld run fill 3197 237 4871 3197 240 4869 air
 
 execute in overworld run fill 3198 237 4871 3198 237 4869 terracotta
@@ -14,4 +15,4 @@ execute in overworld run fill 3202 239 4871 3202 240 4869 terracotta
 
 execute in overworld run playsound minecraft:block.piston.contract block @a 3199 235 4870 0.05 0
 
-execute as @e[x=3198,dx=2,y=237,dy=3,z=4869,dz=2] at @s run tp @s ~1 ~ ~
+execute as @e[tag=!lift_exclude,x=3198,dx=2,y=237,dy=3,z=4869,dz=2] at @s run tp @s ~1 ~ ~
