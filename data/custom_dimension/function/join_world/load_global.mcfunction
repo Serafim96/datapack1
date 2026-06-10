@@ -1,5 +1,7 @@
 function custom_dimension:join_world/welcome_title/load_global
-function custom_dimension:join_world/shop/load_global
+# [WAS] function custom_dimension:join_world/shop/load_global
+# [AI: M1 — вызов закомментирован: целевая функция custom_dimension:join_world/shop/load_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function custom_dimension:join_world/shop/load_global
 
 scoreboard objectives add JoinWorldMusicTimer dummy
 scoreboard objectives add JoinWorldCreativeRoomJumpCounter minecraft.custom:minecraft.jump

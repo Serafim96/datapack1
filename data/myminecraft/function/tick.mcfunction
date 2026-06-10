@@ -35,14 +35,24 @@ function lothlorien_forest:tick_global
 function dwarf_net:dwarf_library/secret_door/tick_global
 function zeus_temple:tick_global
 function gold_babylon:tick_global
-function stone_foundations:tick_global
+# [WAS] function stone_foundations:tick_global
+# [AI: M1 — вызов закомментирован: целевая функция stone_foundations:tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function stone_foundations:tick_global
 function village_artem:tick_global
-function far_far_away:tick_global
+# [WAS] function far_far_away:tick_global
+# [AI: M1 — вызов закомментирован: целевая функция far_far_away:tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function far_far_away:tick_global
 function the_wall:tick_global
 function hogwarts:tick_global
-function vulcano_island:tick_global
-function ust_yuryung_khaya:tick_global
-function terracotta_quarry:tick_global
+# [WAS] function vulcano_island:tick_global
+# [AI: M1 — вызов закомментирован: целевая функция vulcano_island:tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function vulcano_island:tick_global
+# [WAS] function ust_yuryung_khaya:tick_global
+# [AI: M1 — вызов закомментирован: целевая функция ust_yuryung_khaya:tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function ust_yuryung_khaya:tick_global
+# [WAS] function terracotta_quarry:tick_global
+# [AI: M1 — вызов закомментирован: целевая функция terracotta_quarry:tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function terracotta_quarry:tick_global
 
 
 # Постобработка переменных

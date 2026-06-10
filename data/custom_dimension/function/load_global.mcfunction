@@ -6,4 +6,6 @@ function custom_dimension:tartarus/load_global
 function custom_dimension:heaven/load_global
 function custom_dimension:join_world/load_global
 function custom_dimension:afterlife_world/load_global
-function custom_dimension:new_overworld/load_global
+# [WAS] function custom_dimension:new_overworld/load_global
+# [AI: M1 — вызов закомментирован: целевая функция custom_dimension:new_overworld/load_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function custom_dimension:new_overworld/load_global

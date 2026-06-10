@@ -11,6 +11,10 @@ function village_artem:household_shop/tick_global
 function village_artem:fortune_teller/tick_global
 function village_artem:tavern/tick_global
 function village_artem:sawmill/tick_global
-function village_artem:windmill/tick_global
+# [WAS] function village_artem:windmill/tick_global
+# [AI: M1 — вызов закомментирован: целевая функция village_artem:windmill/tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function village_artem:windmill/tick_global
 function village_artem:hospital/tick_global
-function village_artem:nuclear_reactor/tick_global
+# [WAS] function village_artem:nuclear_reactor/tick_global
+# [AI: M1 — вызов закомментирован: целевая функция village_artem:nuclear_reactor/tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function village_artem:nuclear_reactor/tick_global

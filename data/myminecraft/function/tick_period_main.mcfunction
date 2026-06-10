@@ -6,7 +6,9 @@ function myminecraft:tick_additions/pre_tick_period
 ################################
 
 # Расширение механик игры
-function game_mechanic_extension:speedy_minecarts/tick_period_main
+# [WAS] function game_mechanic_extension:speedy_minecarts/tick_period_main
+# [AI: M1 — вызов закомментирован: целевая функция game_mechanic_extension:speedy_minecarts/tick_period_main ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# function game_mechanic_extension:speedy_minecarts/tick_period_main
 
 # Глобальные функции (не зависят от местоположения и чего-либо еще)
 # function pk_be_co:_main/tick

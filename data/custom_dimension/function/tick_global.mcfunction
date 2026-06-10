@@ -6,4 +6,6 @@ execute in custom_dimension:tartarus run function custom_dimension:tartarus/tick
 execute in custom_dimension:heaven run function custom_dimension:heaven/tick_global
 execute in custom_dimension:join run function custom_dimension:join_world/tick_global
 execute in custom_dimension:afterlife run function custom_dimension:afterlife_world/tick_global
-execute in custom_dimension:new_overworld run function custom_dimension:new_overworld/tick_global
+# [WAS] execute in custom_dimension:new_overworld run function custom_dimension:new_overworld/tick_global
+# [AI: M1 — вызов закомментирован: целевая функция custom_dimension:new_overworld/tick_global ПУСТАЯ (0 команд). Если функционал планировался — наполнить функцию; иначе удалить вызов и файл-заглушку.]
+# execute in custom_dimension:new_overworld run function custom_dimension:new_overworld/tick_global
