@@ -1,4 +1,5 @@
+# [AI: lift_exclude — технические сущности не телепортируются в лифте]
 execute in overworld run playsound minecraft:block.piston.contract block @a -4047.5 -16 5439.5 0.05 0
 execute in overworld run fill -4049 -16 5438 -4047 -16 5440 chiseled_stone_bricks
-execute in overworld as @e[x=-4049,dx=2,z=5438,dz=2,y=-16,dy=0] at @s run tp @s ~ ~1 ~ ~ ~
+execute in overworld as @e[tag=!lift_exclude,x=-4049,dx=2,z=5438,dz=2,y=-16,dy=0] at @s run tp @s ~ ~1 ~ ~ ~
 execute in overworld run fill -4049 -17 5438 -4047 -17 5440 air

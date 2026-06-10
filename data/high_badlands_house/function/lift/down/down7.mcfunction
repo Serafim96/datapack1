@@ -1,4 +1,5 @@
+# [AI: lift_exclude — технические сущности не телепортируются в лифте]
 playsound minecraft:block.piston.contract block @a 3182 273 4856 0.05 0
 fill 3181 274 4855 3183 274 4857 white_terracotta
 fill 3181 275 4855 3183 275 4857 air
-execute as @e[x=3181,dx=2,z=4855,dz=2,y=276,dy=0] at @s run tp @s ~ 275 ~ ~ ~
+execute as @e[tag=!lift_exclude,x=3181,dx=2,z=4855,dz=2,y=276,dy=0] at @s run tp @s ~ 275 ~ ~ ~

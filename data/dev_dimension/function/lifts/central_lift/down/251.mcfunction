@@ -1,4 +1,5 @@
+# [AI: lift_exclude — технические сущности не телепортируются в лифте]
 execute in dev_dimension:dev_dimension run playsound minecraft:block.piston.contract block @a 0.5 148 0.5 0.05 0
 execute in dev_dimension:dev_dimension run fill -3 149 -3 3 149 3 gold_block
 execute in dev_dimension:dev_dimension run fill -3 150 -3 3 150 3 air
-execute in dev_dimension:dev_dimension as @e[x=-3,dx=6,z=-3,dz=6,y=150,dy=0.1] at @s run tp @s ~ 150 ~ ~ ~
+execute in dev_dimension:dev_dimension as @e[tag=!lift_exclude,x=-3,dx=6,z=-3,dz=6,y=150,dy=0.1] at @s run tp @s ~ 150 ~ ~ ~
