@@ -17,4 +17,6 @@ execute if entity @a[predicate=overworld_extension:in_makuta_city_biome] as @e[t
 # [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
 execute if entity @a[predicate=overworld_extension:in_makuta_city_biome] as @e[type=cat] at @s if biome ~ ~ ~ #overworld_extension:makuta_city_zone unless entity @e[distance=0..250,type=villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b}
 
-execute run schedule function overworld_extension:makuta_city/summon_villager_recursive 8s append
+# [WAS] execute run schedule function overworld_extension:makuta_city/summon_villager_recursive 8s append
+# [AI: M4 — убран избыточный 'execute run' (нет подкоманд as/at/if/store/...; execute run X эквивалентно X)]
+schedule function overworld_extension:makuta_city/summon_villager_recursive 8s append

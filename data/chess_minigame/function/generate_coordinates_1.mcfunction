@@ -5,4 +5,6 @@
 scoreboard players set @a[x=-126,dx=219,y=-59,dy=15,z=-5,dz=219] RNG 27
 
 #получаем сгенерированное (оно будет только через тик)
-execute run schedule function chess_minigame:generate_coordinates_2 1t
+# [WAS] execute run schedule function chess_minigame:generate_coordinates_2 1t
+# [AI: M4 — убран избыточный 'execute run' (нет подкоманд as/at/if/store/...; execute run X эквивалентно X)]
+schedule function chess_minigame:generate_coordinates_2 1t

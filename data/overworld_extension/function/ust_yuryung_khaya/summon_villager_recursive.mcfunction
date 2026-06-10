@@ -10,4 +10,6 @@ execute if entity @a[predicate=overworld_extension:in_ust_yuryung_khaya_biome] a
 # [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
 execute if entity @a[predicate=overworld_extension:in_ust_yuryung_khaya_biome] as @e[type=polar_bear] at @s if biome ~ ~ ~ overworld_extension:ust_yuryung_khaya unless entity @e[distance=0..100,type=villager] run summon minecraft:villager ~0.02 ~ ~ {PersistenceRequired:0b,VillagerData:{type:"minecraft:snow"}}
 
-execute run schedule function overworld_extension:ust_yuryung_khaya/summon_villager_recursive 8s append
+# [WAS] execute run schedule function overworld_extension:ust_yuryung_khaya/summon_villager_recursive 8s append
+# [AI: M4 — убран избыточный 'execute run' (нет подкоманд as/at/if/store/...; execute run X эквивалентно X)]
+schedule function overworld_extension:ust_yuryung_khaya/summon_villager_recursive 8s append

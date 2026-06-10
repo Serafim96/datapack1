@@ -4,4 +4,6 @@ execute if block ~ ~ ~ lava run function custom_items_functions:armor/lava_resis
 execute unless block ~ ~ ~ lava unless entity @s[nbt={Fire:-20s}] run function custom_items_functions:armor/lava_resistant_suit/suit_impact
 
 
-execute run function custom_items_functions:armor/lava_resistant_suit/effects
+# [WAS] execute run function custom_items_functions:armor/lava_resistant_suit/effects
+# [AI: M4 — убран избыточный 'execute run' (нет подкоманд as/at/if/store/...; execute run X эквивалентно X)]
+function custom_items_functions:armor/lava_resistant_suit/effects

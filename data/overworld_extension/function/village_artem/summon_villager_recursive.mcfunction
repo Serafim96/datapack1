@@ -53,4 +53,6 @@ execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e
 execute if entity @a[predicate=overworld_extension:in_village_artem_biome] as @e[type=iron_golem] at @s if biome ~ ~ ~ overworld_extension:village_artem unless entity @e[distance=0.01..250,type=iron_golem] run summon iron_golem ~0.02 ~ ~ {PersistenceRequired:0b}
 
 
-execute run schedule function overworld_extension:village_artem/summon_villager_recursive 8s append
+# [WAS] execute run schedule function overworld_extension:village_artem/summon_villager_recursive 8s append
+# [AI: M4 — убран избыточный 'execute run' (нет подкоманд as/at/if/store/...; execute run X эквивалентно X)]
+schedule function overworld_extension:village_artem/summon_villager_recursive 8s append
