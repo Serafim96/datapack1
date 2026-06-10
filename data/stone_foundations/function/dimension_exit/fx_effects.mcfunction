@@ -3,7 +3,9 @@
 #x=311,dx=0,y=-101,dy=1,z=-377,dz=21
 
 ## В самом туннеле
-execute in custom_dimension:stone_foundations run effect give @e[x=311,dx=0,y=-101,dy=1,z=-377,dz=21,gamemode=!spectator] blindness 2 255 true
+# [WAS] execute in custom_dimension:stone_foundations run effect give @e[x=311,dx=0,y=-101,dy=1,z=-377,dz=21,gamemode=!spectator] blindness 2 255 true
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute in custom_dimension:stone_foundations run effect give @e[type=player,x=311,dx=0,y=-101,dy=1,z=-377,dz=21,gamemode=!spectator] blindness 2 255 true
 
 
 #/fill 311 -101 -355 
@@ -11,5 +13,7 @@ execute in custom_dimension:stone_foundations run effect give @e[x=311,dx=0,y=-1
 #x=311,dx=2,y=-101,dy=2,z=-355,dz=3
 
 ## Перед туннелем
-execute in custom_dimension:stone_foundations run effect give @e[x=311,dx=2,y=-101,dy=2,z=-355,dz=3,gamemode=!spectator] blindness 2 255 true
+# [WAS] execute in custom_dimension:stone_foundations run effect give @e[x=311,dx=2,y=-101,dy=2,z=-355,dz=3,gamemode=!spectator] blindness 2 255 true
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute in custom_dimension:stone_foundations run effect give @e[type=player,x=311,dx=2,y=-101,dy=2,z=-355,dz=3,gamemode=!spectator] blindness 2 255 true
 

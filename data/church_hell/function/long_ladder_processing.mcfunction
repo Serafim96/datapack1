@@ -28,91 +28,153 @@ execute in minecraft:overworld at @a[x=1021,dx=2,y=-52,dy=75,z=3544,dz=72] unles
 function church_hell:header_processing
 
 #Телепорт в АД
-execute as @e[tag=!popular_exclude_no_player,x=1001,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1361 ~90 ~
-execute as @e[tag=!popular_exclude_no_player,x=1000,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1362 ~90 ~
-execute as @e[tag=!popular_exclude_no_player,x=999,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1363 ~90 ~
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1001,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1361 ~90 ~
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1001,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1361 ~90 ~
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1000,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1362 ~90 ~
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1000,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1362 ~90 ~
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=999,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1363 ~90 ~
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=999,dx=2,y=-52,dy=2,z=3509,gamemode=!spectator] at @s in minecraft:the_nether run tp @s 114 219 -1363 ~90 ~
 
 #Переходы телепорт
 #1-2
-execute as @e[tag=!popular_exclude_no_player,x=1153,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1153,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1153,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #2-1
-execute as @e[tag=!popular_exclude_no_player,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1142,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #2-3
-execute as @e[tag=!popular_exclude_no_player,x=1142,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1142,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1142,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #3-2
-execute as @e[tag=!popular_exclude_no_player,x=1131,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1131,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1131,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #3-4
-execute as @e[tag=!popular_exclude_no_player,x=1131,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1131,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1131,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #4-3
-execute as @e[tag=!popular_exclude_no_player,x=1120,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1120,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1120,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #4-5
-execute as @e[tag=!popular_exclude_no_player,x=1120,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1120,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1120,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #5-4
-execute as @e[tag=!popular_exclude_no_player,x=1109,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1109,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1109,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #5-6
-execute as @e[tag=!popular_exclude_no_player,x=1109,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1109,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1109,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #6-5
-execute as @e[tag=!popular_exclude_no_player,x=1098,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1098,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1098,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #6-7
-execute as @e[tag=!popular_exclude_no_player,x=1098,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1098,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1098,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #7-6
-execute as @e[tag=!popular_exclude_no_player,x=1087,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1087,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1087,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #7-8
-execute as @e[tag=!popular_exclude_no_player,x=1087,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1087,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1087,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #8-7
-execute as @e[tag=!popular_exclude_no_player,x=1076,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1076,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1076,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #8-9
-execute as @e[tag=!popular_exclude_no_player,x=1076,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1076,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1076,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #9-8
-execute as @e[tag=!popular_exclude_no_player,x=1065,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1065,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1065,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #8-9
-execute as @e[tag=!popular_exclude_no_player,x=1065,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1065,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1065,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #9-8
-execute as @e[tag=!popular_exclude_no_player,x=1054,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1054,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1054,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #9-10
-execute as @e[tag=!popular_exclude_no_player,x=1054,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1054,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1054,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #10-9
-execute as @e[tag=!popular_exclude_no_player,x=1043,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1043,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1043,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #10-11
-execute as @e[tag=!popular_exclude_no_player,x=1043,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1043,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1043,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #11-10
-execute as @e[tag=!popular_exclude_no_player,x=1032,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1032,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1032,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #11-12
-execute as @e[tag=!popular_exclude_no_player,x=1032,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1032,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1032,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #12-11
-execute as @e[tag=!popular_exclude_no_player,x=1021,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1021,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1021,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #12-13
-execute as @e[tag=!popular_exclude_no_player,x=1021,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1021,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1021,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #13-12
-execute as @e[tag=!popular_exclude_no_player,x=1010,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1010,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1010,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
 
 #13-14
-execute as @e[tag=!popular_exclude_no_player,x=1010,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=1010,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=1010,dx=2,y=-46,dy=6,z=3551,gamemode=!spectator] at @s run function church_hell:tp_forward
 
 #14-13
-execute as @e[tag=!popular_exclude_no_player,x=999,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [WAS] execute as @e[tag=!popular_exclude_no_player,x=999,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,tag=!popular_exclude_no_player,x=999,dx=2,y=44,dy=6,z=3641,gamemode=!spectator] at @s run function church_hell:tp_back

@@ -2,7 +2,9 @@ execute as @e[tag=!angmar_warden,type=!#minecraft:not_for_angmar_buff,name=!"Г�
 execute as @e[tag=!angmar_warden,type=!#minecraft:not_for_angmar_buff,name=!"Гэндальф",name=!"Сальери",name=!"Лифтёр",name=!"\"The Notorious  B.I.G.\""] at @s facing entity @p[scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator,distance=..30] feet if block ~ ~-0.1 ~ air run tp @s ~ ~-0.1 ~
 execute as @e[tag=!angmar_warden,type=!#minecraft:not_for_angmar_buff,name=!"Гэндальф",name=!"Сальери",name=!"Лифтёр",name=!"\"The Notorious  B.I.G.\""] at @s facing entity @p[scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator,distance=..30] feet if block ~ ~-0.1 ~ cave_air run tp @s ~ ~-0.1 ~
 execute as @e[tag=!angmar_warden,type=!#minecraft:not_for_angmar_buff,name=!"Гэндальф",name=!"Сальери",name=!"Лифтёр",name=!"\"The Notorious  B.I.G.\""] at @s facing entity @p[scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator,distance=..30] feet if block ~ ~-0.1 ~ light run tp @s ~ ~-0.1 ~
-execute as @e[scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator] at @s run function angmar_tomb:time_buff/buff_result/head_particles
+# [WAS] execute as @e[scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator] at @s run function angmar_tomb:time_buff/buff_result/head_particles
+# [AI: H4 — селектор содержит gamemode= ⇒ нацелен только на игроков; добавлен type=player (тип стал явным, семантика прежняя)]
+execute as @e[type=player,scores={AngmarTombTimeBuffOn=1..},gamemode=!spectator] at @s run function angmar_tomb:time_buff/buff_result/head_particles
 
 #angmar_warden
 
