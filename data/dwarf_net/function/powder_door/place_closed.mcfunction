@@ -116,7 +116,9 @@ execute in minecraft:overworld run setblock -191 58 2771 stone
 execute in minecraft:overworld run fill -202 67 2764 -202 68 2764 stone
 execute in minecraft:overworld run fill -202 67 2771 -202 68 2771 stone
 
-kill @e[type=item,x=-203,dx=21,y=44,dy=25,z=2761,dz=13]
+# [WAS] kill @e[type=item,x=-203,dx=21,y=44,dy=25,z=2761,dz=13]
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+kill @e[x=-203,dx=21,y=44,dy=25,z=2761,dz=13,type=item]
 
 
 

@@ -1,1 +1,3 @@
-$data modify entity @e[type=item,distance=..5,limit=1] Item.components."minecraft:custom_model_data".strings[0] set value level_$(level)
+# [WAS] $data modify entity @e[type=item,distance=..5,limit=1] Item.components."minecraft:custom_model_data".strings[0] set value level_$(level)
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+$data modify entity @e[distance=..5,limit=1,type=item] Item.components."minecraft:custom_model_data".strings[0] set value level_$(level)

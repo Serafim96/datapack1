@@ -3,7 +3,9 @@ execute if entity @a[x=1151,dx=6,y=59,dy=6,z=3655,dz=14,gamemode=!spectator] run
 execute unless entity @a[x=1151,dx=6,y=59,dy=6,z=3655,dz=14,gamemode=!spectator] run function church_hell:api/main_close
 
 #Чистка items там где животные
-kill @e[type=item,x=999,dx=2,y=-48,dy=2,z=3497,dz=41]
+# [WAS] kill @e[type=item,x=999,dx=2,y=-48,dy=2,z=3497,dz=41]
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+kill @e[x=999,dx=2,y=-48,dy=2,z=3497,dz=41,type=item]
 
 #Чистка за порталом и 1 блок за ним
 kill @e[tag=!popular_exclude_no_player,tag=!popular_exclude_with_player,x=999,dx=2,y=-52,dy=2,z=3495,dz=15]

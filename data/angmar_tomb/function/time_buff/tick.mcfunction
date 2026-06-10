@@ -13,8 +13,12 @@ execute if data storage angmar_tomb:time_buff {StartTeleportOn:1} run function a
 execute if data storage angmar_tomb:time_buff {StartTeleportOn:0} run function angmar_tomb:time_buff/fx/red_water_off
 
 ## Включение телепорта
-execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[type=item,x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}}] at @s run function angmar_tomb:time_buff/storage_operations/enable_start_teleport
-execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[type=item,x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}}] at @s run kill @s
+# [WAS] execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[type=item,x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}}] at @s run function angmar_tomb:time_buff/storage_operations/enable_start_teleport
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}},type=item] at @s run function angmar_tomb:time_buff/storage_operations/enable_start_teleport
+# [WAS] execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[type=item,x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}}] at @s run kill @s
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage angmar_tomb:time_buff {QuestOn:0} as @e[x=559,dx=9,y=30,dy=1,z=-1014,dz=2,nbt={Item:{id:"minecraft:totem_of_undying"}},type=item] at @s run kill @s
 
 # телепортим в начало и ставим включение квеста и сразу выключаем телепорт
 execute if data storage angmar_tomb:time_buff {StartTeleportOn:1} in the_nether as @a[x=559,dx=9,y=29,dy=0.1,z=-1014,dz=2] at @s run function angmar_tomb:time_buff/start_quest_and_disable_teleport

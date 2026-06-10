@@ -1,7 +1,9 @@
 function village_artem:bank/laser/storage_operations/set_processing_on
 function village_artem:bank/laser/storage_operations/set_door_opened
 
-execute as @e[type=block_display,tag=bank_laser_ray] at @s run data merge entity @s {start_interpolation:0,interpolation_duration:4,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.1f,0.1f,0.11f]}}
+# [WAS] execute as @e[type=block_display,tag=bank_laser_ray] at @s run data merge entity @s {start_interpolation:0,interpolation_duration:4,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.1f,0.1f,0.11f]}}
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute as @e[tag=bank_laser_ray,type=block_display] at @s run data merge entity @s {start_interpolation:0,interpolation_duration:4,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.1f,0.1f,0.11f]}}
 
 schedule function village_artem:bank/laser/summon_lasers 4t append
 

@@ -1,1 +1,3 @@
-execute as @e[type=item,predicate=custom_items_functions:crystals/is_item] at @s if entity @e[type=lightning_bolt,distance=..8] run function custom_items_functions:crystals/animated/weather/summon_and_kill
+# [WAS] execute as @e[type=item,predicate=custom_items_functions:crystals/is_item] at @s if entity @e[type=lightning_bolt,distance=..8] run function custom_items_functions:crystals/animated/weather/summon_and_kill
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute as @e[predicate=custom_items_functions:crystals/is_item,type=item] at @s if entity @e[distance=..8,type=lightning_bolt] run function custom_items_functions:crystals/animated/weather/summon_and_kill

@@ -12,8 +12,12 @@ function angmar_tomb:spider_buff/fix_signs
 function angmar_tomb:spider_buff/warden_bossbar_observer
 
 # Если хранитель исчез по непонятной причине, если его не призывают и если бафф идет кончаем бафф просто
-execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/display_unnormal_interrupt
-execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
+# [WAS] execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/display_unnormal_interrupt
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,type=warden] run function angmar_tomb:spider_buff/display_unnormal_interrupt
+# [WAS] execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,type=warden] run function angmar_tomb:spider_buff/destruct_all_end_rods
 
 # Если игрок умер/исчез по непонятной причине, если бафф идет кончаем бафф просто
 execute if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run function angmar_tomb:spider_buff/destruct_all_end_rods
@@ -22,7 +26,9 @@ execute if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity 
 execute if data storage angmar_tomb:spider_buff {Is_processing:1} run function angmar_tomb:spider_buff/close_hint_room_lever
 
 # Если нашелся человек, который убил вардена и если бафф еще процессится, то даем бафф
-execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] if entity @e[scores={angmar_tomb_spider_buff_warden_kill=1..}] run function angmar_tomb:spider_buff/give_buff
+# [WAS] execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] if entity @e[scores={angmar_tomb_spider_buff_warden_kill=1..}] run function angmar_tomb:spider_buff/give_buff
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage angmar_tomb:spider_buff {Warden_call_processing:0} if data storage angmar_tomb:spider_buff {Is_processing:1} unless entity @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,type=warden] if entity @e[scores={angmar_tomb_spider_buff_warden_kill=1..}] run function angmar_tomb:spider_buff/give_buff
 
 # Если бафф в процессе, то включаем гравитацию
 # execute if data storage angmar_tomb:spider_buff {Is_processing:1} in the_nether as @a[gamemode=!spectator,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] at @s facing 639 33 -1013 run tp @s ^ ^ ^0.015

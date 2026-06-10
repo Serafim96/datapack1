@@ -5,7 +5,9 @@ summon minecraft:item ~ ~ ~ {Tags:["global.ignore"],Item:{id:"minecraft:item_fra
 
 execute if block ~ ~-0.1 ~ dropper run setblock ~ ~-0.1 ~ air
 execute if block ~ ~-0.51 ~ dropper run setblock ~ ~-0.51 ~ air
-execute as @e[type=item,sort=nearest,limit=1,distance=..2,nbt={OnGround:0b,Age:0s,Item:{id:"minecraft:dropper"}}] run kill @s
+# [WAS] execute as @e[type=item,sort=nearest,limit=1,distance=..2,nbt={OnGround:0b,Age:0s,Item:{id:"minecraft:dropper"}}] run kill @s
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute as @e[sort=nearest,limit=1,distance=..2,nbt={OnGround:0b,Age:0s,Item:{id:"minecraft:dropper"}},type=item] run kill @s
 tag @s add wasd.removed
 kill @s
 

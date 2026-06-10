@@ -1,2 +1,6 @@
-execute store result bossbar angmar_tomb_spider_buff_warden value run data get entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,limit=1] Health
-execute unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run bossbar remove angmar_tomb_spider_buff_warden
+# [WAS] execute store result bossbar angmar_tomb_spider_buff_warden value run data get entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,limit=1] Health
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute store result bossbar angmar_tomb_spider_buff_warden value run data get entity @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,limit=1,type=warden] Health
+# [WAS] execute unless entity @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27] run bossbar remove angmar_tomb_spider_buff_warden
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute unless entity @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,type=warden] run bossbar remove angmar_tomb_spider_buff_warden

@@ -1,6 +1,8 @@
 execute store result score Tester Dummy run data get storage village_artem nuclear_reactor.containers
 
-execute unless data storage village_artem {nuclear_reactor:{powered:1}} unless score Tester Dummy matches 4.. as @e[type=item,x=-5021,y=-1.0,z=9130,dx=0,dy=0.1,dz=0,predicate=custom_items_functions:science/radiation_container/is_filled_item,limit=1] run function village_artem:nuclear_reactor/core/update_containers
+# [WAS] execute unless data storage village_artem {nuclear_reactor:{powered:1}} unless score Tester Dummy matches 4.. as @e[type=item,x=-5021,y=-1.0,z=9130,dx=0,dy=0.1,dz=0,predicate=custom_items_functions:science/radiation_container/is_filled_item,limit=1] run function village_artem:nuclear_reactor/core/update_containers
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute unless data storage village_artem {nuclear_reactor:{powered:1}} unless score Tester Dummy matches 4.. as @e[x=-5021,y=-1.0,z=9130,dx=0,dy=0.1,dz=0,predicate=custom_items_functions:science/radiation_container/is_filled_item,limit=1,type=item] run function village_artem:nuclear_reactor/core/update_containers
 
 
 # Обновление текста таймера

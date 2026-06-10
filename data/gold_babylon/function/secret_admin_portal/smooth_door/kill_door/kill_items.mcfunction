@@ -1,1 +1,3 @@
-kill @e[type=item,x=391,dx=0,y=-62,dy=3,z=-11448,dz=6,nbt={Item:{id:"minecraft:shulker_shell"}}]
+# [WAS] kill @e[type=item,x=391,dx=0,y=-62,dy=3,z=-11448,dz=6,nbt={Item:{id:"minecraft:shulker_shell"}}]
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+kill @e[x=391,dx=0,y=-62,dy=3,z=-11448,dz=6,nbt={Item:{id:"minecraft:shulker_shell"}},type=item]

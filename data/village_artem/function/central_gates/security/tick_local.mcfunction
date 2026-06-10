@@ -19,7 +19,9 @@ execute if data storage minecraft:village_artem {CentralGateSecurityOn:1} if dat
 execute as @e[predicate=village_artem:central_gates/security/has_custom_data_tag_village_artem_security,type=arrow] run data merge entity @s {pickup:0b}
 
 # Убиваем стрелы
-execute if data storage minecraft:village_artem {CentralGateSecurityProcessingOn:1} as @e[predicate=village_artem:central_gates/security/has_custom_data_tag_village_artem_security,type=arrow,nbt={inGround:1b}] run kill @s
+# [WAS] execute if data storage minecraft:village_artem {CentralGateSecurityProcessingOn:1} as @e[predicate=village_artem:central_gates/security/has_custom_data_tag_village_artem_security,type=arrow,nbt={inGround:1b}] run kill @s
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute if data storage minecraft:village_artem {CentralGateSecurityProcessingOn:1} as @e[predicate=village_artem:central_gates/security/has_custom_data_tag_village_artem_security,nbt={inGround:1b},type=arrow] run kill @s
 
 # Выключаем огонь, если охрана выключилась
 execute if data storage minecraft:village_artem {CentralGateSecurityOn:0} run fill -5187 64 8535 -5168 64 8537 air replace fire

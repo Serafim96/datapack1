@@ -2,7 +2,9 @@
 execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {State:1} run function angmar_tomb:close_entrance
 
 #Если Вещь в колодце + мы около входа + Состояние 1 тогда Состояние 2
-execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {State:1} if entity @a[gamemode=!spectator,x=594,dx=16,y=37,dy=5,z=-1081,dz=16] if entity @e[type=item,x=602,y=36,dy=1,z=-1075,nbt={Item:{id:"minecraft:end_crystal"},Fire:300s}] run data modify storage angmar_tomb:main_door_state State set value 2
+# [WAS] execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {State:1} if entity @a[gamemode=!spectator,x=594,dx=16,y=37,dy=5,z=-1081,dz=16] if entity @e[type=item,x=602,y=36,dy=1,z=-1075,nbt={Item:{id:"minecraft:end_crystal"},Fire:300s}] run data modify storage angmar_tomb:main_door_state State set value 2
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {State:1} if entity @a[gamemode=!spectator,x=594,dx=16,y=37,dy=5,z=-1081,dz=16] if entity @e[x=602,y=36,dy=1,z=-1075,nbt={Item:{id:"minecraft:end_crystal"},Fire:300s},type=item] run data modify storage angmar_tomb:main_door_state State set value 2
 
 #Если состояние 2, то открываем дверь
 execute in minecraft:the_nether if data storage angmar_tomb:main_door_state {State:2} run function angmar_tomb:open_entrance

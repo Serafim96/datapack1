@@ -1,1 +1,3 @@
-execute in the_nether run kill @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27]
+# [WAS] execute in the_nether run kill @e[type=warden,tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27]
+# [AI: M3 — type= перемещён в конец селектора (оптимизация порядка аргументов: сначала отсеиваются дешёвые критерии — координаты/тег/limit, type применяется к меньшему набору; поведение не меняется)]
+execute in the_nether run kill @e[tag=angmar_warden,x=623,dx=30,y=33,dy=20,z=-1027,dz=27,type=warden]
