@@ -2,4 +2,6 @@ execute in overworld as @e[tag=!popular_exclude_no_player,x=-11792,dx=23583,z=-1
 execute as @e[tag=overworld_to_floating_islands_tp] at @s if dimension custom_dimension:floating_islands run function custom_dimension:floating_islands/teleport/post_tp
 
 
-execute in custom_dimension:floating_islands as @e[x=-737,dx=1473,z=-737,dz=1473,y=319,dy=-10000] at @s if dimension custom_dimension:floating_islands in minecraft:overworld run tp @s ~ 320 ~
+# [WAS] execute in custom_dimension:floating_islands as @e[x=-737,dx=1473,z=-737,dz=1473,y=319,dy=-10000] at @s if dimension custom_dimension:floating_islands in minecraft:overworld run tp @s ~ 320 ~
+# [AI: dim floating_islands имеет min_y=320 — ниже y=320 только void (дна нет), поэтому dy=-10000 уходит в пустоту без сущностей. Сократил до dy=-128 (с запасом ловит провалившихся, пока не выгрузились). Исключил статичные технические сущности (marker + *_display): они не должны улетать в оверворлд. item/armor_stand/minecart НЕ исключены — должны падать вниз по дизайну.]
+execute in custom_dimension:floating_islands as @e[type=!minecraft:marker,type=!minecraft:block_display,type=!minecraft:text_display,type=!minecraft:item_display,x=-737,dx=1473,z=-737,dz=1473,y=319,dy=-128] at @s if dimension custom_dimension:floating_islands in minecraft:overworld run tp @s ~ 320 ~
